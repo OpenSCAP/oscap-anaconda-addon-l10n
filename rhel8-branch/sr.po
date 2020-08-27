@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Momcilo Medic <medicmomcilo@gmail.com>, 2014
+# Momcilo Medic <medicmomcilo@gmail.com>, 2015. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-09 17:35+0200\n"
+"PO-Revision-Date: 2015-04-18 01:39-0400\n"
+"Last-Translator: Momcilo Medic <medicmomcilo@gmail.com>\n"
+"Language-Team: Serbian (http://www.transifex.com/projects/p/oscap-anaconda-addon/language/sr/)\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Zanata 4.6.2\n"
+
+#: ../org_fedora_oscap/rule_handling.py:409
+#, python-brace-format
+msgid ""
+"{0} must be on a separate partition or logical volume and has to be created "
+"in the partitioning layout before installation can occur with a security "
+"profile"
+msgstr ""
+
+#. template for the message
+#: ../org_fedora_oscap/rule_handling.py:420
+#, python-format
+msgid ""
+"mount option '%(mount_option)s' added for the mount point %(mount_point)s"
+msgstr ""
+"прикључна опција '%(mount_option)s' додата за прикључну тачку "
+"%(mount_point)s"
+
+#. root password was not set
+#: ../org_fedora_oscap/rule_handling.py:529
+#, python-format
+msgid "make sure to create password with minimal length of %d characters"
+msgstr "изаберите шифру од најмање %d карактера"
+
+#: ../org_fedora_oscap/rule_handling.py:536
+msgid "cannot check root password length (password is crypted)"
+msgstr "немогуће проверити дужину root шифре (шифра је криптована)"
+
+#. too short
+#: ../org_fedora_oscap/rule_handling.py:542
+#, python-format
+msgid ""
+"root password is too short, a longer one with at least %d characters is "
+"required"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:660
+#: ../org_fedora_oscap/rule_handling.py:675
+#, python-format
+msgid "package '%s' has been added to the list of to be installed packages"
+msgstr "пакет '%s' је додат на листу пакета за инсталацију"
+
+#: ../org_fedora_oscap/rule_handling.py:685
+#, python-brace-format
+msgid ""
+"package '{package}' has been added to the list of excluded packages, but it "
+"can't be removed from the current software selection without breaking the "
+"installation."
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:692
+#: ../org_fedora_oscap/rule_handling.py:707
+#, python-format
+msgid "package '%s' has been added to the list of excluded packages"
+msgstr "пакет '%s' је додат на листу искључених пакета"
+
+#: ../org_fedora_oscap/rule_handling.py:808
+msgid "Kdump will be disabled on startup"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:810
+msgid "Kdump will be enabled on startup"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:963
+msgid "Firewall will be disabled on startup"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:970
+msgid "Firewall will be enabled on startup"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:978
+#: ../org_fedora_oscap/rule_handling.py:1017
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be added to the "
+"firewall"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:985
+#: ../org_fedora_oscap/rule_handling.py:1030
+#, python-format
+msgid ""
+"port '%s' has been added to the list of ports to be added to the firewall"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:992
+#: ../org_fedora_oscap/rule_handling.py:1043
+#, python-format
+msgid ""
+"trust '%s' has been added to the list of trusts to be added to the firewall"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:1055
+#: ../org_fedora_oscap/rule_handling.py:1070
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be removed from the "
+"firewall"
+msgstr ""
+
+#: ../org_fedora_oscap/ks/oscap.py:418
+#, python-format
+msgid ""
+"There was an error fetching and loading the security content:\n"
+"%s\n"
+"The installation should be aborted. Do you wish to continue anyway?"
+msgstr ""
+
+#: ../org_fedora_oscap/ks/oscap.py:447
+msgid ""
+"The integrity check of the security content failed.\n"
+"The installation should be aborted. Do you wish to continue anyway?"
+msgstr ""
+
+#. title of the spoke (will be displayed on the hub)
+#: ../org_fedora_oscap/gui/spokes/oscap.py:198
+msgid "_Security Policy"
+msgstr ""
+
+#. the first status provided
+#: ../org_fedora_oscap/gui/spokes/oscap.py:226
+msgid "Not ready"
+msgstr "Није спремно"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:374
+msgid "Fetching content data"
+msgstr "Преузимање података о садржају"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:641
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1056
+msgid "No profile selected"
+msgstr "Није изабран профил"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:646
+msgid "No rules for the pre-installation phase"
+msgstr "Нема правила за пред-инсталациону фазу"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:798
+msgid "Invalid content provided. Enter a different URL, please."
+msgstr "Неисправан садржај пружен. Унесите други URL, молим."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:806
+msgid "Invalid or unsupported content URL, please enter a different one."
+msgstr ""
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:814
+msgid "Failed to fetch content. Enter a different URL, please."
+msgstr "Неуспешно преузимање садржаја. Унесите други URL, молим."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:822
+msgid ""
+"Network error encountered when fetching data. Please check that network is "
+"setup and working."
+msgstr ""
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:831
+msgid "The integrity check of the content failed. Cannot use the content."
+msgstr ""
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:839
+#, python-format
+msgid "Failed to extract content (%s). Enter a different URL, please."
+msgstr "Неуспешно извлачење садржаја (%s). Унесите други URL, молим."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:857
+#, python-format
+msgid ""
+"Profile with ID '%s' not defined in the content. Select a different profile,"
+" please"
+msgstr ""
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:873
+msgid "Not applying security policy"
+msgstr "Не примењујем полису безбедности"
+
+#. TRANSLATORS: the other choice if SCAP Security Guide is also
+#. available
+#: ../org_fedora_oscap/gui/spokes/oscap.py:904
+msgid " or enter data stream content or archive URL below:"
+msgstr "или унесите садржајни или архивски URL за stream података испод:"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:908 tmp/oscap.glade.h:12
+msgid ""
+"No content found. Please enter data stream content or archive URL below:"
+msgstr ""
+"Садржај није пронађен. Молим унесите садржајни или архивски URL за stream "
+"података:"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1046
+msgid "Error fetching and loading content"
+msgstr ""
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1053
+msgid "No content found"
+msgstr "Садржај није пронађен"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1064
+msgid "Misconfiguration detected"
+msgstr "Погрешно подешавање откривено"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1070
+msgid "Warnings appeared"
+msgstr "Упозорења су се појавила"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1072
+msgid "Everything okay"
+msgstr "Све је у реду"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1148
+msgid "Invalid or unsupported URL"
+msgstr "Неисправан или неподржан URL"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1154 tmp/oscap.glade.h:14
+msgid "Fetching content..."
+msgstr "Преузимање садржаја..."
+
+#: tmp/oscap.glade.h:1
+msgid "SECURITY POLICY"
+msgstr "БЕЗБЕДНОСНИ МОДЕЛ"
+
+#: tmp/oscap.glade.h:2
+msgid "_Change content"
+msgstr "_Промена садржаја"
+
+#: tmp/oscap.glade.h:3
+msgid "Apply security policy:"
+msgstr "Примени сигурносну политику:"
+
+#: tmp/oscap.glade.h:4
+msgid "Data stream:"
+msgstr "Stream података:"
+
+#: tmp/oscap.glade.h:5
+msgid "Checklist:"
+msgstr "Листа:"
+
+#: tmp/oscap.glade.h:6
+msgid "Choose profile below:"
+msgstr "Изаберите профил:"
+
+#: tmp/oscap.glade.h:7
+msgid "Profile"
+msgstr "Профил"
+
+#: tmp/oscap.glade.h:8
+msgid "Selected"
+msgstr "Изабрано"
+
+#: tmp/oscap.glade.h:9
+msgid "_Select profile"
+msgstr "_Изаберите профил"
+
+#: tmp/oscap.glade.h:10
+msgid "Changes that were done or need to be done:"
+msgstr "Промене које су урађене или требају да се ураде:"
+
+#: tmp/oscap.glade.h:11
+msgid "_Use SCAP Security Guide"
+msgstr "_Користи SCAP сигурносни водич"
+
+#: tmp/oscap.glade.h:13
+msgid "_Fetch"
+msgstr "_Преузми"
