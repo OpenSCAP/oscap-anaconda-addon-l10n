@@ -1,0 +1,283 @@
+# Yuri Chornoivan <yurchor@ukr.net>, 2015.
+# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-04 14:37+0200\n"
+"PO-Revision-Date: 2015-08-31 03:22-0400\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Zanata 4.6.2\n"
+
+#: ../org_fedora_oscap/rule_handling.py:392
+#, python-brace-format
+msgid ""
+"{0} must be on a separate partition or logical volume and has to be created "
+"in the partitioning layout before installation can occur with a security "
+"profile"
+msgstr ""
+
+#. template for the message
+#: ../org_fedora_oscap/rule_handling.py:403
+#, python-format
+msgid ""
+"mount option '%(mount_option)s' added for the mount point %(mount_point)s"
+msgstr ""
+"для точки монтування %(mount_point)s додано параметр монтування "
+"«%(mount_option)s»"
+
+#. root password was not set
+#: ../org_fedora_oscap/rule_handling.py:502
+#, python-format
+msgid "make sure to create password with minimal length of %d characters"
+msgstr "довжина пароля має бути не меншою за %d символів"
+
+#: ../org_fedora_oscap/rule_handling.py:509
+msgid "cannot check root password length (password is crypted)"
+msgstr "не вдалося перевірити довжину пароля root (пароль зашифровано)"
+
+#. too short
+#: ../org_fedora_oscap/rule_handling.py:515
+#, python-format
+msgid ""
+"root password is too short, a longer one with at least %d characters is "
+"required"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:617
+#: ../org_fedora_oscap/rule_handling.py:632
+#, python-format
+msgid "package '%s' has been added to the list of to be installed packages"
+msgstr "до списку встановлюваних пакунків додано пакунок «%s»"
+
+#: ../org_fedora_oscap/rule_handling.py:641
+#: ../org_fedora_oscap/rule_handling.py:656
+#, python-format
+msgid "package '%s' has been added to the list of excluded packages"
+msgstr "до списку виключених пакунків додано пакунок «%s»"
+
+#: ../org_fedora_oscap/rule_handling.py:754
+msgid "Kdump will be disabled on startup"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:756
+msgid "Kdump will be enabled on startup"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:903
+msgid "Firewall will be disabled on startup"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:910
+msgid "Firewall will be enabled on startup"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:918
+#: ../org_fedora_oscap/rule_handling.py:955
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be added to the "
+"firewall"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:925
+#: ../org_fedora_oscap/rule_handling.py:966
+#, python-format
+msgid ""
+"port '%s' has been added to the list of ports to be added to the firewall"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:932
+#: ../org_fedora_oscap/rule_handling.py:977
+#, python-format
+msgid ""
+"trust '%s' has been added to the list of trusts to be added to the firewall"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:986
+#: ../org_fedora_oscap/rule_handling.py:1001
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be removed from the "
+"firewall"
+msgstr ""
+
+#: ../org_fedora_oscap/ks/oscap.py:423
+#, python-format
+msgid ""
+"There was an error fetching and loading the security content:\n"
+"%s\n"
+"The installation should be aborted. Do you wish to continue anyway?"
+msgstr ""
+"Під час отримання та завантаження даних захисту сталася помилка:\n"
+"%s\n"
+"Встановлення слід перервати. Хочете продовжити його попри це?"
+
+#: ../org_fedora_oscap/ks/oscap.py:452
+msgid ""
+"The integrity check of the security content failed.\n"
+"The installation should be aborted. Do you wish to continue anyway?"
+msgstr ""
+"Дані захисту не пройшли перевірку на цілісність.\n"
+"Встановлення слід перервати. Хочете продовжити його попри це?"
+
+#. title of the spoke (will be displayed on the hub)
+#: ../org_fedora_oscap/gui/spokes/oscap.py:172
+msgid "_SECURITY POLICY"
+msgstr "П_РАВИЛА ЗАХИСТУ"
+
+#. the first status provided
+#: ../org_fedora_oscap/gui/spokes/oscap.py:197
+msgid "Not ready"
+msgstr "Неготовий"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:345
+msgid "Fetching content data"
+msgstr "Отримуємо дані"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:612
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1013
+msgid "No profile selected"
+msgstr "Не вибрано жодного профілю"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:617
+msgid "No rules for the pre-installation phase"
+msgstr "Правил для кроку перед встановленням немає"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:755
+msgid "Invalid content provided. Enter a different URL, please."
+msgstr "Надано некоректні дані. Будь ласка, вкажіть іншу адресу."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:763
+msgid "Invalid or unsupported content URL, please enter a different one."
+msgstr ""
+"Некоректна або непідтримувана адреса даних. Будь ласка, введіть якусь іншу."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:771
+msgid "Failed to fetch content. Enter a different URL, please."
+msgstr "Не вдалося отримати дані. Будь ласка, вкажіть іншу адресу."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:779
+msgid ""
+"Network error encountered when fetching data. Please check that network is "
+"setup and working."
+msgstr ""
+"Під час спроби отримання даних сталася помилка, пов’язана із мережею. Будь "
+"ласка, перевірте, чи правильно налаштовано з’єднання, та чи є воно "
+"працездатним."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:788
+msgid "The integrity check of the content failed. Cannot use the content."
+msgstr "Дані не пройшли перевірку на цілісність. Їхнє використання неможливе."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:796
+#, python-format
+msgid "Failed to extract content (%s). Enter a different URL, please."
+msgstr "Не вдалося видобути дані (%s). Будь ласка, вкажіть іншу адресу."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:814
+#, python-format
+msgid ""
+"Profile with ID '%s' not defined in the content. Select a different profile,"
+" please"
+msgstr ""
+"Профіль з ідентифікатором «%s» у даних не визначено. Виберіть, будь ласка, "
+"інший профіль"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:830
+msgid "Not applying security policy"
+msgstr "Не застосовуємо правил захисту"
+
+#. TRANSLATORS: the other choice if SCAP Security Guide is also
+#. available
+#: ../org_fedora_oscap/gui/spokes/oscap.py:861
+msgid " or enter data stream content or archive URL below:"
+msgstr " або вкажіть адресу потоку даних чи архіву:"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:865
+msgid ""
+"No content found. Please enter data stream content or archive URL below:"
+msgstr ""
+"Даних не знайдено. Будь ласка, вкажіть адресу потоку даних або архіву:"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1003
+msgid "Error fetching and loading content"
+msgstr "Помилка під час спроби отримання та завантаження даних"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1010
+msgid "No content found"
+msgstr "Даних не знайдено"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1021
+msgid "Misconfiguration detected"
+msgstr "Виявлено помилки у налаштуваннях"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1027
+msgid "Warnings appeared"
+msgstr "Отримано попередження"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1029
+msgid "Everything okay"
+msgstr "Все гаразд"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1105
+msgid "Invalid or unsupported URL"
+msgstr "Некоректна або непідтримувана адреса"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1111 tmp/oscap.glade.h:13
+msgid "Fetching content..."
+msgstr "Отримуємо дані…"
+
+#: tmp/oscap.glade.h:1
+msgid "SECURITY POLICY"
+msgstr "ПРАВИЛА ЗАХИСТУ"
+
+#: tmp/oscap.glade.h:2
+msgid "_Change content"
+msgstr "З_міна даних"
+
+#: tmp/oscap.glade.h:3
+msgid "Apply security policy:"
+msgstr "Застосувати правило захисту:"
+
+#: tmp/oscap.glade.h:4
+msgid "Data stream:"
+msgstr "Потік даних:"
+
+#: tmp/oscap.glade.h:5
+msgid "Checklist:"
+msgstr "Список для перевірки:"
+
+#: tmp/oscap.glade.h:6
+msgid "Choose profile below:"
+msgstr "Виберіть профіль:"
+
+#: tmp/oscap.glade.h:7
+msgid "Profile"
+msgstr "Профіль"
+
+#: tmp/oscap.glade.h:8
+msgid "Selected"
+msgstr "Позначене"
+
+#: tmp/oscap.glade.h:9
+msgid "_Select profile"
+msgstr "_Вибрати профіль"
+
+#: tmp/oscap.glade.h:10
+msgid "Changes that were done or need to be done:"
+msgstr "Зміни, які внесено або має бути внесено:"
+
+#: tmp/oscap.glade.h:11
+msgid "_Use SCAP Security Guide"
+msgstr "Ви_користати настанови із захисту SCAP"
+
+#: tmp/oscap.glade.h:12
+msgid "_Fetch"
+msgstr "_Отримати"

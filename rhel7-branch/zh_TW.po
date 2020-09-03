@@ -1,0 +1,268 @@
+# Ludek Janda <ljanda@redhat.com>, 2019. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-04 14:37+0200\n"
+"PO-Revision-Date: 2019-01-15 11:43-0500\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Zanata 4.6.2\n"
+
+#: ../org_fedora_oscap/rule_handling.py:392
+#, python-brace-format
+msgid ""
+"{0} must be on a separate partition or logical volume and has to be created "
+"in the partitioning layout before installation can occur with a security "
+"profile"
+msgstr "{0} 必須位於單獨的分區或邏輯卷上，並且必須在分區佈局中創建，然後才能使用安全配置文件進行安裝"
+
+#. template for the message
+#: ../org_fedora_oscap/rule_handling.py:403
+#, python-format
+msgid ""
+"mount option '%(mount_option)s' added for the mount point %(mount_point)s"
+msgstr "掛載選項'%(mount_option)s'為掛載點添加了 %(mount_point)s"
+
+#. root password was not set
+#: ../org_fedora_oscap/rule_handling.py:502
+#, python-format
+msgid "make sure to create password with minimal length of %d characters"
+msgstr "確保以最小的長度創建密碼 %d 人物"
+
+#: ../org_fedora_oscap/rule_handling.py:509
+msgid "cannot check root password length (password is crypted)"
+msgstr "無法檢查root密碼長度（密碼被加密）"
+
+#. too short
+#: ../org_fedora_oscap/rule_handling.py:515
+#, python-format
+msgid ""
+"root password is too short, a longer one with at least %d characters is "
+"required"
+msgstr "root密碼太短，至少有一個 %d 字符是必需的"
+
+#: ../org_fedora_oscap/rule_handling.py:617
+#: ../org_fedora_oscap/rule_handling.py:632
+#, python-format
+msgid "package '%s' has been added to the list of to be installed packages"
+msgstr "包'%s'已添加到要安裝的軟件包列表中"
+
+#: ../org_fedora_oscap/rule_handling.py:641
+#: ../org_fedora_oscap/rule_handling.py:656
+#, python-format
+msgid "package '%s' has been added to the list of excluded packages"
+msgstr "包'%s'已添加到已排除的包列表中"
+
+#: ../org_fedora_oscap/rule_handling.py:754
+msgid "Kdump will be disabled on startup"
+msgstr "Kdump將在啟動時被禁用"
+
+#: ../org_fedora_oscap/rule_handling.py:756
+msgid "Kdump will be enabled on startup"
+msgstr "Kdump將在啟動時啟用"
+
+#: ../org_fedora_oscap/rule_handling.py:903
+msgid "Firewall will be disabled on startup"
+msgstr "防火牆將在啟動時禁用"
+
+#: ../org_fedora_oscap/rule_handling.py:910
+msgid "Firewall will be enabled on startup"
+msgstr "防火牆將在啟動時啟用"
+
+#: ../org_fedora_oscap/rule_handling.py:918
+#: ../org_fedora_oscap/rule_handling.py:955
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be added to the "
+"firewall"
+msgstr "服務'%s'已添加到要添加到防火牆的服務列表中"
+
+#: ../org_fedora_oscap/rule_handling.py:925
+#: ../org_fedora_oscap/rule_handling.py:966
+#, python-format
+msgid ""
+"port '%s' has been added to the list of ports to be added to the firewall"
+msgstr "港口 '%s'已被添加到要添加到防火牆的端口列表中"
+
+#: ../org_fedora_oscap/rule_handling.py:932
+#: ../org_fedora_oscap/rule_handling.py:977
+#, python-format
+msgid ""
+"trust '%s' has been added to the list of trusts to be added to the firewall"
+msgstr "信任'%s'已被添加到要添加到防火牆的信任列表中"
+
+#: ../org_fedora_oscap/rule_handling.py:986
+#: ../org_fedora_oscap/rule_handling.py:1001
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be removed from the "
+"firewall"
+msgstr "服務'%s'已被添加到要從防火牆中刪除的服務列表中"
+
+#: ../org_fedora_oscap/ks/oscap.py:423
+#, python-format
+msgid ""
+"There was an error fetching and loading the security content:\n"
+"%s\n"
+"The installation should be aborted. Do you wish to continue anyway?"
+msgstr "獲取和加載安全內容時出錯：%s安裝應該中止。你想繼續嗎？"
+
+#: ../org_fedora_oscap/ks/oscap.py:452
+msgid ""
+"The integrity check of the security content failed.\n"
+"The installation should be aborted. Do you wish to continue anyway?"
+msgstr "安全內容的完整性檢查失敗。安裝應該中止。你想繼續嗎？"
+
+#. title of the spoke (will be displayed on the hub)
+#: ../org_fedora_oscap/gui/spokes/oscap.py:172
+msgid "_SECURITY POLICY"
+msgstr "安全政策（_S）"
+
+#. the first status provided
+#: ../org_fedora_oscap/gui/spokes/oscap.py:197
+msgid "Not ready"
+msgstr "沒有準備好"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:345
+msgid "Fetching content data"
+msgstr "獲取內容數據"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:612
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1013
+msgid "No profile selected"
+msgstr "沒有選擇個人資料"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:617
+msgid "No rules for the pre-installation phase"
+msgstr "沒有預安裝階段的規則"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:755
+msgid "Invalid content provided. Enter a different URL, please."
+msgstr "提供的內容無效。請輸入其他網址。"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:763
+msgid "Invalid or unsupported content URL, please enter a different one."
+msgstr "無效或不受支持的內容網址，請輸入其他網址。"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:771
+msgid "Failed to fetch content. Enter a different URL, please."
+msgstr "無法獲取內容。請輸入其他網址。"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:779
+msgid ""
+"Network error encountered when fetching data. Please check that network is "
+"setup and working."
+msgstr "獲取數據時遇到網絡錯誤。請檢查網絡是否已設置並正常運行。"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:788
+msgid "The integrity check of the content failed. Cannot use the content."
+msgstr "內容的完整性檢查失敗。無法使用內容。"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:796
+#, python-format
+msgid "Failed to extract content (%s). Enter a different URL, please."
+msgstr "無法提取內容（%s）。請輸入其他網址。"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:814
+#, python-format
+msgid ""
+"Profile with ID '%s' not defined in the content. Select a different profile,"
+" please"
+msgstr "帶ID的個人資料'%s'沒有在內容中定義。請選擇其他個人資料"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:830
+msgid "Not applying security policy"
+msgstr "不應用安全策略"
+
+#. TRANSLATORS: the other choice if SCAP Security Guide is also
+#. available
+#: ../org_fedora_oscap/gui/spokes/oscap.py:861
+msgid " or enter data stream content or archive URL below:"
+msgstr " 或輸入以下數據流內容或存檔URL："
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:865
+msgid ""
+"No content found. Please enter data stream content or archive URL below:"
+msgstr "找不到任何內容。請在下面輸入數據流內容或存檔URL："
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1003
+msgid "Error fetching and loading content"
+msgstr "獲取和加載內容時出錯"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1010
+msgid "No content found"
+msgstr "找不到任何內容"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1021
+msgid "Misconfiguration detected"
+msgstr "檢測到配置錯誤"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1027
+msgid "Warnings appeared"
+msgstr "警告出現了"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1029
+msgid "Everything okay"
+msgstr "一切都好"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1105
+msgid "Invalid or unsupported URL"
+msgstr "網址無效或不受支持"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1111 tmp/oscap.glade.h:13
+msgid "Fetching content..."
+msgstr "獲取內容......"
+
+#: tmp/oscap.glade.h:1
+msgid "SECURITY POLICY"
+msgstr "安全政策"
+
+#: tmp/oscap.glade.h:2
+msgid "_Change content"
+msgstr "改變內容（_C）"
+
+#: tmp/oscap.glade.h:3
+msgid "Apply security policy:"
+msgstr "應用安全策略："
+
+#: tmp/oscap.glade.h:4
+msgid "Data stream:"
+msgstr "數據流："
+
+#: tmp/oscap.glade.h:5
+msgid "Checklist:"
+msgstr "清單："
+
+#: tmp/oscap.glade.h:6
+msgid "Choose profile below:"
+msgstr "選擇以下資料："
+
+#: tmp/oscap.glade.h:7
+msgid "Profile"
+msgstr "輪廓"
+
+#: tmp/oscap.glade.h:8
+msgid "Selected"
+msgstr "選"
+
+#: tmp/oscap.glade.h:9
+msgid "_Select profile"
+msgstr "選擇個人資料（_S）"
+
+#: tmp/oscap.glade.h:10
+msgid "Changes that were done or need to be done:"
+msgstr "已完成或需要完成的更改："
+
+#: tmp/oscap.glade.h:11
+msgid "_Use SCAP Security Guide"
+msgstr "_使用SCAP安全指南（_U）"
+
+#: tmp/oscap.glade.h:12
+msgid "_Fetch"
+msgstr "取（_F）"
