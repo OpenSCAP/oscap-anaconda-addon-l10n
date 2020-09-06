@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-01 14:12+0200\n"
+"POT-Creation-Date: 2020-08-27 15:53+0200\n"
 "PO-Revision-Date: 2018-09-20 03:07-0400\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Korean\n"
@@ -20,14 +20,18 @@ msgid ""
 "{0} must be on a separate partition or logical volume and has to be created "
 "in the partitioning layout before installation can occur with a security "
 "profile"
-msgstr "{0}은/는 별도의 파티션이나 논리 볼륨이 있어야 하며 보안 프로파일이 설치되기 전에 파티션 레이아웃을 만들어야 합니다. "
+msgstr ""
+"{0}은/는 별도의 파티션이나 논리 볼륨이 있어야 하며 보안 프로파일이 설치되기 "
+"전에 파티션 레이아웃을 만들어야 합니다. "
 
 #. template for the message
 #: ../org_fedora_oscap/rule_handling.py:411
 #, python-format
 msgid ""
 "mount option '%(mount_option)s' added for the mount point %(mount_point)s"
-msgstr "마운트 지점 %(mount_point)s의 마운트 옵션 '%(mount_option)s'이/가 추가되었습니다.  "
+msgstr ""
+"마운트 지점 %(mount_point)s의 마운트 옵션 '%(mount_option)s'이/가 추가되었습"
+"니다.  "
 
 #. root password was not set
 #: ../org_fedora_oscap/rule_handling.py:520
@@ -126,101 +130,110 @@ msgstr ""
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:198
-msgid "_SECURITY POLICY"
-msgstr "보안 정책(_S):"
+#, fuzzy
+#| msgid "Apply security policy:"
+msgid "_Security Policy"
+msgstr "보안 정책 적용:"
 
 #. the first status provided
-#: ../org_fedora_oscap/gui/spokes/oscap.py:221
+#: ../org_fedora_oscap/gui/spokes/oscap.py:223
 msgid "Not ready"
 msgstr "준비되어 있지 않습니다 "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:369
+#: ../org_fedora_oscap/gui/spokes/oscap.py:371
 msgid "Fetching content data"
 msgstr "컨텐츠 데이터를 가져오는 중 "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:636
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1051
+#: ../org_fedora_oscap/gui/spokes/oscap.py:638
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1053
 msgid "No profile selected"
 msgstr "프로파일이 선택되지 않았습니다 "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:641
+#: ../org_fedora_oscap/gui/spokes/oscap.py:643
 msgid "No rules for the pre-installation phase"
 msgstr "사전 설치 단계의 규칙이 없습니다 "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:793
+#: ../org_fedora_oscap/gui/spokes/oscap.py:795
 msgid "Invalid content provided. Enter a different URL, please."
 msgstr "잘못된 내용이 입력되었습니다. 다른 URL을 입력하십시오. "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:801
+#: ../org_fedora_oscap/gui/spokes/oscap.py:803
 msgid "Invalid or unsupported content URL, please enter a different one."
-msgstr "유효하지 않거나 지원되지 않는 컨텐츠 URL입니다. 다른 URL을 입력하십시오. "
+msgstr ""
+"유효하지 않거나 지원되지 않는 컨텐츠 URL입니다. 다른 URL을 입력하십시오. "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:809
+#: ../org_fedora_oscap/gui/spokes/oscap.py:811
 msgid "Failed to fetch content. Enter a different URL, please."
 msgstr "컨텐츠를 가져오지 못했습니다. 다른 URL을 입력하십시오. "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:817
+#: ../org_fedora_oscap/gui/spokes/oscap.py:819
 msgid ""
 "Network error encountered when fetching data. Please check that network is "
 "setup and working."
-msgstr "컨텐츠를 가져오는 중 네트워크 오류가 발생했습니다. 네트워크가 제대로 작동하는지 확인하십시오. "
+msgstr ""
+"컨텐츠를 가져오는 중 네트워크 오류가 발생했습니다. 네트워크가 제대로 작동하는"
+"지 확인하십시오. "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:826
+#: ../org_fedora_oscap/gui/spokes/oscap.py:828
 msgid "The integrity check of the content failed. Cannot use the content."
 msgstr "컨텐츠 무결성 검사에 실패했습니다. 컨텐츠를 사용할 수 없습니다. "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:834
+#: ../org_fedora_oscap/gui/spokes/oscap.py:836
 #, python-format
 msgid "Failed to extract content (%s). Enter a different URL, please."
 msgstr "컨텐츠 (%s)을/를 가져오지 못했습니다. 다른 URL을 입력하십시오. "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:852
+#: ../org_fedora_oscap/gui/spokes/oscap.py:854
 #, python-format
 msgid ""
-"Profile with ID '%s' not defined in the content. Select a different profile,"
-" please"
-msgstr "ID '%s'이/가 프로파일에 정의되어 있지 않습니다. 다른 프로파일을 선택하십시오. "
+"Profile with ID '%s' not defined in the content. Select a different profile, "
+"please"
+msgstr ""
+"ID '%s'이/가 프로파일에 정의되어 있지 않습니다. 다른 프로파일을 선택하십시"
+"오. "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:868
+#: ../org_fedora_oscap/gui/spokes/oscap.py:870
 msgid "Not applying security policy"
 msgstr "보안 정책을 적용하지 않음 "
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
-#: ../org_fedora_oscap/gui/spokes/oscap.py:899
+#: ../org_fedora_oscap/gui/spokes/oscap.py:901
 msgid " or enter data stream content or archive URL below:"
 msgstr "데이터 스트림 컨텐츠를 입력하거나 다음 URL을 아카이브하십시오."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:903
+#: ../org_fedora_oscap/gui/spokes/oscap.py:905
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
-msgstr "내용이 없습니다. 데이터 스트림 컨텐츠를 입력하거나 또는 다음 URL을 아카이브하십시오."
+msgstr ""
+"내용이 없습니다. 데이터 스트림 컨텐츠를 입력하거나 또는 다음 URL을 아카이브하"
+"십시오."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1041
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1043
 msgid "Error fetching and loading content"
 msgstr "컨텐츠 오류 가져오기 및 로딩 오류 "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1048
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1050
 msgid "No content found"
 msgstr "컨텐츠를 찾을 수 없음 "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1059
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1061
 msgid "Misconfiguration detected"
 msgstr "설정 오류가 감지되었습니다 "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1065
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1067
 msgid "Warnings appeared"
 msgstr "경고가 표시되었습니다 "
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1067
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1069
 msgid "Everything okay"
 msgstr "모든 것이 정상입니다"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1143
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1145
 msgid "Invalid or unsupported URL"
 msgstr "유효하지 않거나 지원되지 않는 URL"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1149 tmp/oscap.glade.h:14
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1151 tmp/oscap.glade.h:14
 msgid "Fetching content..."
 msgstr "컨텐츠 가져오는 중..."
 
@@ -278,3 +291,6 @@ msgstr ""
 #: tmp/oscap.glade.h:13
 msgid "_Fetch"
 msgstr "가져오기(_F)"
+
+#~ msgid "_SECURITY POLICY"
+#~ msgstr "보안 정책(_S):"

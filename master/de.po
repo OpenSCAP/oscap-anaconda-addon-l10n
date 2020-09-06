@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-01 14:12+0200\n"
+"POT-Creation-Date: 2020-08-27 15:53+0200\n"
 "PO-Revision-Date: 2019-02-12 02:14-0500\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: German\n"
@@ -132,9 +132,9 @@ msgid ""
 "%s\n"
 "The installation should be aborted. Do you wish to continue anyway?"
 msgstr ""
-"Beim Abrufen und Laden des Sicherheitsinhalts ist ein Fehler "
-"aufgetreten:%sDie Installation sollte abgebrochen werden. Möchten Sie "
-"trotzdem fortfahren?"
+"Beim Abrufen und Laden des Sicherheitsinhalts ist ein Fehler aufgetreten:"
+"%sDie Installation sollte abgebrochen werden. Möchten Sie trotzdem "
+"fortfahren?"
 
 #: ../org_fedora_oscap/ks/oscap.py:447
 msgid ""
@@ -146,43 +146,45 @@ msgstr ""
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:198
-msgid "_SECURITY POLICY"
-msgstr "_SICHERHEITSPOLITIK"
+#, fuzzy
+#| msgid "Apply security policy:"
+msgid "_Security Policy"
+msgstr "Sicherheitsrichtlinie anwenden:"
 
 #. the first status provided
-#: ../org_fedora_oscap/gui/spokes/oscap.py:221
+#: ../org_fedora_oscap/gui/spokes/oscap.py:223
 msgid "Not ready"
 msgstr "Nicht bereit"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:369
+#: ../org_fedora_oscap/gui/spokes/oscap.py:371
 msgid "Fetching content data"
 msgstr "Inhaltsdaten abrufen"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:636
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1051
+#: ../org_fedora_oscap/gui/spokes/oscap.py:638
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1053
 msgid "No profile selected"
 msgstr "Kein Profil ausgewählt"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:641
+#: ../org_fedora_oscap/gui/spokes/oscap.py:643
 msgid "No rules for the pre-installation phase"
 msgstr "Keine Regeln für die Vorinstallationsphase"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:793
+#: ../org_fedora_oscap/gui/spokes/oscap.py:795
 msgid "Invalid content provided. Enter a different URL, please."
 msgstr "Ungültiger Inhalt bereitgestellt Bitte geben Sie eine andere URL ein."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:801
+#: ../org_fedora_oscap/gui/spokes/oscap.py:803
 msgid "Invalid or unsupported content URL, please enter a different one."
 msgstr ""
 "Ungültige oder nicht unterstützte Inhalts-URL. Bitte geben Sie eine andere "
 "URL ein."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:809
+#: ../org_fedora_oscap/gui/spokes/oscap.py:811
 msgid "Failed to fetch content. Enter a different URL, please."
 msgstr ""
 "Inhalt konnte nicht abgerufen werden. Bitte geben Sie eine andere URL ein."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:817
+#: ../org_fedora_oscap/gui/spokes/oscap.py:819
 msgid ""
 "Network error encountered when fetching data. Please check that network is "
 "setup and working."
@@ -190,70 +192,70 @@ msgstr ""
 "Beim Abrufen von Daten ist ein Netzwerkfehler aufgetreten. Bitte überprüfen "
 "Sie, ob das Netzwerk eingerichtet ist und funktioniert."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:826
+#: ../org_fedora_oscap/gui/spokes/oscap.py:828
 msgid "The integrity check of the content failed. Cannot use the content."
 msgstr ""
-"Die Integritätsprüfung des Inhalts ist fehlgeschlagen. Der Inhalt kann nicht"
-" verwendet werden."
+"Die Integritätsprüfung des Inhalts ist fehlgeschlagen. Der Inhalt kann nicht "
+"verwendet werden."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:834
+#: ../org_fedora_oscap/gui/spokes/oscap.py:836
 #, python-format
 msgid "Failed to extract content (%s). Enter a different URL, please."
 msgstr ""
 "Inhalt konnte nicht extrahiert werden (%s). Bitte geben Sie eine andere URL "
 "ein."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:852
+#: ../org_fedora_oscap/gui/spokes/oscap.py:854
 #, python-format
 msgid ""
-"Profile with ID '%s' not defined in the content. Select a different profile,"
-" please"
+"Profile with ID '%s' not defined in the content. Select a different profile, "
+"please"
 msgstr ""
 "Profil mit ID '%s'im Inhalt nicht definiert. Bitte wählen Sie ein anderes "
 "Profil"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:868
+#: ../org_fedora_oscap/gui/spokes/oscap.py:870
 msgid "Not applying security policy"
 msgstr "Keine Sicherheitsrichtlinie anwenden"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
-#: ../org_fedora_oscap/gui/spokes/oscap.py:899
+#: ../org_fedora_oscap/gui/spokes/oscap.py:901
 msgid " or enter data stream content or archive URL below:"
 msgstr " oder geben Sie den Datenstrominhalt oder die Archiv-URL unten ein:"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:903
+#: ../org_fedora_oscap/gui/spokes/oscap.py:905
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
 msgstr ""
 "Kein Inhalt gefunden Bitte geben Sie den Datenstrom-Inhalt oder die Archiv-"
 "URL unten ein:"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1041
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1043
 msgid "Error fetching and loading content"
 msgstr "Fehler beim Abrufen und Laden von Inhalten"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1048
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1050
 msgid "No content found"
 msgstr "Kein Inhalt gefunden"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1059
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1061
 msgid "Misconfiguration detected"
 msgstr "Fehlkonfiguration erkannt"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1065
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1067
 msgid "Warnings appeared"
 msgstr "Warnungen erschienen"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1067
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1069
 msgid "Everything okay"
 msgstr "Alles okay"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1143
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1145
 msgid "Invalid or unsupported URL"
 msgstr "Ungültige oder nicht unterstützte URL"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1149 tmp/oscap.glade.h:14
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1151 tmp/oscap.glade.h:14
 msgid "Fetching content..."
 msgstr "Inhalt wird abgerufen ..."
 
@@ -309,3 +311,6 @@ msgstr ""
 #: tmp/oscap.glade.h:13
 msgid "_Fetch"
 msgstr "_Fetch"
+
+#~ msgid "_SECURITY POLICY"
+#~ msgstr "_SICHERHEITSPOLITIK"
