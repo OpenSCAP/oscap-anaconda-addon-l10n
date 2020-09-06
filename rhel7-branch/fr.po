@@ -7,20 +7,22 @@
 # Jérôme Fenal <jfenal@gmail.com>, 2014
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2019. #zanata
+# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-04 14:37+0200\n"
-"PO-Revision-Date: 2019-02-12 02:26-0500\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/oscap-anaconda-addon/language/fr/)\n"
+"PO-Revision-Date: 2020-09-06 07:26+0000\n"
+"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel7-branch/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: ../org_fedora_oscap/rule_handling.py:392
 #, python-brace-format
@@ -31,7 +33,7 @@ msgid ""
 msgstr ""
 "{0} doit être sur une partition ou un volume logique séparé et doit être "
 "créé dans la structure de partitionnement avant que l'installation puisse "
-"avoir lieu avec un profil de sécurité."
+"avoir lieu avec un profil de sécurité"
 
 #. template for the message
 #: ../org_fedora_oscap/rule_handling.py:403
@@ -210,8 +212,8 @@ msgid ""
 "Profile with ID '%s' not defined in the content. Select a different profile,"
 " please"
 msgstr ""
-"Le profil ayant pour ID « %s »n'est pas défini dans le contenu. Sélectionner"
-" un autre profil, s'il vous plaît."
+"Le profil ayant pour ID « %s »n'est pas défini dans le contenu. Sélectionner "
+"un autre profil, s'il vous plaît"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:830
 msgid "Not applying security policy"
@@ -222,7 +224,7 @@ msgstr "N'applique pas la politique de sécurité"
 #: ../org_fedora_oscap/gui/spokes/oscap.py:861
 msgid " or enter data stream content or archive URL below:"
 msgstr ""
-"ou saisir un flux de données de contenu ou l'URL d'une archive ci-dessous :"
+" ou saisir un flux de données de contenu ou l'URL d'une archive ci-dessous :"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:865
 msgid ""
@@ -269,7 +271,7 @@ msgstr "_Modifier le contenu"
 
 #: tmp/oscap.glade.h:3
 msgid "Apply security policy:"
-msgstr "Application des politiques de sécurité :"
+msgstr "Application de la politique de sécurité :"
 
 #: tmp/oscap.glade.h:4
 msgid "Data stream:"
