@@ -11,10 +11,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-01 14:12+0200\n"
+"POT-Creation-Date: 2020-08-27 15:53+0200\n"
 "PO-Revision-Date: 2019-02-12 02:16-0500\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/oscap-anaconda-addon/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/oscap-anaconda-"
+"addon/language/es/)\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -151,44 +152,45 @@ msgstr ""
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:198
-msgid "_SECURITY POLICY"
-msgstr "_POLÍTICA DE SEGURIDAD"
+#, fuzzy
+#| msgid "Apply security policy:"
+msgid "_Security Policy"
+msgstr "Aplicando política de seguridad:"
 
 #. the first status provided
-#: ../org_fedora_oscap/gui/spokes/oscap.py:221
+#: ../org_fedora_oscap/gui/spokes/oscap.py:223
 msgid "Not ready"
 msgstr "No está listo"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:369
+#: ../org_fedora_oscap/gui/spokes/oscap.py:371
 msgid "Fetching content data"
 msgstr "Obteniendo datos de contenido"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:636
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1051
+#: ../org_fedora_oscap/gui/spokes/oscap.py:638
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1053
 msgid "No profile selected"
 msgstr "Ningún perfil seleccionado"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:641
+#: ../org_fedora_oscap/gui/spokes/oscap.py:643
 msgid "No rules for the pre-installation phase"
 msgstr "Ninguna regla para la fase de pre-instalación"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:793
+#: ../org_fedora_oscap/gui/spokes/oscap.py:795
 msgid "Invalid content provided. Enter a different URL, please."
 msgstr ""
 "Contenido proporcionado inválido. Ingrese una URL diferente, por favor."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:801
+#: ../org_fedora_oscap/gui/spokes/oscap.py:803
 msgid "Invalid or unsupported content URL, please enter a different one."
 msgstr ""
 "La URL del contenido no es válida o no está admitida, por favor introduzca "
 "una nueva."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:809
+#: ../org_fedora_oscap/gui/spokes/oscap.py:811
 msgid "Failed to fetch content. Enter a different URL, please."
-msgstr ""
-"Falló la obtención de contenido. Ingrese una URL diferente, por favor."
+msgstr "Falló la obtención de contenido. Ingrese una URL diferente, por favor."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:817
+#: ../org_fedora_oscap/gui/spokes/oscap.py:819
 msgid ""
 "Network error encountered when fetching data. Please check that network is "
 "setup and working."
@@ -196,69 +198,68 @@ msgstr ""
 "Se produjo un error de red al obtener los datos. Compruebe que la red está "
 "configurada y en funcionamiento."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:826
+#: ../org_fedora_oscap/gui/spokes/oscap.py:828
 msgid "The integrity check of the content failed. Cannot use the content."
 msgstr ""
 "Falló la comprobación de la integridad del contenido. No se puede usar el "
 "mismo."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:834
+#: ../org_fedora_oscap/gui/spokes/oscap.py:836
 #, python-format
 msgid "Failed to extract content (%s). Enter a different URL, please."
 msgstr ""
 "Fallo al extraer el contenido(%s). Ingrese una URL diferente, por favor."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:852
+#: ../org_fedora_oscap/gui/spokes/oscap.py:854
 #, python-format
 msgid ""
-"Profile with ID '%s' not defined in the content. Select a different profile,"
-" please"
+"Profile with ID '%s' not defined in the content. Select a different profile, "
+"please"
 msgstr ""
 "El perfil con ID '%s' no está definido en el contenido. Elija uno diferente."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:868
+#: ../org_fedora_oscap/gui/spokes/oscap.py:870
 msgid "Not applying security policy"
 msgstr "No se aplica política de seguridad"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
-#: ../org_fedora_oscap/gui/spokes/oscap.py:899
+#: ../org_fedora_oscap/gui/spokes/oscap.py:901
 msgid " or enter data stream content or archive URL below:"
-msgstr ""
-"o ingrese el contenido de flujo de datos o archivo URL a continuación:"
+msgstr "o ingrese el contenido de flujo de datos o archivo URL a continuación:"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:903
+#: ../org_fedora_oscap/gui/spokes/oscap.py:905
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
 msgstr ""
-"No se encontró contenido. Por favor ingrese un contenido de flujo de datos o"
-" un archivo a continuación:"
+"No se encontró contenido. Por favor ingrese un contenido de flujo de datos o "
+"un archivo a continuación:"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1041
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1043
 msgid "Error fetching and loading content"
 msgstr "Error al obtener y cargar el contenido"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1048
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1050
 msgid "No content found"
 msgstr "No se encontró contenido"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1059
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1061
 msgid "Misconfiguration detected"
 msgstr "Configuración errónea detectada"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1065
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1067
 msgid "Warnings appeared"
 msgstr "Advertencias aparecieron"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1067
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1069
 msgid "Everything okay"
 msgstr "Todo está bien"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1143
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1145
 msgid "Invalid or unsupported URL"
 msgstr "URL no soportada o es inválida"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1149 tmp/oscap.glade.h:14
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1151 tmp/oscap.glade.h:14
 msgid "Fetching content..."
 msgstr "Obteniendo contenido..."
 
@@ -314,3 +315,6 @@ msgstr ""
 #: tmp/oscap.glade.h:13
 msgid "_Fetch"
 msgstr "_Obtener"
+
+#~ msgid "_SECURITY POLICY"
+#~ msgstr "_POLÍTICA DE SEGURIDAD"

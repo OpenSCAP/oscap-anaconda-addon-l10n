@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-01 14:12+0200\n"
+"POT-Creation-Date: 2020-08-27 15:53+0200\n"
 "PO-Revision-Date: 2019-01-15 11:26-0500\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: \n"
@@ -21,7 +21,9 @@ msgid ""
 "{0} must be on a separate partition or logical volume and has to be created "
 "in the partitioning layout before installation can occur with a security "
 "profile"
-msgstr "{0} 必須位於單獨的分區或邏輯卷上，並且必須在分區佈局中創建，然後才能使用安全配置文件進行安裝"
+msgstr ""
+"{0} 必須位於單獨的分區或邏輯卷上，並且必須在分區佈局中創建，然後才能使用安全"
+"配置文件進行安裝"
 
 #. template for the message
 #: ../org_fedora_oscap/rule_handling.py:411
@@ -122,101 +124,103 @@ msgstr "安全內容的完整性檢查失敗。安裝應該中止。你想繼續
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:198
-msgid "_SECURITY POLICY"
-msgstr "安全政策（_S）"
+#, fuzzy
+#| msgid "Apply security policy:"
+msgid "_Security Policy"
+msgstr "應用安全策略："
 
 #. the first status provided
-#: ../org_fedora_oscap/gui/spokes/oscap.py:221
+#: ../org_fedora_oscap/gui/spokes/oscap.py:223
 msgid "Not ready"
 msgstr "沒有準備好"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:369
+#: ../org_fedora_oscap/gui/spokes/oscap.py:371
 msgid "Fetching content data"
 msgstr "獲取內容數據"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:636
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1051
+#: ../org_fedora_oscap/gui/spokes/oscap.py:638
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1053
 msgid "No profile selected"
 msgstr "沒有選擇個人資料"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:641
+#: ../org_fedora_oscap/gui/spokes/oscap.py:643
 msgid "No rules for the pre-installation phase"
 msgstr "沒有預安裝階段的規則"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:793
+#: ../org_fedora_oscap/gui/spokes/oscap.py:795
 msgid "Invalid content provided. Enter a different URL, please."
 msgstr "提供的內容無效。請輸入其他網址。"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:801
+#: ../org_fedora_oscap/gui/spokes/oscap.py:803
 msgid "Invalid or unsupported content URL, please enter a different one."
 msgstr "無效或不受支持的內容網址，請輸入其他網址。"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:809
+#: ../org_fedora_oscap/gui/spokes/oscap.py:811
 msgid "Failed to fetch content. Enter a different URL, please."
 msgstr "無法獲取內容。請輸入其他網址。"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:817
+#: ../org_fedora_oscap/gui/spokes/oscap.py:819
 msgid ""
 "Network error encountered when fetching data. Please check that network is "
 "setup and working."
 msgstr "獲取數據時遇到網絡錯誤。請檢查網絡是否已設置並正常運行。"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:826
+#: ../org_fedora_oscap/gui/spokes/oscap.py:828
 msgid "The integrity check of the content failed. Cannot use the content."
 msgstr "內容的完整性檢查失敗。無法使用內容。"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:834
+#: ../org_fedora_oscap/gui/spokes/oscap.py:836
 #, python-format
 msgid "Failed to extract content (%s). Enter a different URL, please."
 msgstr "無法提取內容（%s）。請輸入其他網址。"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:852
+#: ../org_fedora_oscap/gui/spokes/oscap.py:854
 #, python-format
 msgid ""
-"Profile with ID '%s' not defined in the content. Select a different profile,"
-" please"
+"Profile with ID '%s' not defined in the content. Select a different profile, "
+"please"
 msgstr "帶ID的個人資料'%s'沒有在內容中定義。請選擇其他個人資料"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:868
+#: ../org_fedora_oscap/gui/spokes/oscap.py:870
 msgid "Not applying security policy"
 msgstr "不應用安全策略"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
-#: ../org_fedora_oscap/gui/spokes/oscap.py:899
+#: ../org_fedora_oscap/gui/spokes/oscap.py:901
 msgid " or enter data stream content or archive URL below:"
 msgstr " 或輸入以下數據流內容或存檔URL："
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:903
+#: ../org_fedora_oscap/gui/spokes/oscap.py:905
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
 msgstr "找不到任何內容。請在下面輸入數據流內容或存檔URL："
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1041
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1043
 msgid "Error fetching and loading content"
 msgstr "獲取和加載內容時出錯"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1048
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1050
 msgid "No content found"
 msgstr "找不到任何內容"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1059
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1061
 msgid "Misconfiguration detected"
 msgstr "檢測到配置錯誤"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1065
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1067
 msgid "Warnings appeared"
 msgstr "警告出現了"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1067
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1069
 msgid "Everything okay"
 msgstr "一切都好"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1143
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1145
 msgid "Invalid or unsupported URL"
 msgstr "網址無效或不受支持"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1149 tmp/oscap.glade.h:14
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1151 tmp/oscap.glade.h:14
 msgid "Fetching content..."
 msgstr "獲取內容......"
 
@@ -272,3 +276,6 @@ msgstr ""
 #: tmp/oscap.glade.h:13
 msgid "_Fetch"
 msgstr "取（_F）"
+
+#~ msgid "_SECURITY POLICY"
+#~ msgstr "安全政策（_S）"
