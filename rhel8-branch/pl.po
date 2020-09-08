@@ -10,31 +10,33 @@
 # Jacek Smyda <smyda@posexperts.com.pl>, 1998
 # Leszek Matok <lam@lac.pl>, 2004
 # Pawel Szopinski <pawel@szopinski.co.uk>, 2004
-# Piotr Drąg <piotrdrag@gmail.com>, 2014
+# Piotr Drąg <piotrdrag@gmail.com>, 2014, 2020.
 # Radosław Zawartko <radzaw@radzaw.one.pl>, 2004
 # sonyam <sonyam@tlen.pl>, 2004
 # Stanisław Małolepszy <smalolepszy@aviary.pl>, 2006
 # Tom Berner <tom@lodz.pl>, 2005
 # Tom Berner <tom@man.lodz.pl>, 2004
 # Wojciech Kapusta <wojciech@aviary.pl>, 2006
-# Piotr Drąg <piotrdrag@gmail.com>, 2015. #zanata
-# Piotr Drąg <piotrdrag@gmail.com>, 2017. #zanata
-# Piotr Drąg <piotrdrag@gmail.com>, 2018. #zanata
+# Piotr Drąg <piotrdrag@gmail.com>, 2015. #zanata, 2020.
+# Piotr Drąg <piotrdrag@gmail.com>, 2017. #zanata, 2020.
+# Piotr Drąg <piotrdrag@gmail.com>, 2018. #zanata, 2020.
 # Piotr Drąg <piotrdrag@gmail.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-09 17:35+0200\n"
-"PO-Revision-Date: 2020-06-27 05:21-0400\n"
+"PO-Revision-Date: 2020-09-07 11:29+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish (http://www.transifex.com/projects/p/oscap-anaconda-addon/language/pl/)\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel8-branch/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: ../org_fedora_oscap/rule_handling.py:409
 #, python-brace-format
@@ -43,8 +45,8 @@ msgid ""
 "in the partitioning layout before installation can occur with a security "
 "profile"
 msgstr ""
-"{0} musi być na oddzielnej partycji lub woluminie logicznym i musi być "
-"utworzone w układzie partycjonowania, zanim można przeprowadzić instalację "
+"{0} musi być na oddzielnej partycji lub woluminie logicznym i musi być "
+"utworzone w układzie partycjonowania, zanim można przeprowadzić instalację "
 "za pomocą profilu bezpieczeństwa"
 
 #. template for the message
@@ -73,7 +75,7 @@ msgid ""
 "root password is too short, a longer one with at least %d characters is "
 "required"
 msgstr ""
-"hasło roota jest za krótkie, wymagane jest dłuższe z co najmniej %d znakami"
+"hasło roota jest za krótkie, wymagane jest dłuższe z co najmniej %d znakami"
 
 #: ../org_fedora_oscap/rule_handling.py:660
 #: ../org_fedora_oscap/rule_handling.py:675
@@ -142,7 +144,7 @@ msgstr "dodano zaufanie „%s” do listy zaufań do dodania do zapory sieciowej
 msgid ""
 "service '%s' has been added to the list of services to be removed from the "
 "firewall"
-msgstr "dodano usługę „%s” do listy usług do usunięcia z zapory sieciowej"
+msgstr "dodano usługę „%s” do listy usług do usunięcia z zapory sieciowej"
 
 #: ../org_fedora_oscap/ks/oscap.py:418
 #, python-format
@@ -151,7 +153,7 @@ msgid ""
 "%s\n"
 "The installation should be aborted. Do you wish to continue anyway?"
 msgstr ""
-"Wystąpił błąd podczas pobierania i wczytywania treści bezpieczeństwa:\n"
+"Wystąpił błąd podczas pobierania i wczytywania treści bezpieczeństwa:\n"
 "%s\n"
 "Instalacja powinna zostać przerwana. Kontynuować mimo to?"
 
@@ -205,7 +207,7 @@ msgid ""
 "setup and working."
 msgstr ""
 "Wystąpił błąd sieci podczas pobierania danych. Proszę sprawdzić, czy sieć "
-"została ustawiona i działa poprawnie."
+"została ustawiona i działa poprawnie."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:831
 msgid "The integrity check of the content failed. Cannot use the content."
@@ -246,7 +248,7 @@ msgstr ""
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1046
 msgid "Error fetching and loading content"
-msgstr "Błąd podczas pobierania i wczytywania treści"
+msgstr "Błąd podczas pobierania i wczytywania treści"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1053
 msgid "No content found"
@@ -262,7 +264,7 @@ msgstr "Pojawiły się ostrzeżenia"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1072
 msgid "Everything okay"
-msgstr "Wszystko jest w porządku"
+msgstr "Wszystko jest w porządku"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1148
 msgid "Invalid or unsupported URL"
@@ -274,7 +276,7 @@ msgstr "Pobieranie treści…"
 
 #: tmp/oscap.glade.h:1
 msgid "SECURITY POLICY"
-msgstr "POLITYKA BEZPIECZEŃSTWA"
+msgstr "ZASADY BEZPIECZEŃSTWA"
 
 #: tmp/oscap.glade.h:2
 msgid "_Change content"
@@ -310,7 +312,7 @@ msgstr "_Wybierz profil"
 
 #: tmp/oscap.glade.h:10
 msgid "Changes that were done or need to be done:"
-msgstr "Wprowadzone zmiany i zmiany, które muszą zostać wprowadzone:"
+msgstr "Wprowadzone zmiany i zmiany, które muszą zostać wprowadzone:"
 
 #: tmp/oscap.glade.h:11
 msgid "_Use SCAP Security Guide"
