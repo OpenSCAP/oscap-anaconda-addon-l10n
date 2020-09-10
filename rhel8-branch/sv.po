@@ -1,18 +1,19 @@
-# Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata
+# Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-09 17:35+0200\n"
-"PO-Revision-Date: 2019-09-21 05:31-0400\n"
+"PO-Revision-Date: 2020-09-08 14:29+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel8-branch/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: ../org_fedora_oscap/rule_handling.py:409
 #, python-brace-format
@@ -66,6 +67,9 @@ msgid ""
 "can't be removed from the current software selection without breaking the "
 "installation."
 msgstr ""
+"paketet ”{package}” har lagts till till listan över uteslutna paket, men det "
+"kan inte tas bort från det aktuella programvaruvalet utan att göra sönder "
+"installationen."
 
 #: ../org_fedora_oscap/rule_handling.py:692
 #: ../org_fedora_oscap/rule_handling.py:707
@@ -114,8 +118,8 @@ msgstr ""
 msgid ""
 "trust '%s' has been added to the list of trusts to be added to the firewall"
 msgstr ""
-"förtroendet ”%s”har lagts till till listan över förtoenden att läggas till i"
-" brandväggen"
+"förtroendet ”%s” har lagts till till listan över förtoenden att läggas till "
+"i brandväggen"
 
 #: ../org_fedora_oscap/rule_handling.py:1055
 #: ../org_fedora_oscap/rule_handling.py:1070
@@ -124,7 +128,7 @@ msgid ""
 "service '%s' has been added to the list of services to be removed from the "
 "firewall"
 msgstr ""
-"tjänsten ”%s”har lagts till till listan över tjänster att tas bort från "
+"tjänsten ”%s” har lagts till till listan över tjänster att tas bort från "
 "brandväggen"
 
 #: ../org_fedora_oscap/ks/oscap.py:418
@@ -136,7 +140,7 @@ msgid ""
 msgstr ""
 "Ett fel uppstod när säkerhetskontexten hämtades och laddades:\n"
 "%s\n"
-"Installationen bör avbrytas.  Önskar du ändå fortsätta?"
+"Installationen bör avbrytas. Önskar du ändå fortsätta?"
 
 #: ../org_fedora_oscap/ks/oscap.py:447
 msgid ""
@@ -144,7 +148,7 @@ msgid ""
 "The installation should be aborted. Do you wish to continue anyway?"
 msgstr ""
 "Integritetskontrollen av säkerhetsinnehållet misslyckades.\n"
-"Installationen bör avbrytas.  Önskar du fortsätta ändå?"
+"Installationen bör avbrytas. Önskar du fortsätta ändå?"
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:198
@@ -171,7 +175,7 @@ msgstr "Inga regler för förinstallationsfasen"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:798
 msgid "Invalid content provided. Enter a different URL, please."
-msgstr "Felaktigt innehåll tillhandahölls.  Ange en annan URL."
+msgstr "Felaktigt innehåll tillhandahölls. Ange en annan URL."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:806
 msgid "Invalid or unsupported content URL, please enter a different one."
@@ -179,26 +183,26 @@ msgstr "Felaktig eller ej stödd innehålls-URL, ange en annan."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:814
 msgid "Failed to fetch content. Enter a different URL, please."
-msgstr "Misslyckades att hämta innehåll.  Ange en annan URL."
+msgstr "Misslyckades att hämta innehåll. Ange en annan URL."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:822
 msgid ""
 "Network error encountered when fetching data. Please check that network is "
 "setup and working."
 msgstr ""
-"Nätverksfel uppstod när data hämtades.  Kontrollera att nätverket är uppsatt"
-" och fungerar."
+"Nätverksfel uppstod när data hämtades. Kontrollera att nätverket är uppsatt "
+"och fungerar."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:831
 msgid "The integrity check of the content failed. Cannot use the content."
 msgstr ""
-"Integritetskontrollen av innehållet misslyckades.  Kan inte använda "
+"Integritetskontrollen av innehållet misslyckades. Kan inte använda "
 "innehållet."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:839
 #, python-format
 msgid "Failed to extract content (%s). Enter a different URL, please."
-msgstr "Misslyckades att extrahera innehållet (%s).  Ange en annan URL."
+msgstr "Misslyckades att extrahera innehållet (%s). Ange en annan URL."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:857
 #, python-format
@@ -206,7 +210,7 @@ msgid ""
 "Profile with ID '%s' not defined in the content. Select a different profile,"
 " please"
 msgstr ""
-"Profilen med ID ”%s” är inte definierad i innehållet.  Välj en annan profil."
+"Profilen med ID ”%s” är inte definierad i innehållet. Välj en annan profil"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:873
 msgid "Not applying security policy"
@@ -216,13 +220,12 @@ msgstr "Tillämpar inte säkerhetspolicyn"
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:904
 msgid " or enter data stream content or archive URL below:"
-msgstr "eller ange ett dataströmsinnehåll eller en arkiv-URL nedan:"
+msgstr " eller ange ett dataströmsinnehåll eller en arkiv-URL nedan:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:908 tmp/oscap.glade.h:12
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
-msgstr ""
-"Inget innehåll hittat.  Ange dataströmsinnehåll eller arkiv-URL nedan:"
+msgstr "Inget innehåll hittat. Ange dataströmsinnehåll eller arkiv-URL nedan:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1046
 msgid "Error fetching and loading content"
