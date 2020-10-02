@@ -1,19 +1,21 @@
-# Yuri Chornoivan <yurchor@ukr.net>, 2015.
-# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata
+# Yuri Chornoivan <yurchor@ukr.net>, 2015, 2020.
+# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-09 17:35+0200\n"
-"PO-Revision-Date: 2015-08-31 03:22-0400\n"
+"PO-Revision-Date: 2020-09-13 14:29+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel8-branch/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: ../org_fedora_oscap/rule_handling.py:409
 #, python-brace-format
@@ -22,6 +24,9 @@ msgid ""
 "in the partitioning layout before installation can occur with a security "
 "profile"
 msgstr ""
+"{0} має бути окремим розділом або логічним томом, його має бути створено у "
+"компонуванні розділів до того, як стане можливим встановлення із профілем "
+"захисту"
 
 #. template for the message
 #: ../org_fedora_oscap/rule_handling.py:420
@@ -48,7 +53,7 @@ msgstr "не вдалося перевірити довжину пароля roo
 msgid ""
 "root password is too short, a longer one with at least %d characters is "
 "required"
-msgstr ""
+msgstr "пароль root є надто коротким, потрібен довший, принаймні із %d символів"
 
 #: ../org_fedora_oscap/rule_handling.py:660
 #: ../org_fedora_oscap/rule_handling.py:675
@@ -63,6 +68,9 @@ msgid ""
 "can't be removed from the current software selection without breaking the "
 "installation."
 msgstr ""
+"пакунок «{package}» було додано до списку виключених пакунків, але його не "
+"можна вилучати з поточного вибору програмного забезпечення без того, щоб "
+"ушкодити встановлену систему."
 
 #: ../org_fedora_oscap/rule_handling.py:692
 #: ../org_fedora_oscap/rule_handling.py:707
@@ -72,19 +80,19 @@ msgstr "до списку виключених пакунків додано п�
 
 #: ../org_fedora_oscap/rule_handling.py:808
 msgid "Kdump will be disabled on startup"
-msgstr ""
+msgstr "Kdump буде вимкнено при запуску"
 
 #: ../org_fedora_oscap/rule_handling.py:810
 msgid "Kdump will be enabled on startup"
-msgstr ""
+msgstr "Kdump буде увімкнено при запуску"
 
 #: ../org_fedora_oscap/rule_handling.py:963
 msgid "Firewall will be disabled on startup"
-msgstr ""
+msgstr "Брандмауер буде вимкнено при запуску"
 
 #: ../org_fedora_oscap/rule_handling.py:970
 msgid "Firewall will be enabled on startup"
-msgstr ""
+msgstr "Брандмауер буде увімкнено при запуску"
 
 #: ../org_fedora_oscap/rule_handling.py:978
 #: ../org_fedora_oscap/rule_handling.py:1017
@@ -92,14 +100,14 @@ msgstr ""
 msgid ""
 "service '%s' has been added to the list of services to be added to the "
 "firewall"
-msgstr ""
+msgstr "службу «%s» було додано до списку служб, які слід додати до брандмауера"
 
 #: ../org_fedora_oscap/rule_handling.py:985
 #: ../org_fedora_oscap/rule_handling.py:1030
 #, python-format
 msgid ""
 "port '%s' has been added to the list of ports to be added to the firewall"
-msgstr ""
+msgstr "порт «%s» було додано до списку портів, які слід додати до брандмауера"
 
 #: ../org_fedora_oscap/rule_handling.py:992
 #: ../org_fedora_oscap/rule_handling.py:1043
@@ -107,6 +115,8 @@ msgstr ""
 msgid ""
 "trust '%s' has been added to the list of trusts to be added to the firewall"
 msgstr ""
+"запис довіри «%s» було додано до списку записів довіри, які слід додати до "
+"брандмауера"
 
 #: ../org_fedora_oscap/rule_handling.py:1055
 #: ../org_fedora_oscap/rule_handling.py:1070
@@ -115,6 +125,7 @@ msgid ""
 "service '%s' has been added to the list of services to be removed from the "
 "firewall"
 msgstr ""
+"службу «%s» було додано до списку служб, які слід вилучити з брандмауера"
 
 #: ../org_fedora_oscap/ks/oscap.py:418
 #, python-format
@@ -138,7 +149,7 @@ msgstr ""
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:198
 msgid "_Security Policy"
-msgstr ""
+msgstr "П_равила безпеки"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:226
