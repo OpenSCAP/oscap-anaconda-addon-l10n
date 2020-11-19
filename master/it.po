@@ -1,19 +1,21 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2019. #zanata
+# Silvio Berger <silvio.berger@protonmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 15:53+0200\n"
-"PO-Revision-Date: 2019-02-12 02:17-0500\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2020-11-19 21:35+0000\n"
+"Last-Translator: Silvio Berger <silvio.berger@protonmail.com>\n"
+"Language-Team: Italian <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/master/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: ../org_fedora_oscap/rule_handling.py:400
 #, python-brace-format
@@ -143,10 +145,8 @@ msgstr ""
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:198
-#, fuzzy
-#| msgid "Apply security policy:"
 msgid "_Security Policy"
-msgstr "Applica la politica di sicurezza:"
+msgstr "_Policy di Sicurezza"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:223
@@ -303,6 +303,7 @@ msgstr "_Usare Guida alla sicurezza di SCAP"
 msgid ""
 "No content found. Please enter data stream content or archive URI below:"
 msgstr ""
+"Nessun contenuto trovato. Per favore inserisci contenuto o un URL qui sotto:"
 
 #: tmp/oscap.glade.h:13
 msgid "_Fetch"
