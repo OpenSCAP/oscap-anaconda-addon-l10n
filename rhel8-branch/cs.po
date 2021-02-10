@@ -7,21 +7,22 @@
 # Zdenek <chmelarz@gmail.com>, 2016. #zanata
 # Zdenek <chmelarz@gmail.com>, 2017. #zanata
 # Daniel Rusek <mail@asciiwolf.com>, 2018. #zanata
-# Matěj Týč <matyc@redhat.com>, 2020. #zanata
+# Matěj Týč <matyc@redhat.com>, 2020. #zanata, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-09 17:35+0200\n"
-"PO-Revision-Date: 2020-06-22 05:42-0400\n"
+"PO-Revision-Date: 2021-02-10 21:09+0000\n"
 "Last-Translator: Matěj Týč <matyc@redhat.com>\n"
-"Language-Team: Czech (http://www.transifex.com/projects/p/oscap-anaconda-addon/language/cs/)\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel8-branch/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../org_fedora_oscap/rule_handling.py:409
 #, python-brace-format
@@ -68,14 +69,14 @@ msgid "package '%s' has been added to the list of to be installed packages"
 msgstr "balík '%s' byl přidán do seznamu instalovaných balíků"
 
 #: ../org_fedora_oscap/rule_handling.py:685
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "package '{package}' has been added to the list of excluded packages, but it "
 "can't be removed from the current software selection without breaking the "
 "installation."
 msgstr ""
-"balík '{package}' byl přidán do seznamu vyloučených balíků, ale nelze jej "
-"odebrat ze zvoleného výběru softwaru zvoleného pro intsalaci."
+"balík '{package}' byl přidán do seznamu vyřazených balíků, ale výběr "
+"softwaru zvoleného k intsalaci se bez něho neobejde."
 
 #: ../org_fedora_oscap/rule_handling.py:692
 #: ../org_fedora_oscap/rule_handling.py:707
