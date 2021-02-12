@@ -1,20 +1,22 @@
 # Ludek Janda <ljanda@redhat.com>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2020. #zanata
+# Sundeep Anand <suanand@redhat.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-09 17:35+0200\n"
-"PO-Revision-Date: 2020-06-26 04:25-0400\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Japanese\n"
+"PO-Revision-Date: 2021-02-12 10:40+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel8-branch/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../org_fedora_oscap/rule_handling.py:409
 #, python-brace-format
@@ -203,7 +205,7 @@ msgstr "セキュリティーポリシーを適用しない"
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:904
 msgid " or enter data stream content or archive URL below:"
-msgstr "または、以下にデータストリームコンテンツもしくはアーカイブの URL を入力します:"
+msgstr " または、以下にデータストリームコンテンツもしくはアーカイブの URL を入力します:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:908 tmp/oscap.glade.h:12
 msgid ""
