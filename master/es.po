@@ -7,21 +7,22 @@
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2016. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2019. #zanata
+# Emilio Herrera <ehespinosa57@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 15:53+0200\n"
-"PO-Revision-Date: 2019-02-12 02:16-0500\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/oscap-anaconda-"
-"addon/language/es/)\n"
+"PO-Revision-Date: 2021-02-23 18:40+0000\n"
+"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/master/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../org_fedora_oscap/rule_handling.py:400
 #, python-brace-format
@@ -152,10 +153,8 @@ msgstr ""
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:198
-#, fuzzy
-#| msgid "Apply security policy:"
 msgid "_Security Policy"
-msgstr "Aplicando política de seguridad:"
+msgstr "_Política de Seguridad"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:223
