@@ -1,18 +1,20 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# simmon <simmon@nplob.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 15:53+0200\n"
-"PO-Revision-Date: 2018-09-20 03:07-0400\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Korean\n"
+"PO-Revision-Date: 2021-03-13 23:01+0000\n"
+"Last-Translator: simmon <simmon@nplob.com>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: ../org_fedora_oscap/rule_handling.py:400
 #, python-brace-format
@@ -55,13 +57,13 @@ msgstr "root 암호가 너무 짧습니다. 최소 %d자 이어야 합니다."
 #: ../org_fedora_oscap/rule_handling.py:652
 #, python-format
 msgid "package '%s' has been added to the list of to be installed packages"
-msgstr "패키지 '%s'이/가 설치할 패키지 목록에 추가되었습니다. "
+msgstr "꾸러미 '%s'가 설치할 꾸러미 목록에 추가되었습니다"
 
 #: ../org_fedora_oscap/rule_handling.py:661
 #: ../org_fedora_oscap/rule_handling.py:676
 #, python-format
 msgid "package '%s' has been added to the list of excluded packages"
-msgstr "패키지 '%s'이/가 제외된 패키지 목록에 추가되었습니다. "
+msgstr "꾸러미 '%s'가 제외된 꾸러미 목록에 추가되었습니다."
 
 #: ../org_fedora_oscap/rule_handling.py:777
 msgid "Kdump will be disabled on startup"
