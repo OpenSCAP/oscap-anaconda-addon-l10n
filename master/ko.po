@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 15:53+0200\n"
-"PO-Revision-Date: 2021-03-25 04:02+0000\n"
+"PO-Revision-Date: 2021-04-02 07:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/master/ko/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.5.3\n"
 
 #: ../org_fedora_oscap/rule_handling.py:400
 #, python-brace-format
@@ -39,7 +39,7 @@ msgstr "최소 %d자 이상으로 비밀번호를 만들어야 합니다"
 
 #: ../org_fedora_oscap/rule_handling.py:527
 msgid "cannot check root password length (password is crypted)"
-msgstr "root 암호 길이를 확인 할 수 없습니다 (암호가 암호화됩니다)"
+msgstr "root 비밀번호 길이를 확인 할 수 없습니다 (비밀번호가 암호화됩니다)"
 
 #. too short
 #: ../org_fedora_oscap/rule_handling.py:533
