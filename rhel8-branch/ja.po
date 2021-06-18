@@ -2,13 +2,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2020. #zanata
 # Sundeep Anand <suanand@redhat.com>, 2021.
+# simmon <simmon@nplob.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-09 17:35+0200\n"
-"PO-Revision-Date: 2021-02-12 10:40+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2021-04-07 16:02+0000\n"
+"Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel8-branch/ja/>\n"
 "Language: ja\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.5.3\n"
 
 #: ../org_fedora_oscap/rule_handling.py:409
 #, python-brace-format
@@ -143,7 +144,7 @@ msgstr ""
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:198
 msgid "_Security Policy"
-msgstr "セキュリティーポリシー(_S)"
+msgstr "セキュリティーポリシ"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:226

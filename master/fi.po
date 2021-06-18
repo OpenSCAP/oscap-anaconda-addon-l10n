@@ -1,20 +1,22 @@
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata
-# simmon <simmon@nplob.com>, 2021.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 15:53+0200\n"
-"PO-Revision-Date: 2021-04-02 07:02+0000\n"
-"Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
-"oscap-anaconda-addon/master/ko/>\n"
-"Language: ko\n"
+"PO-Revision-Date: 2021-06-04 11:03+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/master/fi/>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: ../org_fedora_oscap/rule_handling.py:400
 #, python-brace-format
@@ -22,24 +24,27 @@ msgid ""
 "{0} must be on a separate partition or logical volume and has to be created "
 "in the partitioning layout before installation can occur with a security "
 "profile"
-msgstr "{0}은 별도의 파티션이나 논리 볼륨이 있어야 하며 보안 프로파일이 설치되기 전에 파티션 레이아웃을 만들어야 합니다"
+msgstr ""
+"{0}:n on oltava erillisessä osiossa tai loogisessa taltiossa, ja se on "
+"luotava osiointiasettelussa, ennen kuin asennus voi tapahtua "
+"turvallisuusprofiilin kanssa"
 
 #. template for the message
 #: ../org_fedora_oscap/rule_handling.py:411
 #, python-format
 msgid ""
 "mount option '%(mount_option)s' added for the mount point %(mount_point)s"
-msgstr "적재 지점 %(mount_point)s의 적재 옵션 '%(mount_option)s'가 추가되었습니다"
+msgstr "Liitoskohta '%(mount_option)s' lisätty liitoskohtaan %(mount_point)s"
 
 #. root password was not set
 #: ../org_fedora_oscap/rule_handling.py:520
 #, python-format
 msgid "make sure to create password with minimal length of %d characters"
-msgstr "최소 %d자 이상으로 비밀번호를 만들어야 합니다"
+msgstr "Salasana luodessa, varmista, että siinä on vähintään %d merkkiä"
 
 #: ../org_fedora_oscap/rule_handling.py:527
 msgid "cannot check root password length (password is crypted)"
-msgstr "root 비밀번호 길이를 확인 할 수 없습니다 (비밀번호가 암호화됩니다)"
+msgstr "ei voi tarkistaa rootin salasanan pituutta (salasana on salattu)"
 
 #. too short
 #: ../org_fedora_oscap/rule_handling.py:533
@@ -47,35 +52,37 @@ msgstr "root 비밀번호 길이를 확인 할 수 없습니다 (비밀번호가
 msgid ""
 "root password is too short, a longer one with at least %d characters is "
 "required"
-msgstr "root 비밀번호가 너무 짧습니다. 최소 %d자 이어야 합니다"
+msgstr ""
+"rootin salasana on liian lyhyt, tarvitaan pidempi salasana, jossa on "
+"vähintään %d merkkiä"
 
 #: ../org_fedora_oscap/rule_handling.py:637
 #: ../org_fedora_oscap/rule_handling.py:652
 #, python-format
 msgid "package '%s' has been added to the list of to be installed packages"
-msgstr "꾸러미(package) '%s'가 설치할 꾸러미(packages) 목록에 추가되었습니다"
+msgstr "paketti '%s' on lisätty asennettavien pakettien luetteloon"
 
 #: ../org_fedora_oscap/rule_handling.py:661
 #: ../org_fedora_oscap/rule_handling.py:676
 #, python-format
 msgid "package '%s' has been added to the list of excluded packages"
-msgstr "꾸러미(package) '%s'가 제외된 꾸러미(package) 목록에 추가되었습니다"
+msgstr "paketti '%s' on lisätty poissuljettujen pakettien luetteloon"
 
 #: ../org_fedora_oscap/rule_handling.py:777
 msgid "Kdump will be disabled on startup"
-msgstr "시작시 Kdump가 비활성화됩니다"
+msgstr "Kdump poistetaan käytöstä käynnistettäessä"
 
 #: ../org_fedora_oscap/rule_handling.py:779
 msgid "Kdump will be enabled on startup"
-msgstr "시작시 Kdump가 활성화됩니다"
+msgstr "Kdump otetaan käyttöön käynnistyksen yhteydessä"
 
 #: ../org_fedora_oscap/rule_handling.py:932
 msgid "Firewall will be disabled on startup"
-msgstr "시작시 방화벽이 비활성화됩니다"
+msgstr "Palomuuri poistetaan käytöstä käynnistyksen yhteydessä"
 
 #: ../org_fedora_oscap/rule_handling.py:939
 msgid "Firewall will be enabled on startup"
-msgstr "시작시 방화벽이 활성화됩니다"
+msgstr "Palomuuri otetaan käyttöön käynnistyksen yhteydessä"
 
 #: ../org_fedora_oscap/rule_handling.py:947
 #: ../org_fedora_oscap/rule_handling.py:986
@@ -83,21 +90,22 @@ msgstr "시작시 방화벽이 활성화됩니다"
 msgid ""
 "service '%s' has been added to the list of services to be added to the "
 "firewall"
-msgstr "서비스 '%s'가 방화벽에 추가 할 서비스 목록에 추가되었습니다"
+msgstr "palvelu '%s' on lisätty palomuuriin lisättävien palvelujen luetteloon"
 
 #: ../org_fedora_oscap/rule_handling.py:954
 #: ../org_fedora_oscap/rule_handling.py:999
 #, python-format
 msgid ""
 "port '%s' has been added to the list of ports to be added to the firewall"
-msgstr "포트 '%s'가 방화벽에 추가할 포트 목록에 추가되었습니다"
+msgstr "portti '%s' on lisätty palomuuriin lisättävien porttien luetteloon"
 
 #: ../org_fedora_oscap/rule_handling.py:961
 #: ../org_fedora_oscap/rule_handling.py:1012
 #, python-format
 msgid ""
 "trust '%s' has been added to the list of trusts to be added to the firewall"
-msgstr "신뢰 '%s가 방화벽에 추가할 신뢰 목록에 추가되었습니다"
+msgstr ""
+"luottamus '%s' on lisätty palomuuriin lisättävien luotettavuuksien luetteloon"
 
 #: ../org_fedora_oscap/rule_handling.py:1024
 #: ../org_fedora_oscap/rule_handling.py:1039
@@ -105,7 +113,8 @@ msgstr "신뢰 '%s가 방화벽에 추가할 신뢰 목록에 추가되었습니
 msgid ""
 "service '%s' has been added to the list of services to be removed from the "
 "firewall"
-msgstr "서비스 '%s'가 방화벽에서 제거할 서비스 목록에 추가되었습니다"
+msgstr ""
+"palvelu '%s' on lisätty palomuurista poistettavien palvelujen luetteloon"
 
 #: ../org_fedora_oscap/ks/oscap.py:418
 #, python-format
@@ -114,172 +123,171 @@ msgid ""
 "%s\n"
 "The installation should be aborted. Do you wish to continue anyway?"
 msgstr ""
-"보안 내용 가져오기 및 적재 중 오류가 발생했습니다.:\n"
+"Turvallisuussisällön noutamisessa ja lataamisessa tapahtui virhe:\n"
 "%s\n"
-"설치를 중단해야 합니다. 계속 진행하겠습니까?"
+"Asennus on keskeytettävä. Haluatko jatkaa joka tapauksessa?"
 
 #: ../org_fedora_oscap/ks/oscap.py:447
 msgid ""
 "The integrity check of the security content failed.\n"
 "The installation should be aborted. Do you wish to continue anyway?"
 msgstr ""
-"보안 내용에 대한 무결성 검사에 실패했습니다.\n"
-"설치를 중단해야 합니다. 계속 진행하겠습니까?"
+"Turvallisuussisällön eheyden tarkistus epäonnistui.\n"
+"Asennus on keskeytettävä. Haluatko jatkaa joka tapauksessa?"
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:198
 msgid "_Security Policy"
-msgstr "_보안 정책"
+msgstr "_Turvallisuuskäytäntö"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:223
 msgid "Not ready"
-msgstr "준비되지 않음"
+msgstr "Ei valmis"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:371
 msgid "Fetching content data"
-msgstr "내용 자료를 가져오는 중"
+msgstr "Haetaan sisältötietoja"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:638
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1053
 msgid "No profile selected"
-msgstr "프로파일이 선택되지 않았습니다"
+msgstr "Ei profiilia valittuna"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:643
 msgid "No rules for the pre-installation phase"
-msgstr "사전 설치 단계의 규칙이 없습니다"
+msgstr "Ei sääntöjä asennusta edeltävää vaihetta varten"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:795
 msgid "Invalid content provided. Enter a different URL, please."
-msgstr "잘못된 내용이 입력되었습니다. 다른 URL을 입력하십시오."
+msgstr "Virheellinen sisältö annettuna. Syötä toinen URL."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:803
 msgid "Invalid or unsupported content URL, please enter a different one."
-msgstr "유효하지 않거나 지원되지 않는 내용 URL입니다. 다른 URL을 입력하십시오."
+msgstr "Virheellinen tai ei-tuettu sisällön URL. Syötä toinen."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:811
 msgid "Failed to fetch content. Enter a different URL, please."
-msgstr "내용을 가져오지 못했습니다. 다른 URL을 입력하세요."
+msgstr "Sisällön noutaminen epäonnistui. Syötä toinen URL."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:819
 msgid ""
 "Network error encountered when fetching data. Please check that network is "
 "setup and working."
-msgstr "내용을 가져오는 중 네트워크 오류가 발생했습니다. 네트워크가 제대로 작동하는지 확인하십시오."
+msgstr ""
+"Verkkovirhe kohdattu tietoja noudettaessa. Tarkista, että verkko on "
+"määritetty ja toimii."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:828
 msgid "The integrity check of the content failed. Cannot use the content."
-msgstr "내용 무결성 검사에 실패했습니다. 내용을 사용 할 수 없습니다."
+msgstr "Sisällön eheyden tarkistus epäonnistui. Sisältöä ei voi käyttää."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:836
 #, python-format
 msgid "Failed to extract content (%s). Enter a different URL, please."
-msgstr "내용 (%s)를 가져오지 못했습니다. 다른 URL을 입력하십시오."
+msgstr "Sisällön (%s) purkaminen epäonnistui. Syötä toinen URL."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:854
 #, python-format
 msgid ""
 "Profile with ID '%s' not defined in the content. Select a different profile, "
 "please"
-msgstr "ID '%s'가 프로파일에 정의되어 있지 않습니다. 다른 프로파일을 선택하세요"
+msgstr ""
+"Profiilia, jonka tunnus on '%s', ei ole määritelty sisällössä. Valitse "
+"toinen profiili"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:870
 msgid "Not applying security policy"
-msgstr "보안 정책을 적용하지 않음"
+msgstr "Ei sovelleta turvallisuuskäytäntöä"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:901
 msgid " or enter data stream content or archive URL below:"
-msgstr " 자료 스트림 내용을 입력하거나 아래 URL 저장소:"
+msgstr " tai syötä tietovirran sisältö tai arkiston URL alle:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:905
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
-msgstr "내용이 없습니다. 자료 스트림 내용을를 입력하거나 또는 아래 URL을 저장소를 입력하세요:"
+msgstr "Sisältöä ei löytynyt. Syötä tietovirran sisältö tai arkiston URL alle:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1043
 msgid "Error fetching and loading content"
-msgstr "내용 가져오기와 적재 오류"
+msgstr "Virhe sisällön noutamisessa ja lataamisessa"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1050
 msgid "No content found"
-msgstr "내용을 찾을 수 없음"
+msgstr "Sisältöä ei löytynyt"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1061
 msgid "Misconfiguration detected"
-msgstr "설정 오류가 감지되었습니다"
+msgstr "Virheellinen määritys havaittu"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1067
 msgid "Warnings appeared"
-msgstr "경고가 표시되었습니다"
+msgstr "Varoitukset ilmestyivät"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1069
 msgid "Everything okay"
-msgstr "모든 것이 정상입니다"
+msgstr "Kaikki hyvin"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1145
 msgid "Invalid or unsupported URL"
-msgstr "유효하지 않거나 지원되지 않는 URL"
+msgstr "Virheellinen tai tuettu URL"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1151 tmp/oscap.glade.h:14
 msgid "Fetching content..."
-msgstr "컨텐츠 가져오는 중..."
+msgstr "Noudetaan sisältöä ..."
 
 #: tmp/oscap.glade.h:1
 msgid "SECURITY POLICY"
-msgstr "보안 정책"
+msgstr "TURVALLISUUSKÄYTÄNTÖ"
 
 #: tmp/oscap.glade.h:2
 msgid "_Change content"
-msgstr "컨텐츠 변경(_C)"
+msgstr "_Vaihda sisältö"
 
 #: tmp/oscap.glade.h:3
 msgid "Apply security policy:"
-msgstr "보안 정책 적용:"
+msgstr "Sovella turvallisuuskäytäntö:"
 
 #: tmp/oscap.glade.h:4
 msgid "Data stream:"
-msgstr "데이터 스트림:"
+msgstr "Tietovirta:"
 
 #: tmp/oscap.glade.h:5
 msgid "Checklist:"
-msgstr "검사 목록:"
+msgstr "Tarkistuslista:"
 
 #: tmp/oscap.glade.h:6
 msgid "Choose profile below:"
-msgstr "아래 프로파일 선택:"
+msgstr "Valitse profiili alla:"
 
-# auto translated by TM merge from project: RHOSP Director Installation and
-# Usage , version: 11-Korean, DocId: master
 #: tmp/oscap.glade.h:7
 msgid "Profile"
-msgstr "프로파일"
+msgstr "Profiili"
 
 #: tmp/oscap.glade.h:8
 msgid "Selected"
-msgstr "선택됩니다"
+msgstr "Valittuna"
 
 #: tmp/oscap.glade.h:9
 msgid "_Select profile"
-msgstr "프로파일 선택(_S)"
+msgstr "_Valitse profiili"
 
 #: tmp/oscap.glade.h:10
 msgid "Changes that were done or need to be done:"
-msgstr "완료된 변경사항 또는 필요한 변경사항:"
+msgstr "Tehdyt tai tehtävät muutokset:"
 
 #: tmp/oscap.glade.h:11
 msgid "_Use SCAP Security Guide"
-msgstr "SCAP 보안 가이드 사용(_U)"
+msgstr "_Käytä SCAP-turvallisuusopasta"
 
 #: tmp/oscap.glade.h:12
 msgid ""
 "No content found. Please enter data stream content or archive URI below:"
-msgstr "내용이 없습니다. 자료 스트림 내용를 입력 하거나 또는 아래 저장소 URL :"
+msgstr "Sisältöä ei löytynyt. Syötä tietovirran sisältö tai arkiston URI alla:"
 
 #: tmp/oscap.glade.h:13
 msgid "_Fetch"
-msgstr "가져오기(_F)"
-
-#~ msgid "_SECURITY POLICY"
-#~ msgstr "보안 정책(_S):"
+msgstr "_Nouda"
