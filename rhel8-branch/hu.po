@@ -11,10 +11,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-09 17:35+0200\n"
+"POT-Creation-Date: 2021-06-21 11:51+0200\n"
 "PO-Revision-Date: 2020-03-29 01:40-0400\n"
 "Last-Translator: Teknős Ferenc <teknos.ferenc@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/projects/p/oscap-anaconda-addon/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/oscap-anaconda-"
+"addon/language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +23,31 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Zanata 4.6.2\n"
 
-#: ../org_fedora_oscap/rule_handling.py:409
+#: ../org_fedora_oscap/common.py:326
+#, python-brace-format
+msgid "Error extracting archive as a zipfile: {exc}"
+msgstr ""
+
+#: ../org_fedora_oscap/content_discovery.py:167
+#, fuzzy, python-brace-format
+#| msgid "The integrity check of the content failed. Cannot use the content."
+msgid ""
+"Integrity check of the content failed - {hash_obj.name} hash didn't match"
+msgstr ""
+"Nem sikerült a tartalom integritásának ellenőrzése. A tartalom nem "
+"használható."
+
+#: ../org_fedora_oscap/data_fetch.py:117
+msgid "Network connection needed to fetch data."
+msgstr ""
+
+#: ../org_fedora_oscap/data_fetch.py:262
+#, python-brace-format
+msgid ""
+"Failed to fetch data - the request returned HTTP error code {return_code}"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:434
 #, python-brace-format
 msgid ""
 "{0} must be on a separate partition or logical volume and has to be created "
@@ -34,7 +59,7 @@ msgstr ""
 "biztonsági profilon"
 
 #. template for the message
-#: ../org_fedora_oscap/rule_handling.py:420
+#: ../org_fedora_oscap/rule_handling.py:445
 #, python-format
 msgid ""
 "mount option '%(mount_option)s' added for the mount point %(mount_point)s"
@@ -43,17 +68,17 @@ msgstr ""
 "%(mount_point)s"
 
 #. root password was not set
-#: ../org_fedora_oscap/rule_handling.py:529
+#: ../org_fedora_oscap/rule_handling.py:554
 #, python-format
 msgid "make sure to create password with minimal length of %d characters"
 msgstr "bizonyosodjon meg arról, hogy %d karakter hosszúságú jelszót ad meg"
 
-#: ../org_fedora_oscap/rule_handling.py:536
+#: ../org_fedora_oscap/rule_handling.py:561
 msgid "cannot check root password length (password is crypted)"
 msgstr "root jelszó hosszúsága nem ellenőrzhető (jelszó titkosított)"
 
 #. too short
-#: ../org_fedora_oscap/rule_handling.py:542
+#: ../org_fedora_oscap/rule_handling.py:567
 #, python-format
 msgid ""
 "root password is too short, a longer one with at least %d characters is "
@@ -61,13 +86,13 @@ msgid ""
 msgstr ""
 "root jelszó túl rövid, de hosszabbnak kell lennie legalább %d karakterrel"
 
-#: ../org_fedora_oscap/rule_handling.py:660
-#: ../org_fedora_oscap/rule_handling.py:675
+#: ../org_fedora_oscap/rule_handling.py:685
+#: ../org_fedora_oscap/rule_handling.py:700
 #, python-format
 msgid "package '%s' has been added to the list of to be installed packages"
 msgstr "'%s' csomag hozzáadásra került a telepítendő csomagok listájához"
 
-#: ../org_fedora_oscap/rule_handling.py:685
+#: ../org_fedora_oscap/rule_handling.py:710
 #, python-brace-format
 msgid ""
 "package '{package}' has been added to the list of excluded packages, but it "
@@ -75,30 +100,30 @@ msgid ""
 "installation."
 msgstr ""
 
-#: ../org_fedora_oscap/rule_handling.py:692
-#: ../org_fedora_oscap/rule_handling.py:707
+#: ../org_fedora_oscap/rule_handling.py:717
+#: ../org_fedora_oscap/rule_handling.py:732
 #, python-format
 msgid "package '%s' has been added to the list of excluded packages"
 msgstr "'%s' csomag hozzáadásra került az eltávolítandó csomagok listájához"
 
-#: ../org_fedora_oscap/rule_handling.py:808
+#: ../org_fedora_oscap/rule_handling.py:833
 msgid "Kdump will be disabled on startup"
 msgstr "A Kdump indításkor le lesz tiltva"
 
-#: ../org_fedora_oscap/rule_handling.py:810
+#: ../org_fedora_oscap/rule_handling.py:835
 msgid "Kdump will be enabled on startup"
 msgstr "A Kdump indításkor engedélyezve lesz"
 
-#: ../org_fedora_oscap/rule_handling.py:963
+#: ../org_fedora_oscap/rule_handling.py:988
 msgid "Firewall will be disabled on startup"
 msgstr "A tűzfal indításkor le lesz tiltva"
 
-#: ../org_fedora_oscap/rule_handling.py:970
+#: ../org_fedora_oscap/rule_handling.py:995
 msgid "Firewall will be enabled on startup"
 msgstr "A tűzfal engedélyezve lesz az indításkor"
 
-#: ../org_fedora_oscap/rule_handling.py:978
-#: ../org_fedora_oscap/rule_handling.py:1017
+#: ../org_fedora_oscap/rule_handling.py:1003
+#: ../org_fedora_oscap/rule_handling.py:1042
 #, python-format
 msgid ""
 "service '%s' has been added to the list of services to be added to the "
@@ -107,15 +132,15 @@ msgstr ""
 "szolgáltatás \"%s\" lett hozzáadva a tűzfalhoz hozzáadandó szolgáltatások "
 "listájához"
 
-#: ../org_fedora_oscap/rule_handling.py:985
-#: ../org_fedora_oscap/rule_handling.py:1030
+#: ../org_fedora_oscap/rule_handling.py:1010
+#: ../org_fedora_oscap/rule_handling.py:1055
 #, python-format
 msgid ""
 "port '%s' has been added to the list of ports to be added to the firewall"
 msgstr "port \"%s\" lett hozzáadva a tűzfalhoz hozzáadandó portok listájához"
 
-#: ../org_fedora_oscap/rule_handling.py:992
-#: ../org_fedora_oscap/rule_handling.py:1043
+#: ../org_fedora_oscap/rule_handling.py:1017
+#: ../org_fedora_oscap/rule_handling.py:1068
 #, python-format
 msgid ""
 "trust '%s' has been added to the list of trusts to be added to the firewall"
@@ -123,8 +148,8 @@ msgstr ""
 "a \"%s\" szolgáltatás hozzá lett adva a tűzfalhoz hozzáadandó megbízhatók "
 "listájához"
 
-#: ../org_fedora_oscap/rule_handling.py:1055
-#: ../org_fedora_oscap/rule_handling.py:1070
+#: ../org_fedora_oscap/rule_handling.py:1080
+#: ../org_fedora_oscap/rule_handling.py:1095
 #, python-format
 msgid ""
 "service '%s' has been added to the list of services to be removed from the "
@@ -133,63 +158,76 @@ msgstr ""
 "szolgáltatás \"%s\" lett hozzáadva a tűzfalról eltávolítandó szolgáltatások "
 "listájához"
 
-#: ../org_fedora_oscap/ks/oscap.py:418
-#, python-format
-msgid ""
-"There was an error fetching and loading the security content:\n"
-"%s\n"
-"The installation should be aborted. Do you wish to continue anyway?"
+#: ../org_fedora_oscap/ks/oscap.py:376
+msgid "The installation should be aborted."
 msgstr ""
-"Hiba történt a biztonsági tartalom lekérése és betöltése során:\n"
-"%s\n"
-"A telepítést meg kell szakítani. Szeretné folytatni?"
 
-#: ../org_fedora_oscap/ks/oscap.py:447
-msgid ""
-"The integrity check of the security content failed.\n"
-"The installation should be aborted. Do you wish to continue anyway?"
+#: ../org_fedora_oscap/ks/oscap.py:377
+msgid "Do you wish to continue anyway?"
 msgstr ""
-"A biztonsági tartalom integritásának ellenőrzése sikertelen.\n"
-"A telepítést meg kell szakítani. Szeretné folytatni?"
+
+#: ../org_fedora_oscap/ks/oscap.py:400
+#, fuzzy
+#| msgid "The integrity check of the content failed. Cannot use the content."
+msgid "The integrity check of the security content failed."
+msgstr ""
+"Nem sikerült a tartalom integritásának ellenőrzése. A tartalom nem "
+"használható."
+
+#: ../org_fedora_oscap/ks/oscap.py:404
+#, fuzzy
+#| msgid "Error fetching and loading content"
+msgid "There was an error fetching and loading the security content:\n"
+msgstr "Hiba történt a tartalom lekérése és betöltése során"
+
+#: ../org_fedora_oscap/ks/oscap.py:409
+#: ../org_fedora_oscap/gui/spokes/oscap.py:774
+msgid "There was an unexpected problem with the supplied content."
+msgstr ""
+
+#: ../org_fedora_oscap/ks/oscap.py:462
+#, fuzzy
+#| msgid "Misconfiguration detected"
+msgid "Wrong configuration detected!"
+msgstr "Helytelen beállítások észlelve"
 
 #. title of the spoke (will be displayed on the hub)
-#: ../org_fedora_oscap/gui/spokes/oscap.py:198
+#: ../org_fedora_oscap/gui/spokes/oscap.py:201
 msgid "_Security Policy"
 msgstr "_Biztonsági házirend"
 
 #. the first status provided
-#: ../org_fedora_oscap/gui/spokes/oscap.py:226
+#: ../org_fedora_oscap/gui/spokes/oscap.py:229
 msgid "Not ready"
 msgstr "Nincs még kész"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:374
+#: ../org_fedora_oscap/gui/spokes/oscap.py:383
 msgid "Fetching content data"
 msgstr "Adatok letöltése"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:641
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1056
+#: ../org_fedora_oscap/gui/spokes/oscap.py:626
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1039
 msgid "No profile selected"
 msgstr "Nincs profil kiválasztva"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:646
+#: ../org_fedora_oscap/gui/spokes/oscap.py:631
 msgid "No rules for the pre-installation phase"
 msgstr "Nincsenek szabályok felállítva az előkészítési fázishoz"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:798
+#: ../org_fedora_oscap/gui/spokes/oscap.py:782
 msgid "Invalid content provided. Enter a different URL, please."
-msgstr ""
-"Helytelen tartalom került megadásra. Kérem, adjon meg egy másik URL-t."
+msgstr "Helytelen tartalom került megadásra. Kérem, adjon meg egy másik URL-t."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:806
+#: ../org_fedora_oscap/gui/spokes/oscap.py:790
 msgid "Invalid or unsupported content URL, please enter a different one."
 msgstr ""
 "Érvénytelen vagy nem támogatott tartalom URL, kérjük, írjon be másikat."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:814
+#: ../org_fedora_oscap/gui/spokes/oscap.py:798
 msgid "Failed to fetch content. Enter a different URL, please."
 msgstr "Tartalom letöltése sikertelen. Kérem, adjon meg másik URL-t."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:822
+#: ../org_fedora_oscap/gui/spokes/oscap.py:806
 msgid ""
 "Network error encountered when fetching data. Please check that network is "
 "setup and working."
@@ -197,68 +235,68 @@ msgstr ""
 "Hálózati hiba történt az adatok lekérésekor. Ellenőrizze, hogy a hálózat "
 "beállítása és működése megfelelő."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:831
+#: ../org_fedora_oscap/gui/spokes/oscap.py:815
 msgid "The integrity check of the content failed. Cannot use the content."
 msgstr ""
 "Nem sikerült a tartalom integritásának ellenőrzése. A tartalom nem "
 "használható."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:839
+#: ../org_fedora_oscap/gui/spokes/oscap.py:823
 #, python-format
 msgid "Failed to extract content (%s). Enter a different URL, please."
 msgstr "Tartalom kibontása sikertelen (%s). Kérem, adjon meg másik URL-t."
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:857
+#: ../org_fedora_oscap/gui/spokes/oscap.py:840
 #, python-format
 msgid ""
-"Profile with ID '%s' not defined in the content. Select a different profile,"
-" please"
+"Profile with ID '%s' not defined in the content. Select a different profile, "
+"please"
 msgstr ""
 "A (z) \"%s\" azonosítójú profil nem szerepel a tartalomban. Kérem válasszon "
 "másik profilt"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:873
+#: ../org_fedora_oscap/gui/spokes/oscap.py:856
 msgid "Not applying security policy"
 msgstr "Nem alkalmazható a biztonsági házirend"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
-#: ../org_fedora_oscap/gui/spokes/oscap.py:904
+#: ../org_fedora_oscap/gui/spokes/oscap.py:887
 msgid " or enter data stream content or archive URL below:"
 msgstr "vagy adjon meg adathalmazt, vagy archiv URL-t alább:"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:908 tmp/oscap.glade.h:12
+#: ../org_fedora_oscap/gui/spokes/oscap.py:891 tmp/oscap.glade.h:12
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
 msgstr ""
 "Tartalom nem található. Kérem adjon meg egy adathalmazt, vagy archív URL-t "
 "alább:"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1046
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1029
 msgid "Error fetching and loading content"
 msgstr "Hiba történt a tartalom lekérése és betöltése során"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1053
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1036
 msgid "No content found"
 msgstr "Tartalom nem található"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1064
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1047
 msgid "Misconfiguration detected"
 msgstr "Helytelen beállítások észlelve"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1070
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1053
 msgid "Warnings appeared"
 msgstr "Figyelmeztetések jelentek meg"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1072
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1055
 msgid "Everything okay"
 msgstr "Minden rendben"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1148
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1134
 msgid "Invalid or unsupported URL"
 msgstr "Rossz vagy nem támogatott URL"
 
-#: ../org_fedora_oscap/gui/spokes/oscap.py:1154 tmp/oscap.glade.h:14
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1140 tmp/oscap.glade.h:14
 msgid "Fetching content..."
 msgstr "Tartalom letöltése..."
 
@@ -309,3 +347,19 @@ msgstr "SCAP Biztonsági könyv előírásainak használata"
 #: tmp/oscap.glade.h:13
 msgid "_Fetch"
 msgstr "Letöltés"
+
+#~ msgid ""
+#~ "There was an error fetching and loading the security content:\n"
+#~ "%s\n"
+#~ "The installation should be aborted. Do you wish to continue anyway?"
+#~ msgstr ""
+#~ "Hiba történt a biztonsági tartalom lekérése és betöltése során:\n"
+#~ "%s\n"
+#~ "A telepítést meg kell szakítani. Szeretné folytatni?"
+
+#~ msgid ""
+#~ "The integrity check of the security content failed.\n"
+#~ "The installation should be aborted. Do you wish to continue anyway?"
+#~ msgstr ""
+#~ "A biztonsági tartalom integritásának ellenőrzése sikertelen.\n"
+#~ "A telepítést meg kell szakítani. Szeretné folytatni?"
