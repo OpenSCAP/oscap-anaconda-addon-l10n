@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-09 17:35+0200\n"
-"PO-Revision-Date: 2021-02-10 21:09+0000\n"
+"PO-Revision-Date: 2021-06-24 09:13+0000\n"
 "Last-Translator: Matěj Týč <matyc@redhat.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel8-branch/cs/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.7\n"
 
 #: ../org_fedora_oscap/rule_handling.py:409
 #, python-brace-format
@@ -216,7 +216,7 @@ msgstr "Neaplikovat bezpečnostní politiku"
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:904
 msgid " or enter data stream content or archive URL below:"
-msgstr "nebo zadejte URL data streamu, případně archivu:"
+msgstr " nebo zadejte URL data streamu, případně archivu:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:908 tmp/oscap.glade.h:12
 msgid ""
