@@ -2,21 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2021.
+# Robin Lahtinen <robin.lahtinen@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2021-06-04 11:03+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/oscap-"
-"anaconda-addon/rhel8-branch/fi/>\n"
+"PO-Revision-Date: 2021-06-29 21:04+0000\n"
+"Last-Translator: Robin Lahtinen <robin.lahtinen@gmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel8-branch/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.7\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
@@ -32,7 +33,7 @@ msgstr "Sisällön eheyden tarkistus epäonnistui. Sisältöä ei voi käyttää
 
 #: ../org_fedora_oscap/data_fetch.py:117
 msgid "Network connection needed to fetch data."
-msgstr ""
+msgstr "Verkkoyhteys tarvitaan tiedonhakua varten."
 
 #: ../org_fedora_oscap/data_fetch.py:262
 #, python-brace-format
