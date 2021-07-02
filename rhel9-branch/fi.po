@@ -1,0 +1,348 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-21 11:51+0200\n"
+"PO-Revision-Date: 2021-06-04 11:03+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/oscap-"
+"anaconda-addon/rhel8-branch/fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.6.2\n"
+
+#: ../org_fedora_oscap/common.py:326
+#, python-brace-format
+msgid "Error extracting archive as a zipfile: {exc}"
+msgstr ""
+
+#: ../org_fedora_oscap/content_discovery.py:167
+#, fuzzy, python-brace-format
+#| msgid "The integrity check of the content failed. Cannot use the content."
+msgid ""
+"Integrity check of the content failed - {hash_obj.name} hash didn't match"
+msgstr "Sisällön eheyden tarkistus epäonnistui. Sisältöä ei voi käyttää."
+
+#: ../org_fedora_oscap/data_fetch.py:117
+msgid "Network connection needed to fetch data."
+msgstr ""
+
+#: ../org_fedora_oscap/data_fetch.py:262
+#, python-brace-format
+msgid ""
+"Failed to fetch data - the request returned HTTP error code {return_code}"
+msgstr ""
+
+#: ../org_fedora_oscap/rule_handling.py:434
+#, python-brace-format
+msgid ""
+"{0} must be on a separate partition or logical volume and has to be created "
+"in the partitioning layout before installation can occur with a security "
+"profile"
+msgstr ""
+"{0}:n on oltava erillisessä osiossa tai loogisessa taltiossa, ja se on "
+"luotava osiointiasettelussa, ennen kuin asennus voi tapahtua "
+"turvallisuusprofiilin kanssa"
+
+#. template for the message
+#: ../org_fedora_oscap/rule_handling.py:445
+#, python-format
+msgid ""
+"mount option '%(mount_option)s' added for the mount point %(mount_point)s"
+msgstr "Liitoskohta '%(mount_option)s' lisätty liitoskohtaan %(mount_point)s"
+
+#. root password was not set
+#: ../org_fedora_oscap/rule_handling.py:554
+#, python-format
+msgid "make sure to create password with minimal length of %d characters"
+msgstr "Salasana luodessa, varmista, että siinä on vähintään %d merkkiä"
+
+#: ../org_fedora_oscap/rule_handling.py:561
+msgid "cannot check root password length (password is crypted)"
+msgstr "ei voi tarkistaa rootin salasanan pituutta (salasana on salattu)"
+
+#. too short
+#: ../org_fedora_oscap/rule_handling.py:567
+#, python-format
+msgid ""
+"root password is too short, a longer one with at least %d characters is "
+"required"
+msgstr ""
+"rootin salasana on liian lyhyt, tarvitaan pidempi salasana, jossa on "
+"vähintään %d merkkiä"
+
+#: ../org_fedora_oscap/rule_handling.py:685
+#: ../org_fedora_oscap/rule_handling.py:700
+#, python-format
+msgid "package '%s' has been added to the list of to be installed packages"
+msgstr "paketti '%s' on lisätty asennettavien pakettien luetteloon"
+
+#: ../org_fedora_oscap/rule_handling.py:710
+#, python-brace-format
+msgid ""
+"package '{package}' has been added to the list of excluded packages, but it "
+"can't be removed from the current software selection without breaking the "
+"installation."
+msgstr ""
+"paketti '{package}' on lisätty poissuljettujen pakettien luetteloon, mutta "
+"sitä ei voida poistaa nykyisestä ohjelmistovalinnasta rikkomatta asennusta."
+
+#: ../org_fedora_oscap/rule_handling.py:717
+#: ../org_fedora_oscap/rule_handling.py:732
+#, python-format
+msgid "package '%s' has been added to the list of excluded packages"
+msgstr "paketti '%s' on lisätty poissuljettujen pakettien luetteloon"
+
+#: ../org_fedora_oscap/rule_handling.py:833
+msgid "Kdump will be disabled on startup"
+msgstr "Kdump poistetaan käytöstä käynnistettäessä"
+
+#: ../org_fedora_oscap/rule_handling.py:835
+msgid "Kdump will be enabled on startup"
+msgstr "Kdump otetaan käyttöön käynnistyksen yhteydessä"
+
+#: ../org_fedora_oscap/rule_handling.py:988
+msgid "Firewall will be disabled on startup"
+msgstr "Palomuuri poistetaan käytöstä käynnistyksen yhteydessä"
+
+#: ../org_fedora_oscap/rule_handling.py:995
+msgid "Firewall will be enabled on startup"
+msgstr "Palomuuri otetaan käyttöön käynnistyksen yhteydessä"
+
+#: ../org_fedora_oscap/rule_handling.py:1003
+#: ../org_fedora_oscap/rule_handling.py:1042
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be added to the "
+"firewall"
+msgstr "palvelu '%s' on lisätty palomuuriin lisättävien palvelujen luetteloon"
+
+#: ../org_fedora_oscap/rule_handling.py:1010
+#: ../org_fedora_oscap/rule_handling.py:1055
+#, python-format
+msgid ""
+"port '%s' has been added to the list of ports to be added to the firewall"
+msgstr "portti '%s' on lisätty palomuuriin lisättävien porttien luetteloon"
+
+#: ../org_fedora_oscap/rule_handling.py:1017
+#: ../org_fedora_oscap/rule_handling.py:1068
+#, python-format
+msgid ""
+"trust '%s' has been added to the list of trusts to be added to the firewall"
+msgstr ""
+"luottamus '%s' on lisätty palomuuriin lisättävien luotettavuuksien luetteloon"
+
+#: ../org_fedora_oscap/rule_handling.py:1080
+#: ../org_fedora_oscap/rule_handling.py:1095
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be removed from the "
+"firewall"
+msgstr ""
+"palvelu '%s' on lisätty palomuurista poistettavien palvelujen luetteloon"
+
+#: ../org_fedora_oscap/ks/oscap.py:376
+msgid "The installation should be aborted."
+msgstr ""
+
+#: ../org_fedora_oscap/ks/oscap.py:377
+msgid "Do you wish to continue anyway?"
+msgstr ""
+
+#: ../org_fedora_oscap/ks/oscap.py:400
+#, fuzzy
+#| msgid "The integrity check of the content failed. Cannot use the content."
+msgid "The integrity check of the security content failed."
+msgstr "Sisällön eheyden tarkistus epäonnistui. Sisältöä ei voi käyttää."
+
+#: ../org_fedora_oscap/ks/oscap.py:404
+#, fuzzy
+#| msgid "Error fetching and loading content"
+msgid "There was an error fetching and loading the security content:\n"
+msgstr "Virhe sisällön noutamisessa ja lataamisessa"
+
+#: ../org_fedora_oscap/ks/oscap.py:409
+#: ../org_fedora_oscap/gui/spokes/oscap.py:774
+msgid "There was an unexpected problem with the supplied content."
+msgstr ""
+
+#: ../org_fedora_oscap/ks/oscap.py:462
+#, fuzzy
+#| msgid "Misconfiguration detected"
+msgid "Wrong configuration detected!"
+msgstr "Virheellinen määritys havaittu"
+
+#. title of the spoke (will be displayed on the hub)
+#: ../org_fedora_oscap/gui/spokes/oscap.py:201
+msgid "_Security Policy"
+msgstr "_Turvallisuuskäytäntö"
+
+#. the first status provided
+#: ../org_fedora_oscap/gui/spokes/oscap.py:229
+msgid "Not ready"
+msgstr "Ei valmis"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:383
+msgid "Fetching content data"
+msgstr "Haetaan sisältötietoja"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:626
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1039
+msgid "No profile selected"
+msgstr "Ei profiilia valittuna"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:631
+msgid "No rules for the pre-installation phase"
+msgstr "Ei sääntöjä asennusta edeltävää vaihetta varten"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:782
+msgid "Invalid content provided. Enter a different URL, please."
+msgstr "Virheellinen sisältö annettuna. Syötä toinen URL."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:790
+msgid "Invalid or unsupported content URL, please enter a different one."
+msgstr "Virheellinen tai ei-tuettu sisällön URL. Syötä toinen."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:798
+msgid "Failed to fetch content. Enter a different URL, please."
+msgstr "Sisällön noutaminen epäonnistui. Syötä toinen URL."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:806
+msgid ""
+"Network error encountered when fetching data. Please check that network is "
+"setup and working."
+msgstr ""
+"Verkkovirhe kohdattu tietoja noudettaessa. Tarkista, että verkko on "
+"määritetty ja toimii."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:815
+msgid "The integrity check of the content failed. Cannot use the content."
+msgstr "Sisällön eheyden tarkistus epäonnistui. Sisältöä ei voi käyttää."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:823
+#, python-format
+msgid "Failed to extract content (%s). Enter a different URL, please."
+msgstr "Sisällön (%s) purkaminen epäonnistui. Syötä toinen URL."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:840
+#, python-format
+msgid ""
+"Profile with ID '%s' not defined in the content. Select a different profile, "
+"please"
+msgstr ""
+"Profiilia, jonka tunnus on '%s', ei ole määritelty sisällössä. Valitse "
+"toinen profiili"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:856
+msgid "Not applying security policy"
+msgstr "Ei sovelleta turvallisuuskäytäntöä"
+
+#. TRANSLATORS: the other choice if SCAP Security Guide is also
+#. available
+#: ../org_fedora_oscap/gui/spokes/oscap.py:887
+msgid " or enter data stream content or archive URL below:"
+msgstr " tai syötä tietovirran sisältö tai arkiston URL alle:"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:891 tmp/oscap.glade.h:12
+msgid ""
+"No content found. Please enter data stream content or archive URL below:"
+msgstr "Sisältöä ei löytynyt. Syötä tietovirran sisältö tai arkiston URL alle:"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1029
+msgid "Error fetching and loading content"
+msgstr "Virhe sisällön noutamisessa ja lataamisessa"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1036
+msgid "No content found"
+msgstr "Sisältöä ei löytynyt"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1047
+msgid "Misconfiguration detected"
+msgstr "Virheellinen määritys havaittu"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1053
+msgid "Warnings appeared"
+msgstr "Varoitukset ilmestyivät"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1055
+msgid "Everything okay"
+msgstr "Kaikki hyvin"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1134
+msgid "Invalid or unsupported URL"
+msgstr "Virheellinen tai tuettu URL"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1140 tmp/oscap.glade.h:14
+msgid "Fetching content..."
+msgstr "Noudetaan sisältöä ..."
+
+#: tmp/oscap.glade.h:1
+msgid "SECURITY POLICY"
+msgstr "TURVALLISUUSKÄYTÄNTÖ"
+
+#: tmp/oscap.glade.h:2
+msgid "_Change content"
+msgstr "_Vaihda sisältö"
+
+#: tmp/oscap.glade.h:3
+msgid "Apply security policy:"
+msgstr "Sovella turvallisuuskäytäntö:"
+
+#: tmp/oscap.glade.h:4
+msgid "Data stream:"
+msgstr "Tietovirta:"
+
+#: tmp/oscap.glade.h:5
+msgid "Checklist:"
+msgstr "Tarkistuslista:"
+
+#: tmp/oscap.glade.h:6
+msgid "Choose profile below:"
+msgstr "Valitse profiili alla:"
+
+#: tmp/oscap.glade.h:7
+msgid "Profile"
+msgstr "Profiili"
+
+#: tmp/oscap.glade.h:8
+msgid "Selected"
+msgstr "Valittuna"
+
+#: tmp/oscap.glade.h:9
+msgid "_Select profile"
+msgstr "_Valitse profiili"
+
+#: tmp/oscap.glade.h:10
+msgid "Changes that were done or need to be done:"
+msgstr "Tehdyt tai tehtävät muutokset:"
+
+#: tmp/oscap.glade.h:11
+msgid "_Use SCAP Security Guide"
+msgstr "_Käytä SCAP-turvallisuusopasta"
+
+#: tmp/oscap.glade.h:13
+msgid "_Fetch"
+msgstr "_Nouda"
+
+#~ msgid ""
+#~ "There was an error fetching and loading the security content:\n"
+#~ "%s\n"
+#~ "The installation should be aborted. Do you wish to continue anyway?"
+#~ msgstr ""
+#~ "Turvallisuussisällön noutamisessa ja lataamisessa tapahtui virhe:\n"
+#~ "%s\n"
+#~ "Asennus on keskeytettävä. Haluatko jatkaa joka tapauksessa?"
+
+#~ msgid ""
+#~ "The integrity check of the security content failed.\n"
+#~ "The installation should be aborted. Do you wish to continue anyway?"
+#~ msgstr ""
+#~ "Turvallisuussisällön eheyden tarkistus epäonnistui.\n"
+#~ "Asennus on keskeytettävä. Haluatko jatkaa joka tapauksessa?"
