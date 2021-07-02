@@ -10,56 +10,58 @@
 # Jacek Smyda <smyda@posexperts.com.pl>, 1998
 # Leszek Matok <lam@lac.pl>, 2004
 # Pawel Szopinski <pawel@szopinski.co.uk>, 2004
-# Piotr Drąg <piotrdrag@gmail.com>, 2014, 2020.
+# Piotr Drąg <piotrdrag@gmail.com>, 2014, 2020, 2021.
 # Radosław Zawartko <radzaw@radzaw.one.pl>, 2004
 # sonyam <sonyam@tlen.pl>, 2004
 # Stanisław Małolepszy <smalolepszy@aviary.pl>, 2006
 # Tom Berner <tom@lodz.pl>, 2005
 # Tom Berner <tom@man.lodz.pl>, 2004
 # Wojciech Kapusta <wojciech@aviary.pl>, 2006
-# Piotr Drąg <piotrdrag@gmail.com>, 2015. #zanata, 2020.
-# Piotr Drąg <piotrdrag@gmail.com>, 2017. #zanata, 2020.
-# Piotr Drąg <piotrdrag@gmail.com>, 2018. #zanata, 2020.
-# Piotr Drąg <piotrdrag@gmail.com>, 2020. #zanata
+# Piotr Drąg <piotrdrag@gmail.com>, 2015. #zanata, 2020, 2021.
+# Piotr Drąg <piotrdrag@gmail.com>, 2017. #zanata, 2020, 2021.
+# Piotr Drąg <piotrdrag@gmail.com>, 2018. #zanata, 2020, 2021.
+# Piotr Drąg <piotrdrag@gmail.com>, 2020. #zanata, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2020-09-07 11:29+0000\n"
+"PO-Revision-Date: 2021-06-24 14:51+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/oscap-"
-"anaconda-addon/rhel8-branch/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel8-branch/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.7\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
 msgid "Error extracting archive as a zipfile: {exc}"
-msgstr ""
+msgstr "Błąd podczas rozpakowywania archiwum jako pliku ZIP: {exc}"
 
 #: ../org_fedora_oscap/content_discovery.py:167
-#, fuzzy, python-brace-format
-#| msgid "The integrity check of the content failed. Cannot use the content."
+#, python-brace-format
 msgid ""
 "Integrity check of the content failed - {hash_obj.name} hash didn't match"
 msgstr ""
-"Sprawdzenie integralności treści się nie powiodło. Nie można użyć treści."
+"Sprawdzenie integralności treści się nie powiodło — suma {hash_obj.name} się "
+"nie zgadza"
 
 #: ../org_fedora_oscap/data_fetch.py:117
 msgid "Network connection needed to fetch data."
-msgstr ""
+msgstr "Do pobrania danych wymagane jest połączenie sieciowe."
 
 #: ../org_fedora_oscap/data_fetch.py:262
 #, python-brace-format
 msgid ""
 "Failed to fetch data - the request returned HTTP error code {return_code}"
 msgstr ""
+"Pobranie danych się nie powiodło — żądanie zwróciło kod błędu HTTP "
+"{return_code}"
 
 #: ../org_fedora_oscap/rule_handling.py:434
 #, python-brace-format
@@ -171,35 +173,28 @@ msgstr "dodano usługę „%s” do listy usług do usunięcia z zapory sieciow
 
 #: ../org_fedora_oscap/ks/oscap.py:376
 msgid "The installation should be aborted."
-msgstr ""
+msgstr "Instalacja powinna zostać przerwana."
 
 #: ../org_fedora_oscap/ks/oscap.py:377
 msgid "Do you wish to continue anyway?"
-msgstr ""
+msgstr "Kontynuować mimo to?"
 
 #: ../org_fedora_oscap/ks/oscap.py:400
-#, fuzzy
-#| msgid "The integrity check of the content failed. Cannot use the content."
 msgid "The integrity check of the security content failed."
-msgstr ""
-"Sprawdzenie integralności treści się nie powiodło. Nie można użyć treści."
+msgstr "Sprawdzenie integralności treści bezpieczeństwa się nie powiodło."
 
 #: ../org_fedora_oscap/ks/oscap.py:404
-#, fuzzy
-#| msgid "Error fetching and loading content"
 msgid "There was an error fetching and loading the security content:\n"
-msgstr "Błąd podczas pobierania i wczytywania treści"
+msgstr "Wystąpił błąd podczas pobierania i wczytywania treści bezpieczeństwa:\n"
 
 #: ../org_fedora_oscap/ks/oscap.py:409
 #: ../org_fedora_oscap/gui/spokes/oscap.py:774
 msgid "There was an unexpected problem with the supplied content."
-msgstr ""
+msgstr "Wystąpił nieoczekiwany problem z dostarczoną treścią."
 
 #: ../org_fedora_oscap/ks/oscap.py:462
-#, fuzzy
-#| msgid "Misconfiguration detected"
 msgid "Wrong configuration detected!"
-msgstr "Wykryto błędną konfigurację"
+msgstr "Wykryto błędną konfigurację."
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
