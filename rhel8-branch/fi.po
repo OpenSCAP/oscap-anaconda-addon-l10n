@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2021.
 # Robin Lahtinen <robin.lahtinen@gmail.com>, 2021.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2021-06-29 21:04+0000\n"
-"Last-Translator: Robin Lahtinen <robin.lahtinen@gmail.com>\n"
+"PO-Revision-Date: 2021-07-02 12:16+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel8-branch/fi/>\n"
 "Language: fi\n"
@@ -17,19 +18,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
 msgid "Error extracting archive as a zipfile: {exc}"
-msgstr ""
+msgstr "Virhe purettaessa arkistoa zip-tiedostona: {exc}"
 
 #: ../org_fedora_oscap/content_discovery.py:167
-#, fuzzy, python-brace-format
-#| msgid "The integrity check of the content failed. Cannot use the content."
+#, python-brace-format
 msgid ""
 "Integrity check of the content failed - {hash_obj.name} hash didn't match"
-msgstr "Sisällön eheyden tarkistus epäonnistui. Sisältöä ei voi käyttää."
+msgstr ""
+"Sisällön eheyden tarkistus epäonnistui. - {hash_obj.name} tarkiste ei ollut "
+"oikein"
 
 #: ../org_fedora_oscap/data_fetch.py:117
 msgid "Network connection needed to fetch data."
@@ -40,6 +42,8 @@ msgstr "Verkkoyhteys tarvitaan tiedonhakua varten."
 msgid ""
 "Failed to fetch data - the request returned HTTP error code {return_code}"
 msgstr ""
+"Tietojen noutaminen epäonnistui - pyyntö palautti HTTP-virhekoodin "
+"{return_code}"
 
 #: ../org_fedora_oscap/rule_handling.py:434
 #, python-brace-format
@@ -151,34 +155,28 @@ msgstr ""
 
 #: ../org_fedora_oscap/ks/oscap.py:376
 msgid "The installation should be aborted."
-msgstr ""
+msgstr "Asennus pitäisi keskeyttää."
 
 #: ../org_fedora_oscap/ks/oscap.py:377
 msgid "Do you wish to continue anyway?"
-msgstr ""
+msgstr "Haluatko silti jatkaa?"
 
 #: ../org_fedora_oscap/ks/oscap.py:400
-#, fuzzy
-#| msgid "The integrity check of the content failed. Cannot use the content."
 msgid "The integrity check of the security content failed."
-msgstr "Sisällön eheyden tarkistus epäonnistui. Sisältöä ei voi käyttää."
+msgstr "Sisällön tietoturvasisällön eheyden tarkistus epäonnistui."
 
 #: ../org_fedora_oscap/ks/oscap.py:404
-#, fuzzy
-#| msgid "Error fetching and loading content"
 msgid "There was an error fetching and loading the security content:\n"
-msgstr "Virhe sisällön noutamisessa ja lataamisessa"
+msgstr "Sattui virhe tietoturvasisällön noutamisessa ja lataamisessa:\n"
 
 #: ../org_fedora_oscap/ks/oscap.py:409
 #: ../org_fedora_oscap/gui/spokes/oscap.py:774
 msgid "There was an unexpected problem with the supplied content."
-msgstr ""
+msgstr "Toimitetun sisällön kohdalla oli odottamaton ongelma."
 
 #: ../org_fedora_oscap/ks/oscap.py:462
-#, fuzzy
-#| msgid "Misconfiguration detected"
 msgid "Wrong configuration detected!"
-msgstr "Virheellinen määritys havaittu"
+msgstr "Virheellinen määritys havaittu!"
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
