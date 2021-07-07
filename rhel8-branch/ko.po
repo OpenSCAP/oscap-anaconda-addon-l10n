@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2021-06-25 11:04+0000\n"
+"PO-Revision-Date: 2021-07-06 15:04+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel8-branch/ko/>\n"
@@ -15,28 +15,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
 msgid "Error extracting archive as a zipfile: {exc}"
-msgstr "zipfile로 압축해제하는 중에 오류가 발생하였습니다: {exc}"
+msgstr "zipfile로 압축 해제 중 오류가 발생하였습니다: {exc}"
 
 #: ../org_fedora_oscap/content_discovery.py:167
 #, python-brace-format
 msgid ""
 "Integrity check of the content failed - {hash_obj.name} hash didn't match"
-msgstr "내용의 무결성 검사가 실패했습니다 - {hash_obj.name} 해쉬가 일치하지 않습니다"
+msgstr "내용 무결성 검사에 실패 - {hash_obj.name} 해쉬가 일치하지 않습니다"
 
 #: ../org_fedora_oscap/data_fetch.py:117
 msgid "Network connection needed to fetch data."
-msgstr "네트워크 연결은 자료를 가져오는데 필요합니다."
+msgstr "자료를 가져올 때에 네트워크 연결이 필요합니다."
 
 #: ../org_fedora_oscap/data_fetch.py:262
 #, python-brace-format
 msgid ""
 "Failed to fetch data - the request returned HTTP error code {return_code}"
-msgstr "자료를 가져오는데 실패하였습니다 - 반환된 HTTP 오류 코드 {return_code} 요청"
+msgstr "자료 가져오기에 실패 - 요청은 HTTP 오류 코드 {return_code}를 반환했습니다"
 
 #: ../org_fedora_oscap/rule_handling.py:434
 #, python-brace-format
@@ -144,7 +144,7 @@ msgstr "서비스 '%s'가 방화벽에서 제거할 서비스 목록에 추가�
 
 #: ../org_fedora_oscap/ks/oscap.py:376
 msgid "The installation should be aborted."
-msgstr "설치는 중지되어야 합니다."
+msgstr "설치가 중지되었습니다."
 
 #: ../org_fedora_oscap/ks/oscap.py:377
 msgid "Do you wish to continue anyway?"
@@ -152,11 +152,11 @@ msgstr "계속 진행 할까요?"
 
 #: ../org_fedora_oscap/ks/oscap.py:400
 msgid "The integrity check of the security content failed."
-msgstr "보안내용의 무결성 검사가 실패했습니다."
+msgstr "보안 내용의 무결성 검사가 실패했습니다."
 
 #: ../org_fedora_oscap/ks/oscap.py:404
 msgid "There was an error fetching and loading the security content:\n"
-msgstr "가져오기 중과 보안 내용 적재중에 다음과 같은 오류가 발생하였습니다:\n"
+msgstr "가져오기와 보안 내용 적재 중에 오류가 발생하였습니다:\n"
 
 #: ../org_fedora_oscap/ks/oscap.py:409
 #: ../org_fedora_oscap/gui/spokes/oscap.py:774
