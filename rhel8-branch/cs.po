@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2021-06-25 11:04+0000\n"
+"PO-Revision-Date: 2021-07-13 13:04+0000\n"
 "Last-Translator: Matěj Týč <matyc@redhat.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel8-branch/cs/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
@@ -154,34 +154,28 @@ msgstr "služba '%s' byla přidána na seznam služeb k odebrání z firewallu"
 
 #: ../org_fedora_oscap/ks/oscap.py:376
 msgid "The installation should be aborted."
-msgstr ""
+msgstr "Instalaci byste měli ukončit."
 
 #: ../org_fedora_oscap/ks/oscap.py:377
 msgid "Do you wish to continue anyway?"
-msgstr ""
+msgstr "Přejete si přesto pokračovat?"
 
 #: ../org_fedora_oscap/ks/oscap.py:400
-#, fuzzy
-#| msgid "The integrity check of the content failed. Cannot use the content."
 msgid "The integrity check of the security content failed."
-msgstr "Test integrity dat neprošel. Nelze použít tato data."
+msgstr "Test integrity dat neprošel."
 
 #: ../org_fedora_oscap/ks/oscap.py:404
-#, fuzzy
-#| msgid "Error fetching and loading content"
 msgid "There was an error fetching and loading the security content:\n"
-msgstr "Chyba při získávání a načítání dat"
+msgstr "Chyba při získávání a načítání dat:\n"
 
 #: ../org_fedora_oscap/ks/oscap.py:409
 #: ../org_fedora_oscap/gui/spokes/oscap.py:774
 msgid "There was an unexpected problem with the supplied content."
-msgstr ""
+msgstr "Došlo k nečekanému problému s daty."
 
 #: ../org_fedora_oscap/ks/oscap.py:462
-#, fuzzy
-#| msgid "Misconfiguration detected"
 msgid "Wrong configuration detected!"
-msgstr "Detekována nesprávná konfigurace"
+msgstr "Detekována nesprávná konfigurace!"
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
