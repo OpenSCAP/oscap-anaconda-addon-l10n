@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2021-07-02 15:11+0000\n"
+"PO-Revision-Date: 2021-07-13 13:04+0000\n"
 "Last-Translator: Matěj Týč <matyc@redhat.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel9-branch/cs/>\n"
@@ -27,24 +27,24 @@ msgstr ""
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
 msgid "Error extracting archive as a zipfile: {exc}"
-msgstr ""
+msgstr "Nelze rozbalit archiv jako soubor zip: {exc}"
 
 #: ../org_fedora_oscap/content_discovery.py:167
-#, fuzzy, python-brace-format
-#| msgid "The integrity check of the content failed. Cannot use the content."
+#, python-brace-format
 msgid ""
 "Integrity check of the content failed - {hash_obj.name} hash didn't match"
-msgstr "Test integrity dat neprošel. Nelze použít tato data."
+msgstr ""
+"Test integrity dat neprošel - nesouhlasí kontrolní součet {hash_obj.name}"
 
 #: ../org_fedora_oscap/data_fetch.py:117
 msgid "Network connection needed to fetch data."
-msgstr ""
+msgstr "Ke stažení dat je třeba být připojen k síti."
 
 #: ../org_fedora_oscap/data_fetch.py:262
 #, python-brace-format
 msgid ""
 "Failed to fetch data - the request returned HTTP error code {return_code}"
-msgstr ""
+msgstr "Nezdařilo se stažení dat - HTTP požadavek skončil chybou {return_code}"
 
 #: ../org_fedora_oscap/rule_handling.py:434
 #, python-brace-format
@@ -154,34 +154,28 @@ msgstr "služba '%s' byla přidána na seznam služeb k odebrání z firewallu"
 
 #: ../org_fedora_oscap/ks/oscap.py:376
 msgid "The installation should be aborted."
-msgstr ""
+msgstr "Instalaci byste měli ukončit."
 
 #: ../org_fedora_oscap/ks/oscap.py:377
 msgid "Do you wish to continue anyway?"
-msgstr ""
+msgstr "Přejete si přesto pokračovat?"
 
 #: ../org_fedora_oscap/ks/oscap.py:400
-#, fuzzy
-#| msgid "The integrity check of the content failed. Cannot use the content."
 msgid "The integrity check of the security content failed."
-msgstr "Test integrity dat neprošel. Nelze použít tato data."
+msgstr "Test integrity dat neprošel."
 
 #: ../org_fedora_oscap/ks/oscap.py:404
-#, fuzzy
-#| msgid "Error fetching and loading content"
 msgid "There was an error fetching and loading the security content:\n"
-msgstr "Chyba při získávání a načítání dat"
+msgstr "Chyba při získávání a načítání dat:\n"
 
 #: ../org_fedora_oscap/ks/oscap.py:409
 #: ../org_fedora_oscap/gui/spokes/oscap.py:774
 msgid "There was an unexpected problem with the supplied content."
-msgstr ""
+msgstr "Došlo k nečekanému problému s daty."
 
 #: ../org_fedora_oscap/ks/oscap.py:462
-#, fuzzy
-#| msgid "Misconfiguration detected"
 msgid "Wrong configuration detected!"
-msgstr "Detekována nesprávná konfigurace"
+msgstr "Detekována nesprávná konfigurace!"
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201

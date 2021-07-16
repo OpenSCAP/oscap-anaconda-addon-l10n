@@ -1,18 +1,19 @@
-# Ludek Janda <ljanda@redhat.com>, 2019. #zanata
+# Ludek Janda <ljanda@redhat.com>, 2019. #zanata, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2019-08-30 10:55-0400\n"
+"PO-Revision-Date: 2021-07-13 13:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
-"Language-Team: German\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel8-branch/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
@@ -192,7 +193,7 @@ msgstr "Fehlkonfiguration erkannt"
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
 msgid "_Security Policy"
-msgstr "_Sicherheitspolitik"
+msgstr "_Sicherheitsrichtlinie"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:229
@@ -304,7 +305,7 @@ msgstr "Inhalt wird abgerufen ..."
 
 #: tmp/oscap.glade.h:1
 msgid "SECURITY POLICY"
-msgstr "SICHERHEITSPOLITIK"
+msgstr "SICHERHEITSRICHTLINIE"
 
 #: tmp/oscap.glade.h:2
 msgid "_Change content"
