@@ -8,38 +8,37 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2021-04-07 16:02+0000\n"
-"Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Japanese <https://translate.fedoraproject.org/projects/oscap-"
-"anaconda-addon/rhel8-branch/ja/>\n"
+"PO-Revision-Date: 2021-08-20 09:04+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel9-branch/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
 msgid "Error extracting archive as a zipfile: {exc}"
-msgstr ""
+msgstr "アーカイブを zip ファイルとして抽出する際にエラーが発生しました: {exc}"
 
 #: ../org_fedora_oscap/content_discovery.py:167
-#, fuzzy, python-brace-format
-#| msgid "The integrity check of the content failed. Cannot use the content."
+#, python-brace-format
 msgid ""
 "Integrity check of the content failed - {hash_obj.name} hash didn't match"
-msgstr "コンテンツの整合性チェックに失敗しました。コンテンツを使用できません。"
+msgstr "コンテンツの整合性チェックに失敗しました。{hash_obj.name} ハッシュが一致しませんでした"
 
 #: ../org_fedora_oscap/data_fetch.py:117
 msgid "Network connection needed to fetch data."
-msgstr ""
+msgstr "データの取得に必要なネットワーク接続。"
 
 #: ../org_fedora_oscap/data_fetch.py:262
 #, python-brace-format
 msgid ""
 "Failed to fetch data - the request returned HTTP error code {return_code}"
-msgstr ""
+msgstr "データの取得に失敗しました。返された HTTP エラーコード {return_code}"
 
 #: ../org_fedora_oscap/rule_handling.py:434
 #, python-brace-format
@@ -152,39 +151,33 @@ msgstr ""
 
 #: ../org_fedora_oscap/ks/oscap.py:376
 msgid "The installation should be aborted."
-msgstr ""
+msgstr "インストールを中止する必要があります。"
 
 #: ../org_fedora_oscap/ks/oscap.py:377
 msgid "Do you wish to continue anyway?"
-msgstr ""
+msgstr "それでも続行しますか?"
 
 #: ../org_fedora_oscap/ks/oscap.py:400
-#, fuzzy
-#| msgid "The integrity check of the content failed. Cannot use the content."
 msgid "The integrity check of the security content failed."
-msgstr "コンテンツの整合性チェックに失敗しました。コンテンツを使用できません。"
+msgstr "セキュリティーコンテンツの整合性チェックに失敗しました。"
 
 #: ../org_fedora_oscap/ks/oscap.py:404
-#, fuzzy
-#| msgid "Error fetching and loading content"
 msgid "There was an error fetching and loading the security content:\n"
-msgstr "コンテンツの取得およびロードのエラー"
+msgstr "セキュリティーコンテンツの取得およびロード時にエラーが発生しました:\n"
 
 #: ../org_fedora_oscap/ks/oscap.py:409
 #: ../org_fedora_oscap/gui/spokes/oscap.py:774
 msgid "There was an unexpected problem with the supplied content."
-msgstr ""
+msgstr "指定のコンテンツで予期しない問題が発生しました。"
 
 #: ../org_fedora_oscap/ks/oscap.py:462
-#, fuzzy
-#| msgid "Misconfiguration detected"
 msgid "Wrong configuration detected!"
-msgstr "設定ミスが検出されました"
+msgstr "設定が正しく検出されました！"
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
 msgid "_Security Policy"
-msgstr "セキュリティーポリシ"
+msgstr "セキュリティーポリシー(_S)"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:229
@@ -240,9 +233,7 @@ msgstr "コンテンツ (%s) の抽出に失敗しました。別の URL を入�
 msgid ""
 "Profile with ID '%s' not defined in the content. Select a different profile, "
 "please"
-msgstr ""
-"コンテンツで ID が '%s' のプロファイルが定義されていません。別のプロファイル"
-"を選択してください"
+msgstr "コンテンツで ID が '%s' のプロファイルが定義されていません。別のプロファイルを選択してください"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:856
 msgid "Not applying security policy"
@@ -252,16 +243,12 @@ msgstr "セキュリティーポリシーを適用しない"
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:887
 msgid " or enter data stream content or archive URL below:"
-msgstr ""
-" または、以下にデータストリームコンテンツもしくはアーカイブの URL を入力しま"
-"す:"
+msgstr " または、以下にデータストリームコンテンツもしくはアーカイブの URL を入力します:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:891 tmp/oscap.glade.h:12
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
-msgstr ""
-"コンテンツが見つかりませんでした。以下にデータストリームコンテンツもしくは"
-"アーカイブの URL を入力してください:"
+msgstr "コンテンツが見つかりませんでした。以下にデータストリームコンテンツもしくはアーカイブの URL を入力してください:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1029
 msgid "Error fetching and loading content"
