@@ -1,20 +1,21 @@
-# Ludek Janda <ljanda@redhat.com>, 2017. #zanata
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata
-# Ludek Janda <ljanda@redhat.com>, 2020. #zanata
+# Ludek Janda <ljanda@redhat.com>, 2017. #zanata, 2021.
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
+# Ludek Janda <ljanda@redhat.com>, 2020. #zanata, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-04 14:37+0200\n"
-"PO-Revision-Date: 2020-03-10 01:42-0400\n"
+"PO-Revision-Date: 2021-08-20 09:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
-"Language-Team: Japanese\n"
+"Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel7-branch/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: ../org_fedora_oscap/rule_handling.py:392
 #, python-brace-format
@@ -37,7 +38,7 @@ msgstr "マウントオプション '%(mount_option)s' が、マウントポイ�
 #: ../org_fedora_oscap/rule_handling.py:502
 #, python-format
 msgid "make sure to create password with minimal length of %d characters"
-msgstr "%d 文字以上のパスワードを作成してください。"
+msgstr "%d 文字以上のパスワードを作成してください"
 
 #: ../org_fedora_oscap/rule_handling.py:509
 msgid "cannot check root password length (password is crypted)"
@@ -49,7 +50,7 @@ msgstr "root パスワードの長さを確認できません (パスワード�
 msgid ""
 "root password is too short, a longer one with at least %d characters is "
 "required"
-msgstr "root のパスワードが短すぎます。%d 文字以上にする必要があります。"
+msgstr "root のパスワードが短すぎます。%d 文字以上にする必要があります"
 
 #: ../org_fedora_oscap/rule_handling.py:617
 #: ../org_fedora_oscap/rule_handling.py:632
@@ -183,7 +184,7 @@ msgstr "コンテンツ (%s) の抽出に失敗しました。別の URL を入�
 msgid ""
 "Profile with ID '%s' not defined in the content. Select a different profile,"
 " please"
-msgstr "コンテンツで ID が '%s' のプロファイルが定義されていません。別のプロファイルを選択してください。"
+msgstr "コンテンツで ID が '%s' のプロファイルが定義されていません。別のプロファイルを選択してください"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:830
 msgid "Not applying security policy"
@@ -193,12 +194,12 @@ msgstr "セキュリティーポリシーを適用しない"
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:861
 msgid " or enter data stream content or archive URL below:"
-msgstr "または、以下にデータストリームコンテンツもしくはアーカイブの URL を入力します。"
+msgstr " または、以下にデータストリームコンテンツもしくはアーカイブの URL を入力します:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:865
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
-msgstr "コンテンツが見つかりませんでした。以下にデータストリームコンテンツもしくはアーカイブの URL を入力してください。"
+msgstr "コンテンツが見つかりませんでした。以下にデータストリームコンテンツもしくはアーカイブの URL を入力してください:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1003
 msgid "Error fetching and loading content"
@@ -266,7 +267,7 @@ msgstr "プロファイルを選択(_S)"
 
 #: tmp/oscap.glade.h:10
 msgid "Changes that were done or need to be done:"
-msgstr "完了済みの変更または必要な変更"
+msgstr "完了済みの変更または必要な変更:"
 
 #: tmp/oscap.glade.h:11
 msgid "_Use SCAP Security Guide"

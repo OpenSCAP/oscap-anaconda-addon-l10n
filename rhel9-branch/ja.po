@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
 "PO-Revision-Date: 2021-08-19 09:05+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel9-branch/ja/>\n"
 "Language: ja\n"
@@ -233,9 +233,7 @@ msgstr "コンテンツ (%s) の抽出に失敗しました。別の URL を入�
 msgid ""
 "Profile with ID '%s' not defined in the content. Select a different profile, "
 "please"
-msgstr ""
-"コンテンツで ID が '%s' のプロファイルが定義されていません。別のプロファイル"
-"を選択してください"
+msgstr "コンテンツで ID が '%s' のプロファイルが定義されていません。別のプロファイルを選択してください"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:856
 msgid "Not applying security policy"
@@ -245,16 +243,12 @@ msgstr "セキュリティーポリシーを適用しない"
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:887
 msgid " or enter data stream content or archive URL below:"
-msgstr ""
-" または、以下にデータストリームコンテンツもしくはアーカイブの URL を入力しま"
-"す:"
+msgstr " または、以下にデータストリームコンテンツもしくはアーカイブの URL を入力します:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:891 tmp/oscap.glade.h:12
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
-msgstr ""
-"コンテンツが見つかりませんでした。以下にデータストリームコンテンツもしくは"
-"アーカイブの URL を入力してください:"
+msgstr "コンテンツが見つかりませんでした。以下にデータストリームコンテンツもしくはアーカイブの URL を入力してください:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1029
 msgid "Error fetching and loading content"
