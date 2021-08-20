@@ -8,45 +8,47 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2019. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2020. #zanata
+# Sundeep Anand <suanand@redhat.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2020-06-26 04:26-0400\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/oscap-anaconda-"
-"addon/language/fr/)\n"
+"PO-Revision-Date: 2021-08-20 09:04+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel8-branch/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
 msgid "Error extracting archive as a zipfile: {exc}"
-msgstr ""
+msgstr "Erreur d'extraction de l'archive en tant que fichier zip : {exc}"
 
 #: ../org_fedora_oscap/content_discovery.py:167
-#, fuzzy, python-brace-format
-#| msgid "The integrity check of the content failed. Cannot use the content."
+#, python-brace-format
 msgid ""
 "Integrity check of the content failed - {hash_obj.name} hash didn't match"
 msgstr ""
-"Le contrôle d'intégrité du contenu a échoué. Impossible d'utiliser le "
-"contenu."
+"Le contrôle d'intégrité du contenu a échoué - le hachage de {hash_obj.name} "
+"ne correspond pas"
 
 #: ../org_fedora_oscap/data_fetch.py:117
 msgid "Network connection needed to fetch data."
-msgstr ""
+msgstr "Connexion réseau nécessaire pour récupérer les données."
 
 #: ../org_fedora_oscap/data_fetch.py:262
 #, python-brace-format
 msgid ""
 "Failed to fetch data - the request returned HTTP error code {return_code}"
 msgstr ""
+"Impossible de récupérer les données - la demande a renvoyé un code d'erreur "
+"HTTP {return_code}"
 
 #: ../org_fedora_oscap/rule_handling.py:434
 #, python-brace-format
@@ -165,36 +167,30 @@ msgstr ""
 
 #: ../org_fedora_oscap/ks/oscap.py:376
 msgid "The installation should be aborted."
-msgstr ""
+msgstr "L'installation doit être interrompue."
 
 #: ../org_fedora_oscap/ks/oscap.py:377
 msgid "Do you wish to continue anyway?"
-msgstr ""
+msgstr "Voulez-vous malgré tout continuer ?"
 
 #: ../org_fedora_oscap/ks/oscap.py:400
-#, fuzzy
-#| msgid "The integrity check of the content failed. Cannot use the content."
 msgid "The integrity check of the security content failed."
-msgstr ""
-"Le contrôle d'intégrité du contenu a échoué. Impossible d'utiliser le "
-"contenu."
+msgstr "La vérification de l'intégrité du contenu sécurité a échoué."
 
 #: ../org_fedora_oscap/ks/oscap.py:404
-#, fuzzy
-#| msgid "Error fetching and loading content"
 msgid "There was an error fetching and loading the security content:\n"
-msgstr "Erreur d'extraction et de chargement du contenu"
+msgstr ""
+"Une erreur s'est produite lors de la récupération et du chargement du "
+"contenu sécurité :\n"
 
 #: ../org_fedora_oscap/ks/oscap.py:409
 #: ../org_fedora_oscap/gui/spokes/oscap.py:774
 msgid "There was an unexpected problem with the supplied content."
-msgstr ""
+msgstr "Il y a eu un problème inattendu avec le contenu fourni."
 
 #: ../org_fedora_oscap/ks/oscap.py:462
-#, fuzzy
-#| msgid "Misconfiguration detected"
 msgid "Wrong configuration detected!"
-msgstr "Mauvaise configuration détectée"
+msgstr "Mauvaise configuration détectée !"
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
