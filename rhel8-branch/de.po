@@ -1,11 +1,12 @@
 # Ludek Janda <ljanda@redhat.com>, 2019. #zanata, 2021.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2021-07-13 13:04+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2021-12-28 22:16+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel8-branch/de/>\n"
 "Language: de\n"
@@ -13,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
@@ -31,7 +32,7 @@ msgstr ""
 
 #: ../org_fedora_oscap/data_fetch.py:117
 msgid "Network connection needed to fetch data."
-msgstr ""
+msgstr "Zum Abrufen der Daten ist eine Netzwerkverbindung erforderlich."
 
 #: ../org_fedora_oscap/data_fetch.py:262
 #, python-brace-format
