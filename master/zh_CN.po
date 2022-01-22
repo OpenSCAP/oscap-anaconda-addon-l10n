@@ -1,10 +1,10 @@
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 15:53+0200\n"
-"PO-Revision-Date: 2021-08-20 09:04+0000\n"
+"PO-Revision-Date: 2022-01-22 05:16+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/oscap-anaconda-addon/master/zh_CN/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: ../org_fedora_oscap/rule_handling.py:400
 #, python-brace-format
@@ -274,7 +274,7 @@ msgstr "使用 SCAP 安全指南(_U)"
 #: tmp/oscap.glade.h:12
 msgid ""
 "No content found. Please enter data stream content or archive URI below:"
-msgstr ""
+msgstr "未找到内容。请在下面输入数据流内容或存档URI："
 
 #: tmp/oscap.glade.h:13
 msgid "_Fetch"
