@@ -1,10 +1,10 @@
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-04 14:37+0200\n"
-"PO-Revision-Date: 2021-08-20 09:04+0000\n"
+"PO-Revision-Date: 2022-01-22 05:16+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/oscap-anaconda-addon/rhel7-branch/zh_CN/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: ../org_fedora_oscap/rule_handling.py:392
 #, python-brace-format
@@ -128,7 +128,7 @@ msgstr ""
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:172
 msgid "_SECURITY POLICY"
-msgstr "安全策略（_S）："
+msgstr "安全策略（_S）"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:197
