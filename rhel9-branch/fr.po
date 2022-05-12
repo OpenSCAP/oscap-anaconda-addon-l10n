@@ -13,16 +13,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 15:52+0200\n"
-"PO-Revision-Date: 2021-08-20 09:04+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/oscap-"
-"anaconda-addon/rhel9-branch/fr/>\n"
+"PO-Revision-Date: 2022-05-07 06:18+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel9-branch/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: ../org_fedora_oscap/common.py:358
 #, python-brace-format
@@ -190,19 +190,20 @@ msgstr "Mauvaise configuration détectée !"
 #: ../org_fedora_oscap/service/oscap.py:121
 msgid "You have used more than one oscap addon sections in the kickstart. "
 msgstr ""
+"Vous avez utilisé plus d’un add-on dans les sections oscap de kickstart "
 
 #: ../org_fedora_oscap/service/oscap.py:135
 #, python-brace-format
 msgid ""
 "You have configured the oscap addon using '{used_section_header}' section. "
 msgstr ""
+"Vous avez configuré l'add-on oscap en utilisant la section "
+"'{used_section_header}'. "
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
-#, fuzzy
-#| msgid "_Security Policy"
 msgid "_Security Profile"
-msgstr "_Politique de sécurité"
+msgstr "_Profil de sécurité"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:228
@@ -214,10 +215,8 @@ msgid "Fetching content data"
 msgstr "Récupération des données de contenu"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:431
-#, fuzzy
-#| msgid "Fetching content data"
 msgid "Fetch complete, analyzing data."
-msgstr "Récupération des données de contenu"
+msgstr "Récupérer des données complètes et analytiques."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:643
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1072
@@ -273,10 +272,8 @@ msgstr ""
 "un autre profil, s'il vous plaît"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:879
-#, fuzzy
-#| msgid "Not applying security policy"
 msgid "Not applying security profile"
-msgstr "N'applique pas la politique de sécurité"
+msgstr "N'applique pas le profil de sécurité"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
@@ -321,10 +318,8 @@ msgid "Fetching content..."
 msgstr "Récupération du contenu..."
 
 #: tmp/oscap.glade.h:1
-#, fuzzy
-#| msgid "SECURITY POLICY"
 msgid "SECURITY PROFILE"
-msgstr "POLITIQUE DE SÉCURITÉ"
+msgstr "PROFIL DE SÉCURITÉ"
 
 #: tmp/oscap.glade.h:2
 msgid "_Change content"
