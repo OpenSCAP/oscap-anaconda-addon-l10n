@@ -1,13 +1,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2020. #zanata
 # simmon <simmon@nplob.com>, 2021.
+# 김인수 <simmon@nplob.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2021-07-06 15:04+0000\n"
-"Last-Translator: simmon <simmon@nplob.com>\n"
+"PO-Revision-Date: 2022-05-12 12:06+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel8-branch/ko/>\n"
 "Language: ko\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
@@ -148,7 +149,7 @@ msgstr "설치가 중지되었습니다."
 
 #: ../org_fedora_oscap/ks/oscap.py:377
 msgid "Do you wish to continue anyway?"
-msgstr "계속 진행 할까요?"
+msgstr "계속 진행할까요?"
 
 #: ../org_fedora_oscap/ks/oscap.py:400
 msgid "The integrity check of the security content failed."
