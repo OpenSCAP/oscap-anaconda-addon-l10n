@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 15:52+0200\n"
-"PO-Revision-Date: 2021-08-20 09:04+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2022-05-07 06:18+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/oscap-anaconda-addon/rhel9-branch/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: ../org_fedora_oscap/common.py:358
 #, python-brace-format
@@ -163,20 +163,18 @@ msgstr "检测到配置错误！"
 
 #: ../org_fedora_oscap/service/oscap.py:121
 msgid "You have used more than one oscap addon sections in the kickstart. "
-msgstr ""
+msgstr "您已在 kickstart 中使用了多个 oscap 插件部分。 "
 
 #: ../org_fedora_oscap/service/oscap.py:135
 #, python-brace-format
 msgid ""
 "You have configured the oscap addon using '{used_section_header}' section. "
-msgstr ""
+msgstr "您已经使用'{used_section_header}'部分配置了 oscap 插件。 "
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
-#, fuzzy
-#| msgid "_Security Policy"
 msgid "_Security Profile"
-msgstr "安全策略（_S）"
+msgstr "安全配置文件(_S)"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:228
@@ -188,15 +186,13 @@ msgid "Fetching content data"
 msgstr "获取内容数据"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:431
-#, fuzzy
-#| msgid "Fetching content data"
 msgid "Fetch complete, analyzing data."
-msgstr "获取内容数据"
+msgstr "获取完成，分析数据。"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:643
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1072
 msgid "No profile selected"
-msgstr "没有选择 profile"
+msgstr "没有选择配置文件"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:648
 msgid "No rules for the pre-installation phase"
@@ -237,10 +233,8 @@ msgid ""
 msgstr "ID 为 '%s' 的档案没有在内容中定义。请选择一个不同的档案"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:879
-#, fuzzy
-#| msgid "Not applying security policy"
 msgid "Not applying security profile"
-msgstr "没有应用安全策略"
+msgstr "没有应用安全配置文件"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
@@ -282,14 +276,12 @@ msgid "Fetching content..."
 msgstr "获取内容..."
 
 #: tmp/oscap.glade.h:1
-#, fuzzy
-#| msgid "SECURITY POLICY"
 msgid "SECURITY PROFILE"
-msgstr "安全策略"
+msgstr "安全配置文件"
 
 #: tmp/oscap.glade.h:2
 msgid "_Change content"
-msgstr "修改内容(_C)"
+msgstr "改变内容(_C)"
 
 #: tmp/oscap.glade.h:3
 msgid "Apply security policy:"
@@ -317,7 +309,7 @@ msgstr "选择"
 
 #: tmp/oscap.glade.h:9
 msgid "_Select profile"
-msgstr "选择档案(_S)"
+msgstr "选择配置文件(_S)"
 
 #: tmp/oscap.glade.h:10
 msgid "Changes that were done or need to be done:"

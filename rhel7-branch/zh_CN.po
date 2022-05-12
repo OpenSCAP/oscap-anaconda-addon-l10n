@@ -1,11 +1,12 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021, 2022.
+# Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-04 14:37+0200\n"
-"PO-Revision-Date: 2022-01-22 05:16+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2022-05-07 06:18+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/oscap-anaconda-addon/rhel7-branch/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -13,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: ../org_fedora_oscap/rule_handling.py:392
 #, python-brace-format
@@ -142,7 +143,7 @@ msgstr "获取内容数据"
 #: ../org_fedora_oscap/gui/spokes/oscap.py:612
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1013
 msgid "No profile selected"
-msgstr "没有选择 profile"
+msgstr "没有选择配置文件"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:617
 msgid "No rules for the pre-installation phase"
@@ -231,7 +232,7 @@ msgstr "安全策略"
 
 #: tmp/oscap.glade.h:2
 msgid "_Change content"
-msgstr "修改内容(_C)"
+msgstr "改变内容(_C)"
 
 #: tmp/oscap.glade.h:3
 msgid "Apply security policy:"
@@ -259,7 +260,7 @@ msgstr "选择"
 
 #: tmp/oscap.glade.h:9
 msgid "_Select profile"
-msgstr "选择档案(_S)"
+msgstr "选择配置文件(_S)"
 
 #: tmp/oscap.glade.h:10
 msgid "Changes that were done or need to be done:"
