@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 15:52+0200\n"
-"PO-Revision-Date: 2022-05-04 14:10+0000\n"
+"PO-Revision-Date: 2022-05-14 13:18+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel9-branch/ko/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: ../org_fedora_oscap/common.py:358
 #, python-brace-format
@@ -88,8 +88,8 @@ msgid ""
 "can't be removed from the current software selection without breaking the "
 "installation."
 msgstr ""
-"꾸러미 '{package}'가 제외된 꾸러미 목록에 추가되었지만 설치를 중단하지 않고 "
-"현재 소프트웨어 선택에서 제거할 수 없습니다."
+"꾸러미 '{package}'가 제외된 꾸러미 목록에 추가되었지만, 설치를 중단하지 않고 "
+"현재 소프트웨어 선택에서 제거 할 수 없습니다."
 
 #: ../org_fedora_oscap/rule_handling.py:744
 #: ../org_fedora_oscap/rule_handling.py:759
