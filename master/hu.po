@@ -4,21 +4,22 @@
 #
 # Translators:
 # Zoltan Hoppár <zoltanh721@fedoraproject.org>, 2014
+# Hoppár Zoltán <hopparz@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 15:53+0200\n"
-"PO-Revision-Date: 2015-04-02 03:06-0400\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Hungarian (http://www.transifex.com/projects/p/oscap-anaconda-"
-"addon/language/hu/)\n"
+"PO-Revision-Date: 2022-09-25 07:19+0000\n"
+"Last-Translator: Hoppár Zoltán <hopparz@gmail.com>\n"
+"Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/master/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: ../org_fedora_oscap/rule_handling.py:400
 #, python-brace-format
@@ -27,6 +28,9 @@ msgid ""
 "in the partitioning layout before installation can occur with a security "
 "profile"
 msgstr ""
+"A {0} -nek külön partíción vagy logikai köteten kell lennie, és létre kell "
+"hoznia a particionálási elrendezésben, mielőtt a telepítés megtörténhet "
+"biztonsági profilon"
 
 #. template for the message
 #: ../org_fedora_oscap/rule_handling.py:411
@@ -54,6 +58,7 @@ msgid ""
 "root password is too short, a longer one with at least %d characters is "
 "required"
 msgstr ""
+"root jelszó túl rövid, de hosszabbnak kell lennie legalább %d karakterrel"
 
 #: ../org_fedora_oscap/rule_handling.py:637
 #: ../org_fedora_oscap/rule_handling.py:652
@@ -69,19 +74,19 @@ msgstr "'%s' csomag hozzáadásra került az eltávolítandó csomagok listájá
 
 #: ../org_fedora_oscap/rule_handling.py:777
 msgid "Kdump will be disabled on startup"
-msgstr ""
+msgstr "A Kdump indításkor le lesz tiltva"
 
 #: ../org_fedora_oscap/rule_handling.py:779
 msgid "Kdump will be enabled on startup"
-msgstr ""
+msgstr "A Kdump indításkor engedélyezve lesz"
 
 #: ../org_fedora_oscap/rule_handling.py:932
 msgid "Firewall will be disabled on startup"
-msgstr ""
+msgstr "A tűzfal indításkor le lesz tiltva"
 
 #: ../org_fedora_oscap/rule_handling.py:939
 msgid "Firewall will be enabled on startup"
-msgstr ""
+msgstr "A tűzfal engedélyezve lesz az indításkor"
 
 #: ../org_fedora_oscap/rule_handling.py:947
 #: ../org_fedora_oscap/rule_handling.py:986
@@ -90,13 +95,15 @@ msgid ""
 "service '%s' has been added to the list of services to be added to the "
 "firewall"
 msgstr ""
+"\"%s\" szolgáltatás lett hozzáadva a tűzfalhoz hozzáadandó szolgáltatások "
+"listájához"
 
 #: ../org_fedora_oscap/rule_handling.py:954
 #: ../org_fedora_oscap/rule_handling.py:999
 #, python-format
 msgid ""
 "port '%s' has been added to the list of ports to be added to the firewall"
-msgstr ""
+msgstr "\"%s\" port lett hozzáadva a tűzfalhoz hozzáadandó portok listájához"
 
 #: ../org_fedora_oscap/rule_handling.py:961
 #: ../org_fedora_oscap/rule_handling.py:1012
@@ -104,6 +111,8 @@ msgstr ""
 msgid ""
 "trust '%s' has been added to the list of trusts to be added to the firewall"
 msgstr ""
+"a \"%s\" szolgáltatás hozzá lett adva a tűzfalhoz hozzáadandó megbízhatók "
+"listájához"
 
 #: ../org_fedora_oscap/rule_handling.py:1024
 #: ../org_fedora_oscap/rule_handling.py:1039
@@ -112,6 +121,8 @@ msgid ""
 "service '%s' has been added to the list of services to be removed from the "
 "firewall"
 msgstr ""
+"szolgáltatás \"%s\" lett hozzáadva a tűzfalról eltávolítandó szolgáltatások "
+"listájához"
 
 #: ../org_fedora_oscap/ks/oscap.py:418
 #, python-format
@@ -120,12 +131,17 @@ msgid ""
 "%s\n"
 "The installation should be aborted. Do you wish to continue anyway?"
 msgstr ""
+"Hiba történt a biztonsági tartalom lekérése és betöltése során:\n"
+"%s\n"
+"A telepítést meg kell szakítani. Szeretné folytatni mégis?"
 
 #: ../org_fedora_oscap/ks/oscap.py:447
 msgid ""
 "The integrity check of the security content failed.\n"
 "The installation should be aborted. Do you wish to continue anyway?"
 msgstr ""
+"A biztonsági tartalom integritásának ellenőrzése sikertelen.\n"
+"A telepítést meg kell szakítani. Szeretné folytatni mégis?"
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:198
@@ -158,7 +174,7 @@ msgstr "Helytelen tartalom került megadásra. Kérem, adjon meg egy másik URL-
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:803
 msgid "Invalid or unsupported content URL, please enter a different one."
-msgstr ""
+msgstr "Érvénytelen vagy nem támogatott URL tartalom, kérjük, írjon be másikat."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:811
 msgid "Failed to fetch content. Enter a different URL, please."
@@ -169,10 +185,14 @@ msgid ""
 "Network error encountered when fetching data. Please check that network is "
 "setup and working."
 msgstr ""
+"Hálózati hiba történt az adatok lekérésekor. Ellenőrizze, hogy a hálózat "
+"beállítása és működése megfelelő."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:828
 msgid "The integrity check of the content failed. Cannot use the content."
 msgstr ""
+"Nem sikerült a tartalom integritásának ellenőrzése. A tartalom nem "
+"használható."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:836
 #, python-format
@@ -185,10 +205,12 @@ msgid ""
 "Profile with ID '%s' not defined in the content. Select a different profile, "
 "please"
 msgstr ""
+"A (z) \"%s\" azonosítójú profil nem szerepel a tartalomban. Kérem válasszon "
+"másik profilt"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:870
 msgid "Not applying security policy"
-msgstr ""
+msgstr "Nem alkalmazható a biztonsági házirend"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
@@ -205,7 +227,7 @@ msgstr ""
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1043
 msgid "Error fetching and loading content"
-msgstr ""
+msgstr "Hiba történt a tartalom lekérése és betöltése során"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1050
 msgid "No content found"
@@ -233,7 +255,7 @@ msgstr "Tartalom letöltése..."
 
 #: tmp/oscap.glade.h:1
 msgid "SECURITY POLICY"
-msgstr ""
+msgstr "BIZTONSÁGI HÁZIREND"
 
 #: tmp/oscap.glade.h:2
 msgid "_Change content"
@@ -279,6 +301,8 @@ msgstr "SCAP Biztonsági könyv előírásainak használata"
 msgid ""
 "No content found. Please enter data stream content or archive URI below:"
 msgstr ""
+"Tartalom nem található. Kérem adjon meg egy adathalmazt, vagy archív URL-t "
+"alább:"
 
 #: tmp/oscap.glade.h:13
 msgid "_Fetch"

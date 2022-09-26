@@ -7,21 +7,22 @@
 # Teknős Ferenc <teknos.ferenc@gmail.com>, 2018. #zanata
 # Teknős Ferenc <teknos.ferenc@gmail.com>, 2019. #zanata
 # Teknős Ferenc <teknos.ferenc@gmail.com>, 2020. #zanata
+# Hoppár Zoltán <hopparz@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2020-03-29 01:40-0400\n"
-"Last-Translator: Teknős Ferenc <teknos.ferenc@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/projects/p/oscap-anaconda-"
-"addon/language/hu/)\n"
+"PO-Revision-Date: 2022-09-25 07:19+0000\n"
+"Last-Translator: Hoppár Zoltán <hopparz@gmail.com>\n"
+"Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel8-branch/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
@@ -129,7 +130,7 @@ msgid ""
 "service '%s' has been added to the list of services to be added to the "
 "firewall"
 msgstr ""
-"szolgáltatás \"%s\" lett hozzáadva a tűzfalhoz hozzáadandó szolgáltatások "
+"\"%s\" szolgáltatás lett hozzáadva a tűzfalhoz hozzáadandó szolgáltatások "
 "listájához"
 
 #: ../org_fedora_oscap/rule_handling.py:1010
@@ -137,7 +138,7 @@ msgstr ""
 #, python-format
 msgid ""
 "port '%s' has been added to the list of ports to be added to the firewall"
-msgstr "port \"%s\" lett hozzáadva a tűzfalhoz hozzáadandó portok listájához"
+msgstr "\"%s\" port lett hozzáadva a tűzfalhoz hozzáadandó portok listájához"
 
 #: ../org_fedora_oscap/rule_handling.py:1017
 #: ../org_fedora_oscap/rule_handling.py:1068
@@ -220,8 +221,7 @@ msgstr "Helytelen tartalom került megadásra. Kérem, adjon meg egy másik URL-
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:790
 msgid "Invalid or unsupported content URL, please enter a different one."
-msgstr ""
-"Érvénytelen vagy nem támogatott tartalom URL, kérjük, írjon be másikat."
+msgstr "Érvénytelen vagy nem támogatott URL tartalom, kérjük, írjon be másikat."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:798
 msgid "Failed to fetch content. Enter a different URL, please."
