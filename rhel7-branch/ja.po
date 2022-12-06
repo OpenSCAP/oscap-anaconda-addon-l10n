@@ -1,12 +1,12 @@
-# Ludek Janda <ljanda@redhat.com>, 2017. #zanata, 2021.
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
-# Ludek Janda <ljanda@redhat.com>, 2020. #zanata, 2021.
+# Ludek Janda <ljanda@redhat.com>, 2017. #zanata, 2021, 2022.
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021, 2022.
+# Ludek Janda <ljanda@redhat.com>, 2020. #zanata, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-04 14:37+0200\n"
-"PO-Revision-Date: 2021-08-20 09:04+0000\n"
+"PO-Revision-Date: 2022-11-02 07:19+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel7-branch/ja/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: ../org_fedora_oscap/rule_handling.py:392
 #, python-brace-format
@@ -24,15 +24,17 @@ msgid ""
 "in the partitioning layout before installation can occur with a security "
 "profile"
 msgstr ""
-"{0} "
-"は、別のパーティションもしくは論理ボリューム上になければなりません。また、セキュリティープロファイルがインストールされる前にパーティションレイアウトに作成されなければなりません"
+"{0} は、別のパーティションもしくは論理ボリューム上になければなりません。また"
+"、セキュリティープロファイルがインストールされる前にパーティションレイアウト"
+"に作成されなければなりません"
 
 #. template for the message
 #: ../org_fedora_oscap/rule_handling.py:403
 #, python-format
 msgid ""
 "mount option '%(mount_option)s' added for the mount point %(mount_point)s"
-msgstr "マウントオプション '%(mount_option)s' が、マウントポイント %(mount_point)s に追加されました"
+msgstr "マウントオプション '%(mount_option)s' が、マウントポイント %(mount_point)s "
+"に追加されました"
 
 #. root password was not set
 #: ../org_fedora_oscap/rule_handling.py:502
@@ -158,7 +160,8 @@ msgstr "無効なコンテンツが入力されました。別の URL を入力�
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:763
 msgid "Invalid or unsupported content URL, please enter a different one."
-msgstr "コンテンツ URL が無効またはサポートされていません。別の URL を入力していません。"
+msgstr "コンテンツ URL が無効またはサポートされていません。別の URL "
+"を入力していません。"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:771
 msgid "Failed to fetch content. Enter a different URL, please."
@@ -168,7 +171,8 @@ msgstr "コンテンツの取得に失敗しました。別の URL を入力し�
 msgid ""
 "Network error encountered when fetching data. Please check that network is "
 "setup and working."
-msgstr "データの取得時にネットワークエラーが発生しました。ネットワークが設定されており、動作していることを確認してください。"
+msgstr "データの取得時にネットワークエラーが発生しました。ネットワークが設定されてお"
+"り、動作していることを確認してください。"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:788
 msgid "The integrity check of the content failed. Cannot use the content."
@@ -184,7 +188,8 @@ msgstr "コンテンツ (%s) の抽出に失敗しました。別の URL を入�
 msgid ""
 "Profile with ID '%s' not defined in the content. Select a different profile,"
 " please"
-msgstr "コンテンツで ID が '%s' のプロファイルが定義されていません。別のプロファイルを選択してください"
+msgstr "コンテンツで ID が '%s' "
+"のプロファイルが定義されていません。別のプロファイルを選択してください"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:830
 msgid "Not applying security policy"
@@ -194,12 +199,14 @@ msgstr "セキュリティーポリシーを適用しない"
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:861
 msgid " or enter data stream content or archive URL below:"
-msgstr " または、以下にデータストリームコンテンツもしくはアーカイブの URL を入力します:"
+msgstr " または、以下にデータストリームコンテンツもしくはアーカイブの URL "
+"を入力します:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:865
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
-msgstr "コンテンツが見つかりませんでした。以下にデータストリームコンテンツもしくはアーカイブの URL を入力してください:"
+msgstr "コンテンツが見つかりませんでした。"
+"以下にデータストリームコンテンツもしくはアーカイブの URL を入力してください:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1003
 msgid "Error fetching and loading content"

@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 15:52+0200\n"
-"PO-Revision-Date: 2022-05-07 06:18+0000\n"
-"Last-Translator: Transtats <suanand@redhat.com>\n"
+"PO-Revision-Date: 2022-11-02 07:19+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/oscap-anaconda-addon/rhel9-branch/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: ../org_fedora_oscap/common.py:358
 #, python-brace-format
@@ -297,7 +297,7 @@ msgstr "检查列表："
 
 #: tmp/oscap.glade.h:6
 msgid "Choose profile below:"
-msgstr "选择档案："
+msgstr "选择下面的配置文件："
 
 #: tmp/oscap.glade.h:7
 msgid "Profile"
