@@ -4,16 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 15:52+0200\n"
-"PO-Revision-Date: 2021-12-28 22:16+0000\n"
+"PO-Revision-Date: 2022-12-06 09:19+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/oscap-"
-"anaconda-addon/rhel9-branch/de/>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel9-branch/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: ../org_fedora_oscap/common.py:358
 #, python-brace-format
@@ -351,7 +351,6 @@ msgid "Profile"
 msgstr "Profil"
 
 #: tmp/oscap.glade.h:8
-#, fuzzy
 msgid "Selected"
 msgstr "Ausgewählt"
 
