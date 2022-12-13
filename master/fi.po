@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Ricky Tigg <ricky.tigg@gmail.com>, 2021.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 15:53+0200\n"
-"PO-Revision-Date: 2021-06-04 11:03+0000\n"
+"PO-Revision-Date: 2022-11-10 17:19+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/master/fi/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: ../org_fedora_oscap/rule_handling.py:400
 #, python-brace-format
@@ -34,7 +34,8 @@ msgstr ""
 #, python-format
 msgid ""
 "mount option '%(mount_option)s' added for the mount point %(mount_point)s"
-msgstr "Liitoskohta '%(mount_option)s' lisätty liitoskohtaan %(mount_point)s"
+msgstr ""
+"Liitosvaihtoehto '%(mount_option)s' lisätty liitospisteeseen %(mount_point)s"
 
 #. root password was not set
 #: ../org_fedora_oscap/rule_handling.py:520
