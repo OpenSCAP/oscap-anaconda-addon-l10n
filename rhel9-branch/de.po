@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 15:52+0200\n"
-"PO-Revision-Date: 2022-12-06 09:19+0000\n"
+"PO-Revision-Date: 2022-12-24 15:19+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel9-branch/de/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15\n"
 
 #: ../org_fedora_oscap/common.py:358
 #, python-brace-format
@@ -346,7 +346,6 @@ msgid "Choose profile below:"
 msgstr "Wählen Sie unten ein Profil:"
 
 #: tmp/oscap.glade.h:7
-#, fuzzy
 msgid "Profile"
 msgstr "Profil"
 
