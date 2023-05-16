@@ -8,13 +8,14 @@
 # Teknős Ferenc <teknos.ferenc@gmail.com>, 2019. #zanata
 # Teknős Ferenc <teknos.ferenc@gmail.com>, 2020. #zanata
 # Hoppár Zoltán <hopparz@gmail.com>, 2022.
+# Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2022-09-25 07:19+0000\n"
-"Last-Translator: Hoppár Zoltán <hopparz@gmail.com>\n"
+"PO-Revision-Date: 2023-05-12 16:20+0000\n"
+"Last-Translator: Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel8-branch/hu/>\n"
 "Language: hu\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
@@ -195,7 +196,7 @@ msgstr "Helytelen beállítások észlelve"
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
 msgid "_Security Policy"
-msgstr "_Biztonsági házirend"
+msgstr "_Biztonsági szabályzat"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:229
@@ -263,7 +264,7 @@ msgstr "Nem alkalmazható a biztonsági házirend"
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:887
 msgid " or enter data stream content or archive URL below:"
-msgstr "vagy adjon meg adathalmazt, vagy archiv URL-t alább:"
+msgstr " vagy adjon meg adathalmazt, vagy archiv URL-t alább:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:891 tmp/oscap.glade.h:12
 msgid ""
