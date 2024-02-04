@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-27 15:53+0200\n"
-"PO-Revision-Date: 2024-01-20 19:36+0000\n"
+"PO-Revision-Date: 2024-02-04 11:48+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/master/ka/>\n"
@@ -26,6 +26,8 @@ msgid ""
 "in the partitioning layout before installation can occur with a security "
 "profile"
 msgstr ""
+"{0} ცალკე დანაყოფზე ან ლოგიკურ ტომზე უნდა იყოს და დანაყოფებში მანამდე უნდა "
+"შეიქმნას, სანამ უსაფრთხოების პროფილით დაყენება განხორციელდება"
 
 #. template for the message
 #: ../org_fedora_oscap/rule_handling.py:411
@@ -40,7 +42,7 @@ msgstr ""
 #: ../org_fedora_oscap/rule_handling.py:520
 #, python-format
 msgid "make sure to create password with minimal length of %d characters"
-msgstr ""
+msgstr "დარწმუნდით, რომ შექმნათ პაროლი, რომელიც, მინიმუმ %d სიმბოლოს შეიცავს"
 
 #: ../org_fedora_oscap/rule_handling.py:527
 msgid "cannot check root password length (password is crypted)"
@@ -53,18 +55,20 @@ msgid ""
 "root password is too short, a longer one with at least %d characters is "
 "required"
 msgstr ""
+"root-ის პაროლი მეტისმეტად მოკლეა. საჭიროა უფრო გრძელი, სულ ცოტა %d სიმბოლოს "
+"შემცველი პაროლი"
 
 #: ../org_fedora_oscap/rule_handling.py:637
 #: ../org_fedora_oscap/rule_handling.py:652
 #, python-format
 msgid "package '%s' has been added to the list of to be installed packages"
-msgstr ""
+msgstr "პაკეტი '%s' დაემატა დასაყენებელი პაკეტების სიას"
 
 #: ../org_fedora_oscap/rule_handling.py:661
 #: ../org_fedora_oscap/rule_handling.py:676
 #, python-format
 msgid "package '%s' has been added to the list of excluded packages"
-msgstr ""
+msgstr "პაკეტი '%s' დაემატა ამოსაღები პაკეტების სიას"
 
 #: ../org_fedora_oscap/rule_handling.py:777
 msgid "Kdump will be disabled on startup"
@@ -88,21 +92,21 @@ msgstr "ბრანდმაუერი ჩატვირთვისას �
 msgid ""
 "service '%s' has been added to the list of services to be added to the "
 "firewall"
-msgstr ""
+msgstr "სერვისი '%s' დაემატა სერვისების სიას, რომელიც ბრანდმაუერში ჩაემატება"
 
 #: ../org_fedora_oscap/rule_handling.py:954
 #: ../org_fedora_oscap/rule_handling.py:999
 #, python-format
 msgid ""
 "port '%s' has been added to the list of ports to be added to the firewall"
-msgstr ""
+msgstr "პორტი '%s' დაემატა პორტების სიას, რომელიც ბრანდმაუერში ჩაემატება"
 
 #: ../org_fedora_oscap/rule_handling.py:961
 #: ../org_fedora_oscap/rule_handling.py:1012
 #, python-format
 msgid ""
 "trust '%s' has been added to the list of trusts to be added to the firewall"
-msgstr ""
+msgstr "ნდობა '%s' დაემატა ნდობების სიას, რომელიც ბრანდმაუერში ჩაემატება"
 
 #: ../org_fedora_oscap/rule_handling.py:1024
 #: ../org_fedora_oscap/rule_handling.py:1039
@@ -110,7 +114,7 @@ msgstr ""
 msgid ""
 "service '%s' has been added to the list of services to be removed from the "
 "firewall"
-msgstr ""
+msgstr "სერვისი '%s' დაემატა სერვისების სიას, რომელიც ბრანდმაუერიდან დაემატება"
 
 #: ../org_fedora_oscap/ks/oscap.py:418
 #, python-format
@@ -119,12 +123,17 @@ msgid ""
 "%s\n"
 "The installation should be aborted. Do you wish to continue anyway?"
 msgstr ""
+"უსაფრთხოების შემცველობის გამოთხოვისა და ჩატვირთვის შეცდომა:\n"
+"%s\n"
+"დაყენება გაუქმდება. გნებავთ, მაინც გააგრძელოთ?"
 
 #: ../org_fedora_oscap/ks/oscap.py:447
 msgid ""
 "The integrity check of the security content failed.\n"
 "The installation should be aborted. Do you wish to continue anyway?"
 msgstr ""
+"უსაფრთხოების შემცველობის მთლიანობის შემოწმება ჩავარდა.\n"
+"დაყენება ავარიულად დასრულდება. გნებავთ, მაინც გააგრძელოთ?"
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:198
@@ -147,7 +156,7 @@ msgstr "პროფილი არჩეული არაა"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:643
 msgid "No rules for the pre-installation phase"
-msgstr ""
+msgstr "დაყენებისწინა ფაზის წესების გარეშე"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:795
 msgid "Invalid content provided. Enter a different URL, please."
@@ -155,7 +164,7 @@ msgstr "მიწოდებული შემცველობა არა�
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:803
 msgid "Invalid or unsupported content URL, please enter a different one."
-msgstr ""
+msgstr "არასწორი ან მხარდაუჭერელი შემცველობის ბმული. შეიყვანეთ სხვა."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:811
 msgid "Failed to fetch content. Enter a different URL, please."
@@ -166,15 +175,17 @@ msgid ""
 "Network error encountered when fetching data. Please check that network is "
 "setup and working."
 msgstr ""
+"ქსელის შეცდომა მონაცემების გამოთხოვისას. შეამოწმეთ, რომ ქსელი მორგებულია და "
+"მუშაობს."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:828
 msgid "The integrity check of the content failed. Cannot use the content."
-msgstr ""
+msgstr "შემცველობის მთლიანობის შემოწმება ჩავარდა. შემცველობას ვერ გამოვიყენებ."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:836
 #, python-format
 msgid "Failed to extract content (%s). Enter a different URL, please."
-msgstr ""
+msgstr "შემცველობის (%s) გაშლა ჩავარდა. სხვა ბმული შეიყვანეთ, გეთაყვა."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:854
 #, python-format
@@ -182,6 +193,7 @@ msgid ""
 "Profile with ID '%s' not defined in the content. Select a different profile, "
 "please"
 msgstr ""
+"პროფილი ID-ით '%s' შემცველობაში აღწერილი არაა. სხვა პროფილი აირჩიეთ, გეთაყვა"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:870
 msgid "Not applying security policy"
@@ -191,12 +203,14 @@ msgstr "უსაფრთხოების პოლიტიკა გად�
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:901
 msgid " or enter data stream content or archive URL below:"
-msgstr ""
+msgstr " ან შეიყვანეთ მონაცემების ნაკადის შემცველობა ან არქივის ბმული ქვემოთ:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:905
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
 msgstr ""
+"შემცველობა ვერ ვიპოვე. შეიყვანეთ მონაცემების ნაკადის შემცველობა ან არქივის "
+"ბმული ქვემოთ:"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1043
 msgid "Error fetching and loading content"
@@ -264,7 +278,7 @@ msgstr "_აირჩიეთ პროფილი"
 
 #: tmp/oscap.glade.h:10
 msgid "Changes that were done or need to be done:"
-msgstr ""
+msgstr "ცვლილებები, რომლებიც მოხდა, ან საჭიროა, მოხდეს:"
 
 #: tmp/oscap.glade.h:11
 msgid "_Use SCAP Security Guide"
@@ -274,6 +288,8 @@ msgstr "SCAP-ის უსაფრთხოების სახელმძ�
 msgid ""
 "No content found. Please enter data stream content or archive URI below:"
 msgstr ""
+"შემცველობა ვერ ვიპოვე. შეიყვანეთ მონაცემების ნაკადის შემცველობა ან არქივის "
+"URI ქვემოთ:"
 
 #: tmp/oscap.glade.h:13
 msgid "_Fetch"
