@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 15:52+0200\n"
-"PO-Revision-Date: 2022-12-24 15:19+0000\n"
+"PO-Revision-Date: 2024-11-10 07:06+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel9-branch/de/>\n"
@@ -13,21 +13,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: ../org_fedora_oscap/common.py:358
 #, python-brace-format
 msgid "Error extracting archive as a zipfile: {exc}"
-msgstr ""
+msgstr "Fehler beim Extrahieren des Archivs als Zip-Datei: {exc}"
 
 #: ../org_fedora_oscap/content_discovery.py:189
-#, fuzzy, python-brace-format
-#| msgid "The integrity check of the content failed. Cannot use the content."
+#, python-brace-format
 msgid ""
 "Integrity check of the content failed - {hash_obj.name} hash didn't match"
 msgstr ""
-"Die Integritätsprüfung des Inhalts ist fehlgeschlagen. Der Inhalt kann nicht "
-"verwendet werden."
+"Integritätsprüfung des Inhalts fehlgeschlagen - {hash_obj.name} Hash stimmte "
+"nicht überein"
 
 #: ../org_fedora_oscap/data_fetch.py:117
 msgid "Network connection needed to fetch data."
@@ -38,6 +37,8 @@ msgstr "Zum Abrufen der Daten ist eine Netzwerkverbindung erforderlich."
 msgid ""
 "Failed to fetch data - the request returned HTTP error code {return_code}"
 msgstr ""
+"Daten konnten nicht abgerufen werden - die Anfrage hat den HTTP-Fehlercode "
+"{return_code} zurückgegeben"
 
 #: ../org_fedora_oscap/rule_handling.py:441
 #, python-brace-format
@@ -96,6 +97,9 @@ msgid ""
 "can't be removed from the current software selection without breaking the "
 "installation."
 msgstr ""
+"Paket '{package}' wurde der Liste der ausgeschlossenen Pakete hinzugefügt, "
+"kann aber nicht aus der aktuellen Softwareauswahl entfernt werden, ohne die "
+"Installation kaputtzumachen."
 
 #: ../org_fedora_oscap/rule_handling.py:744
 #: ../org_fedora_oscap/rule_handling.py:759
@@ -158,33 +162,26 @@ msgstr ""
 "entfernt werden sollen"
 
 #: ../org_fedora_oscap/service/installation.py:41
-#, fuzzy
-#| msgid "The integrity check of the content failed. Cannot use the content."
 msgid "The integrity check of the security content failed."
-msgstr ""
-"Die Integritätsprüfung des Inhalts ist fehlgeschlagen. Der Inhalt kann nicht "
-"verwendet werden."
+msgstr "Die Integritätsprüfung des Sicherheitsinhalts ist fehlgeschlagen."
 
 #: ../org_fedora_oscap/service/installation.py:46
-#, fuzzy
-#| msgid "Error fetching and loading content"
 msgid "There was an error fetching and loading the security content:\n"
-msgstr "Fehler beim Abrufen und Laden von Inhalten"
+msgstr ""
+"Beim Abrufen und Laden der Sicherheitsinhalte ist ein Fehler aufgetreten:\n"
 
 #: ../org_fedora_oscap/service/installation.py:51
 #: ../org_fedora_oscap/gui/spokes/oscap.py:793
 msgid "There was an unexpected problem with the supplied content."
-msgstr ""
+msgstr "Es gab ein unerwartetes Problem mit dem gelieferten Inhalt."
 
 #: ../org_fedora_oscap/service/installation.py:56
 msgid "The installation should be aborted."
-msgstr ""
+msgstr "Die Installation sollte abgebrochen werden."
 
 #: ../org_fedora_oscap/service/installation.py:148
-#, fuzzy
-#| msgid "Misconfiguration detected"
 msgid "Wrong configuration detected!"
-msgstr "Fehlkonfiguration erkannt"
+msgstr "Falsche Konfiguration erkannt!"
 
 #: ../org_fedora_oscap/service/oscap.py:121
 msgid "You have used more than one oscap addon sections in the kickstart. "
@@ -198,10 +195,8 @@ msgstr ""
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
-#, fuzzy
-#| msgid "_Security Policy"
 msgid "_Security Profile"
-msgstr "_Sicherheitsrichtlinie"
+msgstr "_Sicherheitsprofil"
 
 #. the first status provided
 #: ../org_fedora_oscap/gui/spokes/oscap.py:228
@@ -213,10 +208,8 @@ msgid "Fetching content data"
 msgstr "Inhaltsdaten abrufen"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:431
-#, fuzzy
-#| msgid "Fetching content data"
 msgid "Fetch complete, analyzing data."
-msgstr "Inhaltsdaten abrufen"
+msgstr "Vollständige, analysierende Daten abrufen."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:643
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1072
@@ -273,10 +266,8 @@ msgstr ""
 "Profil"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:879
-#, fuzzy
-#| msgid "Not applying security policy"
 msgid "Not applying security profile"
-msgstr "Keine Sicherheitsrichtlinie anwenden"
+msgstr "Kein Sicherheitsprofil anwenden"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
@@ -320,10 +311,8 @@ msgid "Fetching content..."
 msgstr "Inhalt wird abgerufen ..."
 
 #: tmp/oscap.glade.h:1
-#, fuzzy
-#| msgid "SECURITY POLICY"
 msgid "SECURITY PROFILE"
-msgstr "SICHERHEITSRICHTLINIE"
+msgstr "SICHERHEITSPROFIL"
 
 #: tmp/oscap.glade.h:2
 msgid "_Change content"
