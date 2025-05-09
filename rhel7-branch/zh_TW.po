@@ -1,18 +1,20 @@
 # Ludek Janda <ljanda@redhat.com>, 2019. #zanata
+# hsu zangmen <chzang55@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-04 14:37+0200\n"
-"PO-Revision-Date: 2019-01-15 11:43-0500\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2025-04-07 02:53+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
+"projects/oscap-anaconda-addon/rhel7-branch/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../org_fedora_oscap/rule_handling.py:392
 #, python-brace-format
@@ -111,13 +113,18 @@ msgid ""
 "There was an error fetching and loading the security content:\n"
 "%s\n"
 "The installation should be aborted. Do you wish to continue anyway?"
-msgstr "獲取和加載安全內容時出錯：%s安裝應該中止。你想繼續嗎？"
+msgstr ""
+"獲取和加載安全內容時出錯：\n"
+"%s\n"
+"安裝應該中止。你想繼續嗎？"
 
 #: ../org_fedora_oscap/ks/oscap.py:452
 msgid ""
 "The integrity check of the security content failed.\n"
 "The installation should be aborted. Do you wish to continue anyway?"
-msgstr "安全內容的完整性檢查失敗。安裝應該中止。你想繼續嗎？"
+msgstr ""
+"安全內容的完整性檢查失敗。\n"
+"安裝應該中止。你想繼續嗎？"
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:172

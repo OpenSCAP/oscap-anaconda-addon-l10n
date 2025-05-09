@@ -1,11 +1,11 @@
 # Ludek Janda <ljanda@redhat.com>, 2019. #zanata, 2021.
-# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2022-12-24 15:19+0000\n"
+"PO-Revision-Date: 2024-11-10 07:06+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel8-branch/de/>\n"
@@ -14,21 +14,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
 msgid "Error extracting archive as a zipfile: {exc}"
-msgstr ""
+msgstr "Fehler beim Extrahieren des Archivs als Zip-Datei: {exc}"
 
 #: ../org_fedora_oscap/content_discovery.py:167
-#, fuzzy, python-brace-format
-#| msgid "The integrity check of the content failed. Cannot use the content."
+#, python-brace-format
 msgid ""
 "Integrity check of the content failed - {hash_obj.name} hash didn't match"
 msgstr ""
-"Die Integritätsprüfung des Inhalts ist fehlgeschlagen. Der Inhalt kann nicht "
-"verwendet werden."
+"Integritätsprüfung des Inhalts fehlgeschlagen - {hash_obj.name} Hash stimmte "
+"nicht überein"
 
 #: ../org_fedora_oscap/data_fetch.py:117
 msgid "Network connection needed to fetch data."
@@ -39,6 +38,8 @@ msgstr "Zum Abrufen der Daten ist eine Netzwerkverbindung erforderlich."
 msgid ""
 "Failed to fetch data - the request returned HTTP error code {return_code}"
 msgstr ""
+"Daten konnten nicht abgerufen werden - die Anfrage hat den HTTP-Fehlercode "
+"{return_code} zurückgegeben"
 
 #: ../org_fedora_oscap/rule_handling.py:434
 #, python-brace-format
@@ -97,6 +98,9 @@ msgid ""
 "can't be removed from the current software selection without breaking the "
 "installation."
 msgstr ""
+"Paket '{package}' wurde der Liste der ausgeschlossenen Pakete hinzugefügt, "
+"kann aber nicht aus der aktuellen Softwareauswahl entfernt werden, ohne die "
+"Installation kaputtzumachen."
 
 #: ../org_fedora_oscap/rule_handling.py:717
 #: ../org_fedora_oscap/rule_handling.py:732
@@ -160,36 +164,29 @@ msgstr ""
 
 #: ../org_fedora_oscap/ks/oscap.py:376
 msgid "The installation should be aborted."
-msgstr ""
+msgstr "Die Installation sollte abgebrochen werden."
 
 #: ../org_fedora_oscap/ks/oscap.py:377
 msgid "Do you wish to continue anyway?"
-msgstr ""
+msgstr "Möchten Sie trotzdem fortfahren?"
 
 #: ../org_fedora_oscap/ks/oscap.py:400
-#, fuzzy
-#| msgid "The integrity check of the content failed. Cannot use the content."
 msgid "The integrity check of the security content failed."
-msgstr ""
-"Die Integritätsprüfung des Inhalts ist fehlgeschlagen. Der Inhalt kann nicht "
-"verwendet werden."
+msgstr "Die Integritätsprüfung des Sicherheitsinhalts ist fehlgeschlagen."
 
 #: ../org_fedora_oscap/ks/oscap.py:404
-#, fuzzy
-#| msgid "Error fetching and loading content"
 msgid "There was an error fetching and loading the security content:\n"
-msgstr "Fehler beim Abrufen und Laden von Inhalten"
+msgstr ""
+"Beim Abrufen und Laden der Sicherheitsinhalte ist ein Fehler aufgetreten:\n"
 
 #: ../org_fedora_oscap/ks/oscap.py:409
 #: ../org_fedora_oscap/gui/spokes/oscap.py:774
 msgid "There was an unexpected problem with the supplied content."
-msgstr ""
+msgstr "Es gab ein unerwartetes Problem mit dem gelieferten Inhalt."
 
 #: ../org_fedora_oscap/ks/oscap.py:462
-#, fuzzy
-#| msgid "Misconfiguration detected"
 msgid "Wrong configuration detected!"
-msgstr "Fehlkonfiguration erkannt"
+msgstr "Falsche Konfiguration erkannt!"
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
