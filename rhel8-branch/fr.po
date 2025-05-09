@@ -9,13 +9,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2019. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2020. #zanata
 # Sundeep Anand <suanand@redhat.com>, 2021.
+# Léane GRASSER <leane.grasser@proton.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 11:51+0200\n"
-"PO-Revision-Date: 2021-08-20 09:04+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2024-12-13 10:28+0000\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "oscap-anaconda-addon/rhel8-branch/fr/>\n"
 "Language: fr\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: ../org_fedora_oscap/common.py:326
 #, python-brace-format
@@ -57,9 +58,9 @@ msgid ""
 "in the partitioning layout before installation can occur with a security "
 "profile"
 msgstr ""
-"{0} doit être sur une partition ou un volume logique séparé et doit être "
-"créé dans la structure de partitionnement avant que l'installation puisse "
-"avoir lieu avec un profil de sécurité"
+"{0} doit se situer sur une partition ou un volume logique séparé et doit "
+"avoir été créé dans le schéma de stockage avant que l'installation avec un "
+"profil de sécurité puisse continuer"
 
 #. template for the message
 #: ../org_fedora_oscap/rule_handling.py:445
@@ -67,7 +68,7 @@ msgstr ""
 msgid ""
 "mount option '%(mount_option)s' added for the mount point %(mount_point)s"
 msgstr ""
-"option de montage « %(mount_option)s » ajoutée au point de montage "
+"option de montage '%(mount_option)s' ajoutée pour le point de montage "
 "%(mount_point)s"
 
 #. root password was not set
@@ -81,7 +82,7 @@ msgstr ""
 #: ../org_fedora_oscap/rule_handling.py:561
 msgid "cannot check root password length (password is crypted)"
 msgstr ""
-"impossible de vérifier la longueur du mot de passe de root (mot de passe "
+"impossible de vérifier la longueur du mot de passe root (le mot de passe est "
 "chiffré)"
 
 #. too short
@@ -98,7 +99,7 @@ msgstr ""
 #: ../org_fedora_oscap/rule_handling.py:700
 #, python-format
 msgid "package '%s' has been added to the list of to be installed packages"
-msgstr "le paquet « %s » a été ajouté à la liste des paquets à installer"
+msgstr "le paquet '%s' a été ajouté à la liste des paquets à installer"
 
 #: ../org_fedora_oscap/rule_handling.py:710
 #, python-brace-format
@@ -115,23 +116,23 @@ msgstr ""
 #: ../org_fedora_oscap/rule_handling.py:732
 #, python-format
 msgid "package '%s' has been added to the list of excluded packages"
-msgstr "le paquet « %s » a été ajouté à la liste des paquets à exclure"
+msgstr "le paquet '%s' a été ajouté à la liste des paquets exclus"
 
 #: ../org_fedora_oscap/rule_handling.py:833
 msgid "Kdump will be disabled on startup"
-msgstr "Kdump va être désactivé au démarrage"
+msgstr "Kdump sera désactivé au démarrage"
 
 #: ../org_fedora_oscap/rule_handling.py:835
 msgid "Kdump will be enabled on startup"
-msgstr "Kdump va être activé au démarrage"
+msgstr "Kdump sera activé au démarrage"
 
 #: ../org_fedora_oscap/rule_handling.py:988
 msgid "Firewall will be disabled on startup"
-msgstr "Le pare-feu va être désactivé au démarrage"
+msgstr "Le pare-feu sera désactivé au démarrage"
 
 #: ../org_fedora_oscap/rule_handling.py:995
 msgid "Firewall will be enabled on startup"
-msgstr "Le pare-feu va être activé au démarrage"
+msgstr "Le pare-feu sera activé au démarrage"
 
 #: ../org_fedora_oscap/rule_handling.py:1003
 #: ../org_fedora_oscap/rule_handling.py:1042
@@ -140,21 +141,21 @@ msgid ""
 "service '%s' has been added to the list of services to be added to the "
 "firewall"
 msgstr ""
-"service « %s » a été ajouté à la liste des paquets à ajouter au pare-feu"
+"le service '%s' a été ajouté à la liste des services à ajouter au pare-feu"
 
 #: ../org_fedora_oscap/rule_handling.py:1010
 #: ../org_fedora_oscap/rule_handling.py:1055
 #, python-format
 msgid ""
 "port '%s' has been added to the list of ports to be added to the firewall"
-msgstr "port « %s » a été ajouté à la liste des paquets à ajouter au pare-feu"
+msgstr "le port '%s' a été ajouté à la liste des ports à ajouter au pare-feu"
 
 #: ../org_fedora_oscap/rule_handling.py:1017
 #: ../org_fedora_oscap/rule_handling.py:1068
 #, python-format
 msgid ""
 "trust '%s' has been added to the list of trusts to be added to the firewall"
-msgstr "trust « %s » a été ajouté à la liste des paquets à ajouter au pare-feu"
+msgstr "le trust '%s' a été ajouté à la liste des trusts à ajouter au pare-feu"
 
 #: ../org_fedora_oscap/rule_handling.py:1080
 #: ../org_fedora_oscap/rule_handling.py:1095
@@ -163,7 +164,7 @@ msgid ""
 "service '%s' has been added to the list of services to be removed from the "
 "firewall"
 msgstr ""
-"service « %s » a été ajouté à la liste des paquets à retirer du pare-feu"
+"le service '%s' a été ajouté à la liste des services à retirer du pare-feu"
 
 #: ../org_fedora_oscap/ks/oscap.py:376
 msgid "The installation should be aborted."
@@ -190,7 +191,7 @@ msgstr "Il y a eu un problème inattendu avec le contenu fourni."
 
 #: ../org_fedora_oscap/ks/oscap.py:462
 msgid "Wrong configuration detected!"
-msgstr "Mauvaise configuration détectée !"
+msgstr "Problème de configuration détecté !"
 
 #. title of the spoke (will be displayed on the hub)
 #: ../org_fedora_oscap/gui/spokes/oscap.py:201
@@ -213,30 +214,30 @@ msgstr "Aucun profil sélectionné"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:631
 msgid "No rules for the pre-installation phase"
-msgstr "Aucune règle pour la phase de pré-installation"
+msgstr "Aucune règle pour la phase de préinstallation"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:782
 msgid "Invalid content provided. Enter a different URL, please."
-msgstr "Contenu fourni invalide. Merci de saisir une URL différente."
+msgstr "Contenu invalide fourni. Veuillez saisir une URL différente."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:790
 msgid "Invalid or unsupported content URL, please enter a different one."
 msgstr ""
-"URL de contenu non prise en charge ou non valide, veuillez saisir une URL "
+"URL de contenu invalide ou non prise en charge, veuillez saisir une URL "
 "différente."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:798
 msgid "Failed to fetch content. Enter a different URL, please."
 msgstr ""
-"Échec de la récupération du contenu. Merci de saisir une URL différente."
+"Échec de la récupération du contenu. Veuillez saisir une URL différente."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:806
 msgid ""
 "Network error encountered when fetching data. Please check that network is "
 "setup and working."
 msgstr ""
-"Erreur de réseau lors de l'extraction des données. Veuillez vérifier que le "
-"réseau ait été installé et fonctionne correctement."
+"Erreur de réseau lors de l'extraction des données. Vérifiez la configuration "
+"du réseau et son bon fonctionnement."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:815
 msgid "The integrity check of the content failed. Cannot use the content."
@@ -248,7 +249,7 @@ msgstr ""
 #, python-format
 msgid "Failed to extract content (%s). Enter a different URL, please."
 msgstr ""
-"Impossible d'extraire le contenu (%s). Merci de saisir une URL différente."
+"Impossible d'extraire le contenu (%s). Veuillez saisir une URL différente."
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:840
 #, python-format
@@ -256,30 +257,29 @@ msgid ""
 "Profile with ID '%s' not defined in the content. Select a different profile, "
 "please"
 msgstr ""
-"Le profil ayant pour ID « %s »n'est pas défini dans le contenu. Sélectionner "
-"un autre profil, s'il vous plaît"
+"Aucun profil ayant pour ID '%s' défini dans le contenu. Veuillez "
+"sélectionner un profil différent"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:856
 msgid "Not applying security policy"
-msgstr "N'applique pas la politique de sécurité"
+msgstr "Politique de sécurité non appliquée"
 
 #. TRANSLATORS: the other choice if SCAP Security Guide is also
 #. available
 #: ../org_fedora_oscap/gui/spokes/oscap.py:887
 msgid " or enter data stream content or archive URL below:"
-msgstr ""
-" ou saisir un flux de données de contenu ou l'URL d'une archive ci-dessous :"
+msgstr " ou saisir ci-dessous l'URL d'une archive ou d'un flux de données :"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:891 tmp/oscap.glade.h:12
 msgid ""
 "No content found. Please enter data stream content or archive URL below:"
 msgstr ""
-"Contenu introuvable. Merci de saisir un flux de données de contenu ou l'URL "
-"d'une archive ci-dessous :"
+"Contenu introuvable. Saisissez ci-dessous l'URL d'une archive ou d'un flux "
+"de données :"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1029
 msgid "Error fetching and loading content"
-msgstr "Erreur d'extraction et de chargement du contenu"
+msgstr "Erreur lors de la récupération et du chargement du contenu"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1036
 msgid "No content found"
@@ -287,7 +287,7 @@ msgstr "Contenu introuvable"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1047
 msgid "Misconfiguration detected"
-msgstr "Mauvaise configuration détectée"
+msgstr "Problème de configuration détecté"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1053
 msgid "Warnings appeared"
@@ -295,7 +295,7 @@ msgstr "Des avertissements sont apparus"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1055
 msgid "Everything okay"
-msgstr "Tout est OK"
+msgstr "Tout est bon"
 
 #: ../org_fedora_oscap/gui/spokes/oscap.py:1134
 msgid "Invalid or unsupported URL"
@@ -311,11 +311,11 @@ msgstr "POLITIQUE DE SÉCURITÉ"
 
 #: tmp/oscap.glade.h:2
 msgid "_Change content"
-msgstr "_Modifier le contenu"
+msgstr "_Changer de contenu"
 
 #: tmp/oscap.glade.h:3
 msgid "Apply security policy:"
-msgstr "Application de la politique de sécurité :"
+msgstr "Appliquer la politique de sécurité :"
 
 #: tmp/oscap.glade.h:4
 msgid "Data stream:"
@@ -327,7 +327,7 @@ msgstr "Liste de vérifications :"
 
 #: tmp/oscap.glade.h:6
 msgid "Choose profile below:"
-msgstr "Choisir le profil ci-dessous :"
+msgstr "Choisissez un profil ci-dessous :"
 
 #: tmp/oscap.glade.h:7
 msgid "Profile"
