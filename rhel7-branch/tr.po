@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Oğuz Ersen <oguz@ersen.moe>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-27 15:53+0200\n"
+"PO-Revision-Date: 2024-07-28 07:38+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"oscap-anaconda-addon/rhel7-branch/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#: ../org_fedora_oscap/rule_handling.py:392
+#, python-brace-format
+msgid ""
+"{0} must be on a separate partition or logical volume and has to be created "
+"in the partitioning layout before installation can occur with a security "
+"profile"
+msgstr ""
+"{0} ayrı bir bölüm veya mantıksal birim üzerinde olmalı ve bir güvenlik "
+"profili ile kurulum yapılmadan önce bölümlendirme düzeninde oluşturulmalıdır"
+
+#. template for the message
+#: ../org_fedora_oscap/rule_handling.py:403
+#, python-format
+msgid ""
+"mount option '%(mount_option)s' added for the mount point %(mount_point)s"
+msgstr ""
+"'%(mount_option)s' bağlama seçeneği %(mount_point)s bağlama noktası için "
+"eklendi"
+
+#. root password was not set
+#: ../org_fedora_oscap/rule_handling.py:502
+#, python-format
+msgid "make sure to create password with minimal length of %d characters"
+msgstr "en az %d karakter uzunluğunda parola oluşturduğunuzdan emin olun"
+
+#: ../org_fedora_oscap/rule_handling.py:509
+msgid "cannot check root password length (password is crypted)"
+msgstr "root kullanıcısının parola uzunluğu denetlenemiyor (parola şifreli)"
+
+#. too short
+#: ../org_fedora_oscap/rule_handling.py:515
+#, python-format
+msgid ""
+"root password is too short, a longer one with at least %d characters is "
+"required"
+msgstr ""
+"root parolası çok kısa, en az %d karakterden oluşan daha uzun bir parola "
+"gerekiyor"
+
+#: ../org_fedora_oscap/rule_handling.py:617
+#: ../org_fedora_oscap/rule_handling.py:632
+#, python-format
+msgid "package '%s' has been added to the list of to be installed packages"
+msgstr "'%s' paketi kurulacak paketler listesine eklendi"
+
+#: ../org_fedora_oscap/rule_handling.py:641
+#: ../org_fedora_oscap/rule_handling.py:656
+#, python-format
+msgid "package '%s' has been added to the list of excluded packages"
+msgstr "'%s' paketi hariç tutulacak paketler listesine eklendi"
+
+#: ../org_fedora_oscap/rule_handling.py:754
+msgid "Kdump will be disabled on startup"
+msgstr "Kdump başlangıçta devre dışı bırakılacak"
+
+#: ../org_fedora_oscap/rule_handling.py:756
+msgid "Kdump will be enabled on startup"
+msgstr "Kdump başlangıçta etkinleştirilecek"
+
+#: ../org_fedora_oscap/rule_handling.py:903
+msgid "Firewall will be disabled on startup"
+msgstr "Güvenlik duvarı başlangıçta devre dışı bırakılacak"
+
+#: ../org_fedora_oscap/rule_handling.py:910
+msgid "Firewall will be enabled on startup"
+msgstr "Güvenlik duvarı başlangıçta etkinleştirilecek"
+
+#: ../org_fedora_oscap/rule_handling.py:918
+#: ../org_fedora_oscap/rule_handling.py:955
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be added to the "
+"firewall"
+msgstr "'%s' hizmeti güvenlik duvarına eklenecek hizmetler listesine eklendi"
+
+#: ../org_fedora_oscap/rule_handling.py:925
+#: ../org_fedora_oscap/rule_handling.py:966
+#, python-format
+msgid ""
+"port '%s' has been added to the list of ports to be added to the firewall"
+msgstr ""
+"'%s' bağlantı noktası güvenlik duvarına eklenecek bağlantı noktaları "
+"listesine eklendi"
+
+#: ../org_fedora_oscap/rule_handling.py:932
+#: ../org_fedora_oscap/rule_handling.py:977
+#, python-format
+msgid ""
+"trust '%s' has been added to the list of trusts to be added to the firewall"
+msgstr "'%s' güveni güvenlik duvarına eklenecek güvenler listesine eklendi"
+
+#: ../org_fedora_oscap/rule_handling.py:986
+#: ../org_fedora_oscap/rule_handling.py:1001
+#, python-format
+msgid ""
+"service '%s' has been added to the list of services to be removed from the "
+"firewall"
+msgstr ""
+"'%s' hizmeti güvenlik duvarından kaldırılacak hizmetler listesine eklendi"
+
+#: ../org_fedora_oscap/ks/oscap.py:423
+#, python-format
+msgid ""
+"There was an error fetching and loading the security content:\n"
+"%s\n"
+"The installation should be aborted. Do you wish to continue anyway?"
+msgstr ""
+"Güvenlik içeriği alınırken ve yüklenirken bir hata oluştu:\n"
+"%s\n"
+"Kurulum iptal edilmelidir. Yine de devam etmek istiyor musunuz?"
+
+#: ../org_fedora_oscap/ks/oscap.py:452
+msgid ""
+"The integrity check of the security content failed.\n"
+"The installation should be aborted. Do you wish to continue anyway?"
+msgstr ""
+"Güvenlik içeriğinin bütünlük denetimi başarısız oldu.\n"
+"Kurulum iptal edilmelidir. Yine de devam etmek istiyor musunuz?"
+
+#. title of the spoke (will be displayed on the hub)
+#: ../org_fedora_oscap/gui/spokes/oscap.py:172
+msgid "_SECURITY POLICY"
+msgstr "_GÜVENLİK İLKESİ"
+
+#. the first status provided
+#: ../org_fedora_oscap/gui/spokes/oscap.py:199
+msgid "Not ready"
+msgstr "Hazır değil"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:347
+msgid "Fetching content data"
+msgstr "İçerik verileri alınıyor"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:614
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1015
+msgid "No profile selected"
+msgstr "Profil seçilmedi"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:619
+msgid "No rules for the pre-installation phase"
+msgstr "Kurulum öncesi aşaması için kural yok"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:757
+msgid "Invalid content provided. Enter a different URL, please."
+msgstr "Geçersiz içerik sağlandı. Lütfen farklı bir URL girin."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:765
+msgid "Invalid or unsupported content URL, please enter a different one."
+msgstr ""
+"Geçersiz veya desteklenmeyen içerik URL'si, lütfen farklı bir tane girin."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:773
+msgid "Failed to fetch content. Enter a different URL, please."
+msgstr "İçerik alınamadı. Lütfen farklı bir URL girin."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:781
+msgid ""
+"Network error encountered when fetching data. Please check that network is "
+"setup and working."
+msgstr ""
+"Veriler alınırken ağ hatasıyla karşılaşıldı. Lütfen ağın ayarlı ve çalışır "
+"durumda olduğunu gözden geçirin."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:790
+msgid "The integrity check of the content failed. Cannot use the content."
+msgstr "İçeriğin bütünlük denetimi başarısız oldu. İçerik kullanılamıyor."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:798
+#, python-format
+msgid "Failed to extract content (%s). Enter a different URL, please."
+msgstr "İçerik çıkarılamadı (%s). Lütfen farklı bir URL girin."
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:816
+#, python-format
+msgid ""
+"Profile with ID '%s' not defined in the content. Select a different profile, "
+"please"
+msgstr ""
+"'%s' kimliğine sahip profil içerikte tanımlı değil. Lütfen farklı bir profil "
+"seçin"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:832
+msgid "Not applying security policy"
+msgstr "Güvenlik ilkesi uygulanmıyor"
+
+#. TRANSLATORS: the other choice if SCAP Security Guide is also
+#. available
+#: ../org_fedora_oscap/gui/spokes/oscap.py:863
+msgid " or enter data stream content or archive URL below:"
+msgstr " veya aşağıya veri akışı içeriğini veya arşiv URL'sini girin:"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:867
+msgid ""
+"No content found. Please enter data stream content or archive URL below:"
+msgstr ""
+"İçerik bulunamadı. Lütfen veri akışı içeriğini veya arşiv URL'sini aşağıya "
+"girin:"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1005
+msgid "Error fetching and loading content"
+msgstr "İçerik alınırken ve yüklenirken hata oluştu"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1012
+msgid "No content found"
+msgstr "İçerik bulunamadı"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1023
+msgid "Misconfiguration detected"
+msgstr "Yanlış yapılandırma algılandı"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1029
+msgid "Warnings appeared"
+msgstr "Uyarılar görüldü"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1031
+msgid "Everything okay"
+msgstr "Her şey tamam"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1107
+msgid "Invalid or unsupported URL"
+msgstr "Geçersiz veya desteklenmeyen URL"
+
+#: ../org_fedora_oscap/gui/spokes/oscap.py:1113 tmp/oscap.glade.h:13
+msgid "Fetching content..."
+msgstr "İçerik alınıyor..."
+
+#: tmp/oscap.glade.h:1
+msgid "SECURITY POLICY"
+msgstr "GÜVENLİK İLKESİ"
+
+#: tmp/oscap.glade.h:2
+msgid "_Change content"
+msgstr "İçeriği _değiştir"
+
+#: tmp/oscap.glade.h:3
+msgid "Apply security policy:"
+msgstr "Güvenlik ilkesini uygula:"
+
+#: tmp/oscap.glade.h:4
+msgid "Data stream:"
+msgstr "Veri akışı:"
+
+#: tmp/oscap.glade.h:5
+msgid "Checklist:"
+msgstr "Denetim listesi:"
+
+#: tmp/oscap.glade.h:6
+msgid "Choose profile below:"
+msgstr "Profil seç:"
+
+#: tmp/oscap.glade.h:7
+msgid "Profile"
+msgstr "Profil"
+
+#: tmp/oscap.glade.h:8
+msgid "Selected"
+msgstr "Seçildi"
+
+#: tmp/oscap.glade.h:9
+msgid "_Select profile"
+msgstr "Profil _seç"
+
+#: tmp/oscap.glade.h:10
+msgid "Changes that were done or need to be done:"
+msgstr "Yapılan veya yapılması gereken değişiklikler:"
+
+#: tmp/oscap.glade.h:11
+msgid "_Use SCAP Security Guide"
+msgstr "SCAP Güvenlik Rehberini _Kullan"
+
+#: tmp/oscap.glade.h:12
+msgid "_Fetch"
+msgstr "_Al"
